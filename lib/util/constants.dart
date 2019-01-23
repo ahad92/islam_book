@@ -27,6 +27,7 @@ const String tab1 = 'tab1';
 const String tab2 = 'tab2';
 const String tab3 = 'tab3';
 
+const String resourceLastChapter = 'lastChapter';
 const String resourceRussianFontSize = 'russianFontSize';
 const String resourceArabicFontSize = 'arabicFontSize';
 const String resourceBookmarks = 'bookmarks';

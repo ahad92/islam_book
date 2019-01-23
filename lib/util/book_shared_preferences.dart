@@ -8,6 +8,7 @@ List<String> bookmarks = List<String>.filled(chapters.length, 'false');
 double russianFontSize = defaultRussianTextSize;
 double arabicFontSize = defaultArabicTextSize;
 List<int> tabsOrder = defaultTabsOrder;
+int lastChapter = 0;
 
 mixin BookSharedPreferences<T extends StatefulWidget> on State<T> {
   setBookmark(int chapterIndex) async {
@@ -27,6 +28,20 @@ mixin BookSharedPreferences<T extends StatefulWidget> on State<T> {
     setState(() {
       bookmarks = (prefs.getStringList(resourceBookmarks) ??
           List<String>.filled(chapters.length, 'false'));
+    });
+  }
+
+  setLastChapter(int index) async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    setState(() {
+      prefs.setInt(resourceLastChapter, index);
+    });
+  }
+
+  getLastChapter() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    setState(() {
+      lastChapter = (prefs.getInt(resourceLastChapter) ?? 0);
     });
   }
 

@@ -99,17 +99,18 @@ class _ChapterTabsScreenState extends State<ChapterTabsScreen>
     getFontSizes();
     getTabsOrder();
     getBookmarks();
+    getLastChapter();
     _scrollViewController = ScrollController();
     _tabController = TabController(vsync: this, length: tabNum);
   }
 
   _goToPage(index) {
-    if (index >= 0 && index < chapters.length)
-      Navigator.pushReplacement(
-        context,
-        MaterialPageRoute(
-            builder: (context) => ChapterTabsScreen(chapterIndex: index)),
-      );
+    if (index >= 0 && index < chapters.length) setLastChapter(index);
+    Navigator.pushReplacement(
+      context,
+      MaterialPageRoute(
+          builder: (context) => ChapterTabsScreen(chapterIndex: index)),
+    );
   }
 
   _showTextSizeDialog() {
