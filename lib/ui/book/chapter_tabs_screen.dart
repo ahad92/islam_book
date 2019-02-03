@@ -105,12 +105,14 @@ class _ChapterTabsScreenState extends State<ChapterTabsScreen>
   }
 
   _goToPage(index) {
-    if (index >= 0 && index < chapters.length) setLastChapter(index);
-    Navigator.pushReplacement(
-      context,
-      MaterialPageRoute(
-          builder: (context) => ChapterTabsScreen(chapterIndex: index)),
-    );
+    if (index >= 0 && index < chapters.length) {
+      setLastChapter(index);
+      Navigator.pushReplacement(
+        context,
+        MaterialPageRoute(
+            builder: (context) => ChapterTabsScreen(chapterIndex: index)),
+      );
+    }
   }
 
   _showTextSizeDialog() {
