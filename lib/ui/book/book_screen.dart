@@ -24,6 +24,7 @@ class _BookScreenState extends State<BookScreen> with BookSharedPreferences {
   Widget build(BuildContext context) {
     return Container(
         child: ListView.builder(
+            key: PageStorageKey(chaptersListKey),
             itemCount: chapters.length,
             itemBuilder: (BuildContext context, int position) {
               return Container(

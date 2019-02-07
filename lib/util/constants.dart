@@ -48,4 +48,10 @@ const String resourceSharhRussianExplanation = 'разьяснение книг�
 const String resourceChooseTabOrder = 'Изменить порядок вкладок в главе';
 const String resourceDragAndDropTabs = 'Перетащите элементы';
 
+const String chaptersListKey = 'chaptersList';
+const String chapterAudioListKey = 'chapterAudioList';
+const String russianMatnListKey = 'russianMatnListKey';
+const String arabicMatnListKey = 'arabicMatnListKey';
+const String russianSharkhListKey = 'russianSharkhListKey';
+
 Color primaryColor = Colors.indigo;

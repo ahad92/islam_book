@@ -7,12 +7,14 @@ class TextView extends StatelessWidget {
   final String header;
   final String text;
   final double fontSize;
+  final String keyString;
 
-  TextView(this.header, this.text, this.fontSize);
+  TextView(this.header, this.text, this.fontSize, this.keyString);
 
   @override
   Widget build(BuildContext context) {
     return ListView(
+      key: PageStorageKey(keyString),
       children: <Widget>[
         Container(
             padding: EdgeInsets.only(
