@@ -1,5 +1,6 @@
 import 'package:dynamic_theme/dynamic_theme.dart';
 import 'package:flutter/material.dart';
+import 'package:kitab_at_tauhid/ui/settings/text_size_setting_dialog.dart';
 
 import '../../book_resource/book.dart';
 import '../../util/book_shared_preferences.dart';
@@ -18,6 +19,10 @@ class _ChapterTabsScreenState extends State<ChapterTabsScreen>
     with SingleTickerProviderStateMixin, BookSharedPreferences {
   ScrollController _scrollViewController;
   TabController _tabController;
+
+  _updateText() {
+    setState(() {});
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -49,7 +54,7 @@ class _ChapterTabsScreenState extends State<ChapterTabsScreen>
                 IconButton(
                   icon: Icon(Icons.text_fields),
                   onPressed: () {
-                    _showTextSizeDialog();
+                    showTextSizeDialog(_updateText);
                   },
                 ),
                 IconButton(
@@ -115,65 +120,12 @@ class _ChapterTabsScreenState extends State<ChapterTabsScreen>
     }
   }
 
-  _showTextSizeDialog() {
+  showTextSizeDialog(Function updateText) {
     showDialog(
         context: context,
         builder: (BuildContext context) {
           return SimpleDialog(
-            children: <Widget>[
-              Row(
-                children: <Widget>[
-                  IconButton(
-                    icon: CircleAvatar(
-                      child: Text(('-').toString(),
-                          style: TextStyle(fontWeight: FontWeight.bold)),
-                    ),
-                    onPressed: () {
-                      setRussianFontSize(russianFontSize - textSizeStep);
-                    },
-                  ),
-                  Expanded(
-                      child: Container(
-                          alignment: Alignment.center,
-                          child: Text(resourceRussianTextSize))),
-                  IconButton(
-                    icon: CircleAvatar(
-                      child: Text(('+').toString(),
-                          style: TextStyle(fontWeight: FontWeight.bold)),
-                    ),
-                    onPressed: () {
-                      setRussianFontSize(russianFontSize + textSizeStep);
-                    },
-                  )
-                ],
-              ),
-              Row(
-                children: <Widget>[
-                  IconButton(
-                    icon: CircleAvatar(
-                      child: Text(('-').toString(),
-                          style: TextStyle(fontWeight: FontWeight.bold)),
-                    ),
-                    onPressed: () {
-                      setArabicFontSize(arabicFontSize - textSizeStep);
-                    },
-                  ),
-                  Expanded(
-                      child: Container(
-                          alignment: Alignment.center,
-                          child: Text(resourceArabicTextSize))),
-                  IconButton(
-                    icon: CircleAvatar(
-                      child: Text(('+').toString(),
-                          style: TextStyle(fontWeight: FontWeight.bold)),
-                    ),
-                    onPressed: () {
-                      setArabicFontSize(arabicFontSize + textSizeStep);
-                    },
-                  )
-                ],
-              )
-            ],
+            children: <Widget>[TextSizeSetting(updateText)],
           );
         });
   }

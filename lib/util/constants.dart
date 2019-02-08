@@ -5,6 +5,9 @@ const double highlightedRussianTextSize = 20.0;
 const double defaultArabicTextSize = 18.0;
 const double chapterAppBarTextSize = 18.0;
 const textRowHeight = 1.2;
+const double textSizeTextSize = 26.0;
+const double changeTextSizeButtonSize = 48.0;
+const double textSizeButtonTextSize = 32.0;
 
 const double minTextSize = 10.0;
 const double maxTextSize = 30.0;
