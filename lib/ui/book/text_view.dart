@@ -9,7 +9,7 @@ class TextView extends StatelessWidget {
   final double fontSize;
   final String keyString;
 
-  TextView(this.header, this.text, this.fontSize, this.keyString);
+  TextView({this.header, this.text, this.fontSize, this.keyString});
 
   @override
   Widget build(BuildContext context) {

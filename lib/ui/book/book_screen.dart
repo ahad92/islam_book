@@ -11,8 +11,6 @@ class BookScreen extends StatefulWidget {
 }
 
 class _BookScreenState extends State<BookScreen> with BookSharedPreferences {
-  ScrollController scrollController;
-
   @override
   void initState() {
     super.initState();

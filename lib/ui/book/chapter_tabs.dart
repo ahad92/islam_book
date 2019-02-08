@@ -12,13 +12,20 @@ List<Widget> getChapterTabBodies(
 
   List<Widget> defaultTabBodies = [
     TextView(
-        chapters[chapterIndex].russianTitle,
-        chapters[chapterIndex].russianMatn,
-        russianFontSize,
-        russianMatnListKey),
-    TextView(chapters[chapterIndex].arabicTitle,
-        chapters[chapterIndex].arabicMatn, arabicFontSize, arabicMatnListKey),
-    TextView('1', '1', russianFontSize, russianSharkhListKey),
+        header: chapters[chapterIndex].russianTitle,
+        text: chapters[chapterIndex].russianMatn,
+        fontSize: russianFontSize,
+        keyString: russianMatnListKey),
+    TextView(
+        header: chapters[chapterIndex].arabicTitle,
+        text: chapters[chapterIndex].arabicMatn,
+        fontSize: arabicFontSize,
+        keyString: arabicMatnListKey),
+    TextView(
+        header: '1',
+        text: '1',
+        fontSize: russianFontSize,
+        keyString: russianSharkhListKey),
     AudioList(chapterAudioListKey),
   ];
 

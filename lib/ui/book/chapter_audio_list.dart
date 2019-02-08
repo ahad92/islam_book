@@ -8,7 +8,7 @@ class AudioList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListView(
-      key: new PageStorageKey(keyString),
+      key: PageStorageKey(keyString),
     );
   }
 }
