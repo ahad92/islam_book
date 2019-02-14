@@ -23,6 +23,12 @@ dependencies:
   shared_preferences: ^0.4.3
   dynamic_theme: ^1.0.0
   flutter_list_drag_and_drop: ^0.1.6
+  flutter_launcher_icons: ^0.7.0
+
+flutter_icons:
+  image_path: "icon/icon.png"
+  android: true
+  ios: true
 
 dev_dependencies:
   flutter_test:
