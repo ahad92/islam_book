@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:kitab_at_tauhid/ui/audio/chapter_audio.dart';
+import 'package:kitab_at_tauhid/ui/text/text_view.dart';
 
 import '../../book_resource/book.dart';
 import '../../util/book_shared_preferences.dart';
 import '../../util/constants.dart';
-import 'chapter_audio_list.dart';
-import 'text_view.dart';
 
 List<Widget> getChapterTabBodies(
     int chapterIndex, double russianFontSize, double arabicFontSize) {

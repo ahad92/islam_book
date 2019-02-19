@@ -1,11 +1,11 @@
-import 'package:dynamic_theme/dynamic_theme.dart';
 import 'package:flutter/material.dart';
-import 'package:kitab_at_tauhid/ui/settings/text_size_setting_dialog.dart';
+import 'package:kitab_at_tauhid/ui/book/chapter_tabs.dart';
 
 import '../../book_resource/book.dart';
 import '../../util/book_shared_preferences.dart';
 import '../../util/constants.dart';
-import 'chapter_tabs.dart';
+import '../settings/night_mode_button.dart';
+import 'text_size_setting_dialog.dart';
 
 class ChapterTabsScreen extends StatefulWidget {
   final int chapterIndex;
@@ -58,22 +58,13 @@ class _ChapterTabsScreenState extends State<ChapterTabsScreen>
                   },
                 ),
                 IconButton(
-                  icon: Icon(Icons.brightness_6),
-                  onPressed: () {
-//      It is possible to change whole theme https://github.com/Norbert515/dynamic_theme
-                    DynamicTheme.of(context).setBrightness(
-                        Theme.of(context).brightness == Brightness.dark
-                            ? Brightness.light
-                            : Brightness.dark);
-                  },
-                ),
-                IconButton(
                     onPressed: () {
                       setBookmark(widget.chapterIndex);
                     },
                     icon: (bookmarks[widget.chapterIndex] == 'false')
                         ? Icon(Icons.bookmark_border)
                         : Icon(Icons.bookmark)),
+                NigthModeButton()
               ],
               bottom: TabBar(
                 tabs: getChapterTabs(),

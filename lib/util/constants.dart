@@ -2,6 +2,10 @@ import 'package:flutter/material.dart';
 
 const double defaultRussianTextSize = 16.0;
 const double highlightedRussianTextSize = 20.0;
+const double mainChapterTitleTextSize = 20.0;
+const double thirdlyChapterTitleTextSize = 12.0;
+const double chapterTitleBorderSize = 4.0;
+const double secondaryChapterTitleTextSize = 14.0;
 const double defaultArabicTextSize = 18.0;
 const double chapterAppBarTextSize = 18.0;
 const textRowHeight = 1.2;
@@ -38,9 +42,10 @@ const String resourceRussianTextSize = 'Русский текст';
 const String resourceArabicTextSize = 'Арабский текст';
 const String resourceTheme = 'Тема оформления';
 
+const String resourceChapter = 'Глава';
 const String resourceAudio = 'Аудио';
 const String resourceBook = 'Книга';
-const String resourceSettings = 'Меню';
+const String resourceSettings = 'Настройки';
 
 const String resourceMatnRussian = 'Матн';
 const String resourceMatnArabic = 'متن';
@@ -57,4 +62,6 @@ const String russianMatnListKey = 'russianMatnListKey';
 const String arabicMatnListKey = 'arabicMatnListKey';
 const String russianSharkhListKey = 'russianSharkhListKey';
 
-Color primaryColor = Colors.indigo;
+const Color primaryColor = Colors.indigo;
+const Color secondaryChapterTitleColor = Colors.grey;
+const Color chapterDividerColor = Color(0xFFE2E2E2);
