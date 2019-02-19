@@ -6,10 +6,16 @@ import '../../util/constants.dart';
 class TextView extends StatelessWidget {
   final String header;
   final String text;
+  final int chapterIndex;
   final double fontSize;
   final String keyString;
 
-  TextView({this.header, this.text, this.fontSize, this.keyString});
+  TextView(
+      {this.header,
+      this.text,
+      this.chapterIndex,
+      this.fontSize,
+      this.keyString});
 
   @override
   Widget build(BuildContext context) {
@@ -17,15 +23,28 @@ class TextView extends StatelessWidget {
       key: PageStorageKey(keyString),
       children: <Widget>[
         Container(
-            padding: EdgeInsets.only(
-                left: textEdgeInset, top: textEdgeInset, right: textEdgeInset),
-            child: Text(
-              header,
-              textAlign: TextAlign.center,
-              style: TextStyle(
-                  fontSize: fontSize * 1.2,
-                  fontWeight: FontWeight.w900,
-                  height: textRowHeight),
+            padding: EdgeInsets.only(left: textEdgeInset, right: textEdgeInset),
+            child: Column(
+              children: <Widget>[
+                Align(
+                    alignment: Alignment.topLeft,
+                    child: Text('$resourceChapter ${chapterIndex + 1}',
+                        style: TextStyle(
+                            fontSize: fontSize,
+                            color: secondaryChapterTitleColor,
+                            fontWeight: FontWeight.bold))),
+                Container(
+                    padding: EdgeInsets.only(top: chapterTitleBorderSize),
+                    alignment: Alignment.topLeft,
+                    child: Text(
+                      header,
+                      textAlign: TextAlign.start,
+                      style: TextStyle(
+                          fontSize: fontSize * headerTextSizeMultiplier,
+                          fontWeight: FontWeight.bold,
+                          height: textRowHeight),
+                    ))
+              ],
             )),
         Html(
           data: text,

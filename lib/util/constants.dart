@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 const double defaultRussianTextSize = 16.0;
+const double headerTextSizeMultiplier = 1.33;
 const double highlightedRussianTextSize = 20.0;
 const double mainChapterTitleTextSize = 20.0;
 const double thirdlyChapterTitleTextSize = 12.0;
@@ -19,7 +20,7 @@ const textSizeStep = 2.0;
 
 const List<String> lecturers = ['Лектор 1', 'Лектор 2', 'Лектор 3'];
 const double tabTextEdgeInset = 4.0;
-const double textEdgeInset = 8.0;
+const double textEdgeInset = 16.0;
 const double buttonEdgeInset = 32.0;
 const int tabNum = 4;
 List<int> defaultTabsOrder = [0, 1, 2, 3];

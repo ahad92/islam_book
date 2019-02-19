@@ -7,9 +7,9 @@ import 'package:flutter/material.dart';
 ///
 /// flutter:
 ///   fonts:
-///    - family:  MyFlutterApp
+///    - family:  CustomIcons
 ///      fonts:
-///       - asset: fonts/MyFlutterApp.ttf
+///       - asset: fonts/CustomIcons.ttf
 ///
 ///
 /// * Iconic, Copyright (C) 2012 by P.J. Onori
@@ -25,4 +25,6 @@ class CustomIcons {
 
   static const IconData moon_inv =
       const IconData(0xe800, fontFamily: _kFontFam);
+  static const IconData fontsize =
+      const IconData(0xe801, fontFamily: _kFontFam);
 }

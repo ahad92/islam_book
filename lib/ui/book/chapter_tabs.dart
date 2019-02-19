@@ -14,16 +14,19 @@ List<Widget> getChapterTabBodies(
     TextView(
         header: chapters[chapterIndex].russianTitle,
         text: chapters[chapterIndex].russianMatn,
+        chapterIndex: chapterIndex,
         fontSize: russianFontSize,
         keyString: russianMatnListKey),
     TextView(
         header: chapters[chapterIndex].arabicTitle,
         text: chapters[chapterIndex].arabicMatn,
+        chapterIndex: chapterIndex,
         fontSize: arabicFontSize,
         keyString: arabicMatnListKey),
     TextView(
         header: '1',
         text: '1',
+        chapterIndex: chapterIndex,
         fontSize: russianFontSize,
         keyString: russianSharkhListKey),
     AudioList(chapterAudioListKey),
@@ -45,9 +48,7 @@ List<Tab> getChapterTabs() {
       text: resourceMatnArabic,
     ),
     Tab(text: resourceSharhRussian),
-    Tab(
-      text: resourceAudio,
-    ),
+    Tab(text: resourceAudio),
   ];
 
   for (int i = 0; i < tabNum; i++) {
