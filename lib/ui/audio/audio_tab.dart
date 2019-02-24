@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
 class AudioList extends StatelessWidget {
-  final String keyString;
+  final PageStorageKey key;
 
-  AudioList(this.keyString);
+  AudioList({this.key});
 
   @override
   Widget build(BuildContext context) {
     return ListView(
-      key: PageStorageKey(keyString),
+      key: key,
     );
   }
 }

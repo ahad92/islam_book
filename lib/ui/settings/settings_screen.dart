@@ -21,7 +21,7 @@ class SettingsScreen extends StatelessWidget {
             child: Text(
               resourceChooseTabOrder,
               textAlign: TextAlign.center,
-              style: TextStyle(fontSize: defaultRussianTextSize),
+              style: TextStyle(fontSize: defaultRussianFontSize),
             ),
             onPressed: () => Navigator.push(
                   context,

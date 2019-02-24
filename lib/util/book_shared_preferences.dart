@@ -5,8 +5,8 @@ import '../book_resource/book.dart';
 import 'constants.dart';
 
 List<String> bookmarks = List<String>.filled(chapters.length, 'false');
-double russianFontSize = defaultRussianTextSize;
-double arabicFontSize = defaultArabicTextSize;
+double russianFontSize = defaultRussianFontSize;
+double arabicFontSize = defaultArabicFontSize;
 List<int> tabsOrder = defaultTabsOrder;
 int lastChapter = 0;
 
@@ -46,32 +46,28 @@ mixin BookSharedPreferences<T extends StatefulWidget> on State<T> {
   }
 
   setRussianFontSize(double size) async {
-    if (size > minTextSize && size < maxTextSize) {
-      russianFontSize = size;
-      SharedPreferences prefs = await SharedPreferences.getInstance();
-      setState(() {
-        prefs.setDouble(resourceRussianFontSize, russianFontSize);
-      });
-    }
+    russianFontSize = size;
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    setState(() {
+      prefs.setDouble(resourceRussianFontSize, russianFontSize);
+    });
   }
 
   setArabicFontSize(double size) async {
-    if (size > minTextSize && size < maxTextSize) {
-      arabicFontSize = size;
-      SharedPreferences prefs = await SharedPreferences.getInstance();
-      setState(() {
-        prefs.setDouble(resourceArabicFontSize, arabicFontSize);
-      });
-    }
+    arabicFontSize = size;
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    setState(() {
+      prefs.setDouble(resourceArabicFontSize, arabicFontSize);
+    });
   }
 
   getFontSizes() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     setState(() {
       russianFontSize =
-          (prefs.getDouble(resourceRussianFontSize) ?? defaultRussianTextSize);
+          (prefs.getDouble(resourceRussianFontSize) ?? defaultRussianFontSize);
       arabicFontSize =
-          (prefs.getDouble(resourceArabicFontSize) ?? defaultArabicTextSize);
+          (prefs.getDouble(resourceArabicFontSize) ?? defaultArabicFontSize);
     });
   }
 

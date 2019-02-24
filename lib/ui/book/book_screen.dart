@@ -42,7 +42,7 @@ class _BookScreenState extends State<BookScreen> with BookSharedPreferences {
         ),
         body: Container(
             child: ListView.builder(
-                key: PageStorageKey(chaptersListKey),
+                key: chaptersListKey,
                 itemCount: chapters.length,
                 itemBuilder: (BuildContext context, int position) {
                   return Container(
@@ -63,10 +63,11 @@ class _BookScreenState extends State<BookScreen> with BookSharedPreferences {
                               children: <Widget>[
                                 Row(
                                   children: <Widget>[
-                                    Text('$resourceChapter ${position + 1} ',
+                                    Text(
+                                        '$resourceChapterRussian ${position + 1} ',
                                         style: TextStyle(
                                             fontSize:
-                                                thirdlyChapterTitleTextSize,
+                                                thirdlyChapterTitleFontSize,
                                             color: secondaryChapterTitleColor,
                                             fontWeight: FontWeight.bold)),
                                     Icon(Icons.bookmark,
@@ -84,7 +85,7 @@ class _BookScreenState extends State<BookScreen> with BookSharedPreferences {
                                           chapters[position].russianTitle,
                                           style: TextStyle(
                                               fontSize:
-                                                  mainChapterTitleTextSize,
+                                                  mainChapterTitleFontSize,
                                               fontWeight: FontWeight.bold),
                                         ))),
                                 Align(
@@ -92,7 +93,7 @@ class _BookScreenState extends State<BookScreen> with BookSharedPreferences {
                                     child: Text(chapters[position].arabicTitle,
                                         style: TextStyle(
                                             fontSize:
-                                                secondaryChapterTitleTextSize,
+                                                secondaryChapterTitleFontSize,
                                             color: secondaryChapterTitleColor,
                                             fontWeight: FontWeight.bold)))
                               ],

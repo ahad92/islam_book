@@ -23,7 +23,7 @@ class _TabsOrderScreenState extends State<TabsOrderScreen>
   _getSharedPreferences() async {
     setState(() {
       getTabsOrder();
-      for (int i = 0; i < tabNum; i++) {
+      for (int i = 0; i < defaultTabsOrder.length; i++) {
         tabNames.add(defaultTabsNamesOrder[tabsOrder[i]]);
       }
     });
@@ -46,7 +46,7 @@ class _TabsOrderScreenState extends State<TabsOrderScreen>
                   child: ListTile(
                     title: Text(item,
                         textAlign: TextAlign.center,
-                        style: TextStyle(fontSize: highlightedRussianTextSize)),
+                        style: TextStyle(fontSize: mainChapterTitleFontSize)),
                   ),
                 ),
               );

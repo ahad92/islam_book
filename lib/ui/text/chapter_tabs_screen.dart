@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:kitab_at_tauhid/ui/book/chapter_tabs.dart';
+import 'package:kitab_at_tauhid/ui/settings/font_size_setting_dialog.dart';
+import 'package:kitab_at_tauhid/ui/text/chapter_tabs.dart';
 
 import '../../util/book_shared_preferences.dart';
 import '../../util/constants.dart';
 import '../../util/custom_icons.dart';
 import '../settings/night_mode_button.dart';
-import 'text_size_setting_dialog.dart';
 
 class ChapterTabsScreen extends StatefulWidget {
   final int chapterIndex;
@@ -40,7 +40,13 @@ class _ChapterTabsScreenState extends State<ChapterTabsScreen>
                 IconButton(
                   icon: Icon(CustomIcons.fontsize),
                   onPressed: () {
-                    showTextSizeDialog(_updateText);
+                    if (_tabController.index !=
+                        tabsOrder.indexOf(defaultAudioTabPosition)) {
+                      showFontSizeDialog(
+                          isArabic: _tabController.index ==
+                              tabsOrder.indexOf(defaultArabicMatnTabPosition),
+                          updateText: _updateText);
+                    }
                   },
                 ),
                 IconButton(
@@ -83,15 +89,18 @@ class _ChapterTabsScreenState extends State<ChapterTabsScreen>
     getBookmarks();
     getLastChapter();
     _scrollViewController = ScrollController();
-    _tabController = TabController(vsync: this, length: tabNum);
+    _tabController =
+        TabController(vsync: this, length: defaultTabsOrder.length);
   }
 
-  showTextSizeDialog(Function updateText) {
+  showFontSizeDialog({bool isArabic, Function updateText}) {
     showDialog(
         context: context,
         builder: (BuildContext context) {
           return SimpleDialog(
-            children: <Widget>[TextSizeSetting(updateText)],
+            children: <Widget>[
+              FontSizeSetting(isArabic: isArabic, updateText: updateText)
+            ],
           );
         });
   }

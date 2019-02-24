@@ -8,39 +8,47 @@ class TextView extends StatelessWidget {
   final String text;
   final int chapterIndex;
   final double fontSize;
-  final String keyString;
+  final TextDirection textDirection;
+  final PageStorageKey key;
 
   TextView(
       {this.header,
       this.text,
       this.chapterIndex,
       this.fontSize,
-      this.keyString});
+      this.textDirection,
+      this.key});
 
   @override
   Widget build(BuildContext context) {
     return ListView(
-      key: PageStorageKey(keyString),
+      key: key,
       children: <Widget>[
         Container(
             padding: EdgeInsets.only(left: textEdgeInset, right: textEdgeInset),
             child: Column(
               children: <Widget>[
                 Align(
-                    alignment: Alignment.topLeft,
-                    child: Text('$resourceChapter ${chapterIndex + 1}',
+                    alignment: textDirection == TextDirection.rtl
+                        ? Alignment.topRight
+                        : Alignment.topLeft,
+                    child: Text(
+                        '${textDirection == TextDirection.rtl ? resourceChapterArabic : resourceChapterRussian} ${chapterIndex + 1}',
+                        textDirection: textDirection,
                         style: TextStyle(
                             fontSize: fontSize,
                             color: secondaryChapterTitleColor,
                             fontWeight: FontWeight.bold))),
                 Container(
                     padding: EdgeInsets.only(top: chapterTitleBorderSize),
-                    alignment: Alignment.topLeft,
+                    alignment: textDirection == TextDirection.rtl
+                        ? Alignment.topRight
+                        : Alignment.topLeft,
                     child: Text(
                       header,
-                      textAlign: TextAlign.start,
+                      textDirection: textDirection,
                       style: TextStyle(
-                          fontSize: fontSize * headerTextSizeMultiplier,
+                          fontSize: fontSize * headerFontSizeMultiplier,
                           fontWeight: FontWeight.bold,
                           height: textRowHeight),
                     ))
