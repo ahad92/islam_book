@@ -21,8 +21,10 @@ const String resourceArabicFontSizeText = 'حجم الخط';
 const List<String> lecturers = ['Лектор 1', 'Лектор 2', 'Лектор 3'];
 
 // settings_screen
-const double buttonEdgeInset = 32.0;
+const double defaultListTilePadding = 4.0;
+const double increasedListTilePadding = 32.0;
 const String resourceSettings = 'Настройки';
+const String resourceDownloadAllAudio = 'Загрузить все аудиолекции';
 
 //tabs_order_screen
 List<String> defaultTabsNamesOrder = [
@@ -34,7 +36,7 @@ List<String> defaultTabsNamesOrder = [
 
 const String resourceMatnRussianExplanation = 'текст книги на русском';
 const String resourceMatnArabicExplanation = 'текст книги на арабском';
-const String resourceSharhRussianExplanation = 'разьяснение книги на русском';
+const String resourceSharhRussianExplanation = 'разьяснение на русском';
 const String resourceChooseTabOrder = 'Изменить порядок вкладок в главе';
 const String resourceDragAndDropTabs = 'Перетащите элементы';
 
@@ -69,6 +71,7 @@ const String resourceLastChapter = 'lastChapter';
 const String resourceRussianFontSize = 'russianFontSize';
 const String resourceArabicFontSize = 'arabicFontSize';
 const String resourceBookmarks = 'bookmarks';
+const String resourceIsLecturersAudioDownloaded = 'isLecturersAudioDownloaded';
 
 // chapter_tabs
 const String resourceAudio = 'Аудио';

@@ -1,0 +1,3 @@
+downloadAllLecturerAudio(lecturerIndex) {}
+
+deleteAllLecturerAudio(lecturerIndex) {}
