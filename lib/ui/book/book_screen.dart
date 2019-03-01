@@ -52,10 +52,9 @@ class _BookScreenState extends State<BookScreen> with BookSharedPreferences {
                       child: Container(
                           padding: EdgeInsets.all(8.0),
                           decoration: BoxDecoration(
-                            //                    <-- BoxDecoration
                             border: Border(
                                 bottom: BorderSide(
-                                    color: chapterDividerColor,
+                                    color: Theme.of(context).dividerColor,
                                     width: chapterTitleBorderSize)),
                           ),
                           child: ListTile(
@@ -68,7 +67,8 @@ class _BookScreenState extends State<BookScreen> with BookSharedPreferences {
                                         style: TextStyle(
                                             fontSize:
                                                 thirdlyChapterTitleFontSize,
-                                            color: secondaryChapterTitleColor,
+                                            color: Theme.of(context)
+                                                .unselectedWidgetColor,
                                             fontWeight: FontWeight.bold)),
                                     Icon(Icons.bookmark,
                                         color: (bookmarks[position] == 'false')
@@ -94,7 +94,8 @@ class _BookScreenState extends State<BookScreen> with BookSharedPreferences {
                                         style: TextStyle(
                                             fontSize:
                                                 secondaryChapterTitleFontSize,
-                                            color: secondaryChapterTitleColor,
+                                            color: Theme.of(context)
+                                                .unselectedWidgetColor,
                                             fontWeight: FontWeight.bold)))
                               ],
                             ),

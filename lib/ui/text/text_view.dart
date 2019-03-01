@@ -37,7 +37,7 @@ class TextView extends StatelessWidget {
                         textDirection: textDirection,
                         style: TextStyle(
                             fontSize: fontSize,
-                            color: secondaryChapterTitleColor,
+                            color: Theme.of(context).unselectedWidgetColor,
                             fontWeight: FontWeight.bold))),
                 Container(
                     padding: EdgeInsets.only(top: chapterTitleBorderSize),

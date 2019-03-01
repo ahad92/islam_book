@@ -55,7 +55,10 @@ class _ChapterTabsScreenState extends State<ChapterTabsScreen>
                     },
                     icon: (bookmarks[widget.chapterIndex] == 'false')
                         ? Icon(Icons.bookmark_border)
-                        : Icon(Icons.bookmark)),
+                        : Icon(
+                            Icons.bookmark,
+                            color: Theme.of(context).accentColor,
+                          )),
                 NigthModeButton()
               ],
               bottom: TabBar(

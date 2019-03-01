@@ -89,6 +89,4 @@ const Key arabicMatnTabKey = Key('arabicMatnTabKey');
 const Key russianSharkhTabKey = Key('russianSharkhTabKey');
 
 // colors
-const Color secondaryChapterTitleColor = Colors.grey;
-const Color chapterDividerColor = Color(0xFFE2E2E2);
 const Color primaryColor = Colors.indigo;

@@ -12,8 +12,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return DynamicTheme(
         defaultBrightness: Brightness.light,
-        data: (brightness) =>
-            ThemeData(primarySwatch: primaryColor, brightness: brightness),
+        data: (brightness) => ThemeData(
+            primarySwatch: primaryColor,
+            brightness: brightness,
+            accentColor: primaryColor),
         themedWidgetBuilder: (context, theme) {
           return MaterialApp(
             debugShowCheckedModeBanner: false,
