@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 import '../../util/book_shared_preferences.dart';
 import '../../util/constants.dart';
+import '../../util/default_text.dart';
 
 class FontSizeSetting extends StatefulWidget {
   final Function updateText;
@@ -19,10 +20,7 @@ class _FontSizeSettingState extends State<FontSizeSetting>
     if (widget.isArabic) {
       return Column(
         children: <Widget>[
-          Text(
-            resourceArabicFontSizeText,
-            style: TextStyle(fontSize: defaultArabicFontSize),
-          ),
+          DefaultArabicText(resourceArabicFontSizeText),
           Container(padding: EdgeInsets.all(textEdgeInset)),
           Text(
             '${(arabicFontSize / defaultArabicFontSize * 100 + 0.1).toInt()} %',
@@ -42,10 +40,7 @@ class _FontSizeSettingState extends State<FontSizeSetting>
     } else {
       return Column(
         children: <Widget>[
-          Text(
-            resourceRussianFontSizeText,
-            style: TextStyle(fontSize: defaultArabicFontSize),
-          ),
+          DefaultRussianText(resourceRussianFontSizeText),
           Container(padding: EdgeInsets.all(textEdgeInset)),
           Text(
             '${(russianFontSize / defaultRussianFontSize * 100 + 0.1).toInt()} %',
