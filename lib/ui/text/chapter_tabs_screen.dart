@@ -57,7 +57,6 @@ class _ChapterTabsScreenState extends State<ChapterTabsScreen>
                         ? Icon(Icons.bookmark_border)
                         : Icon(
                             Icons.bookmark,
-                            color: Theme.of(context).accentColor,
                           )),
                 NigthModeButton()
               ],
