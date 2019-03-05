@@ -3,39 +3,36 @@ import 'package:kitab_at_tauhid/ui/audio/audio_tab.dart';
 import 'package:kitab_at_tauhid/ui/text/text_view.dart';
 
 import '../../book_resource/book.dart';
+import '../../book_resource/constants.dart';
 import '../../util/book_shared_preferences.dart';
 import '../../util/constants.dart';
 
 List<Widget> getChapterTabBodies(
     int chapterIndex, double russianFontSize, double arabicFontSize) {
   List<Widget> tabBodies = [];
+  List<Widget> defaultTabBodies = [];
 
-  List<Widget> defaultTabBodies = [
-    TextView(
-        header: chapters[chapterIndex].russianTitle,
-        text: chapters[chapterIndex].russianMatn,
-        chapterIndex: chapterIndex,
-        fontSize: russianFontSize,
-        textDirection: TextDirection.ltr,
-        key: russianMatnListKey),
-    TextView(
-        header: chapters[chapterIndex].arabicTitle,
-        text: chapters[chapterIndex].arabicMatn,
-        chapterIndex: chapterIndex,
-        fontSize: arabicFontSize,
-        textDirection: TextDirection.rtl,
-        key: arabicMatnListKey),
-    TextView(
-        header: '1',
-        text: '1',
-        chapterIndex: chapterIndex,
-        fontSize: russianFontSize,
-        textDirection: TextDirection.ltr,
-        key: russianSharkhListKey),
-    AudioList(key: audioListKey),
-  ];
+  for (int i = 0; i < resourceTabNames.length; i++) {
+    if (chapters[chapterIndex].tabList[i].text != null) {
+      defaultTabBodies.add(TextView(
+          header: chapters[chapterIndex].tabList[i].isArabic
+              ? chapters[chapterIndex].arabicTitle
+              : chapters[chapterIndex].russianTitle,
+          text: chapters[chapterIndex].tabList[i].text,
+          chapterIndex: chapterIndex,
+          fontSize: chapters[chapterIndex].tabList[i].isArabic
+              ? arabicFontSize
+              : russianFontSize,
+          textDirection: chapters[chapterIndex].tabList[i].isArabic
+              ? TextDirection.rtl
+              : TextDirection.ltr,
+          key: tabListKeyList[i]));
+    } else {
+      defaultTabBodies.add(AudioList(key: tabListKeyList[i]));
+    }
+  }
 
-  for (int i = 0; i < defaultTabsOrder.length; i++) {
+  for (int i = 0; i < resourceTabNames.length; i++) {
     tabBodies.add(defaultTabBodies[tabsOrder[i]]);
   }
 
@@ -43,21 +40,16 @@ List<Widget> getChapterTabBodies(
 }
 
 List<Tab> getChapterTabs() {
-  List<Tab> tabs = [];
+  List<Tab> tabNames = [];
+  List<Tab> defaultTabsNames = [];
 
-  List<Tab> defaultTabs = [
-    Tab(key: russianMatnTabKey, text: resourceMatnRussian),
-    Tab(
-      key: arabicMatnTabKey,
-      text: resourceMatnArabic,
-    ),
-    Tab(key: russianSharkhTabKey, text: resourceSharhRussian),
-    Tab(key: audioTabKey, text: resourceAudio),
-  ];
-
-  for (int i = 0; i < defaultTabsOrder.length; i++) {
-    tabs.add(defaultTabs[tabsOrder[i]]);
+  for (int i = 0; i < resourceTabNames.length; i++) {
+    defaultTabsNames.add(Tab(key: tabKeyList[i], text: resourceTabNames[i]));
   }
 
-  return tabs;
+  for (int i = 0; i < resourceTabNames.length; i++) {
+    tabNames.add(defaultTabsNames[tabsOrder[i]]);
+  }
+
+  return tabNames;
 }

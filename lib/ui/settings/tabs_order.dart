@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../../book_resource/constants.dart';
 import '../../util/book_shared_preferences.dart';
 import '../../util/constants.dart';
 import '../../util/default_text.dart';
@@ -24,7 +25,7 @@ class _TabsOrderScreenState extends State<TabsOrderScreen>
   _getSharedPreferences() async {
     setState(() {
       getTabsOrder();
-      for (int i = 0; i < defaultTabsOrder.length; i++) {
+      for (int i = 0; i < resourceTabNames.length; i++) {
         tabs.add(ListTile(
             title: DefaultRussianText(defaultTabsNamesOrder[tabsOrder[i]])));
       }

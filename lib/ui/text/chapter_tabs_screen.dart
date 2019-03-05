@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:kitab_at_tauhid/ui/settings/font_size_setting_dialog.dart';
 import 'package:kitab_at_tauhid/ui/text/chapter_tabs.dart';
 
+import '../../book_resource/constants.dart';
 import '../../util/book_shared_preferences.dart';
-import '../../util/constants.dart';
 import '../../util/custom_icons.dart';
 import '../settings/night_mode_button.dart';
 
@@ -92,7 +92,7 @@ class _ChapterTabsScreenState extends State<ChapterTabsScreen>
     getLastChapter();
     _scrollViewController = ScrollController();
     _tabController =
-        TabController(vsync: this, length: defaultTabsOrder.length);
+        TabController(vsync: this, length: resourceTabNames.length);
   }
 
   showFontSizeDialog({bool isArabic, Function updateText}) {

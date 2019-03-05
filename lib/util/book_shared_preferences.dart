@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../book_resource/book.dart';
+import '../book_resource/constants.dart';
 import 'constants.dart';
 
 List<String> bookmarks = List<String>.filled(chapters.length, 'false');
@@ -75,18 +76,16 @@ mixin BookSharedPreferences<T extends StatefulWidget> on State<T> {
 
   getTabsOrder() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
-    tabsOrder[0] = (prefs.getInt(tab0) ?? defaultTabsOrder[0]);
-    tabsOrder[1] = (prefs.getInt(tab1) ?? defaultTabsOrder[1]);
-    tabsOrder[2] = (prefs.getInt(tab2) ?? defaultTabsOrder[2]);
-    tabsOrder[3] = (prefs.getInt(tab3) ?? defaultTabsOrder[3]);
+    for (int i = 0; i < resourceTabNames.length; i++) {
+      tabsOrder[i] = (prefs.getInt(sharedResourceTabList[i]) ?? i);
+    }
   }
 
   setTabsOrder() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
-    prefs.setInt(tab0, tabsOrder[0]);
-    prefs.setInt(tab1, tabsOrder[1]);
-    prefs.setInt(tab2, tabsOrder[2]);
-    prefs.setInt(tab3, tabsOrder[3]);
+    for (int i = 0; i < resourceTabNames.length; i++) {
+      prefs.setInt(sharedResourceTabList[i], tabsOrder[i]);
+    }
   }
 
   setIsLecturerAudioLoaded(int lecturerIndex, bool is_loaded) async {
