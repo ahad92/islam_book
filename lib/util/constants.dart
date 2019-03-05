@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
 // book_screen
-const double mainChapterTitleFontSize = 20.0;
-const double secondaryChapterTitleFontSize = 14.0;
-const double thirdlyChapterTitleFontSize = 12.0;
-const double chapterTitleBorderSize = 4.0;
+const double mainChapterHeaderFontSize = 20.0;
+const double secondaryChapterHeaderFontSize = 14.0;
+const double thirdlyChapterHeaderFontSize = 12.0;
+const double chapterHeaderBorderSize = 4.0;
 
 // chapter_tabs_screen
 const double headerFontSizeMultiplier = 1.33;

@@ -1,9 +1,9 @@
 class Chapter {
-  final String russianTitle;
-  final String arabicTitle;
+  final String russianHeader;
+  final String arabicHeader;
   final List<TabDescription> tabList;
 
-  Chapter({this.russianTitle, this.arabicTitle, this.tabList});
+  Chapter({this.russianHeader, this.arabicHeader, this.tabList});
 }
 
 class TabDescription {

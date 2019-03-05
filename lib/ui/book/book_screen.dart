@@ -55,7 +55,7 @@ class _BookScreenState extends State<BookScreen> with BookSharedPreferences {
                             border: Border(
                                 bottom: BorderSide(
                                     color: Theme.of(context).dividerColor,
-                                    width: chapterTitleBorderSize)),
+                                    width: chapterHeaderBorderSize)),
                           ),
                           child: ListTile(
                             title: Column(
@@ -66,7 +66,7 @@ class _BookScreenState extends State<BookScreen> with BookSharedPreferences {
                                         '$resourceChapterRussian ${position + 1} ',
                                         style: TextStyle(
                                             fontSize:
-                                                thirdlyChapterTitleFontSize,
+                                                thirdlyChapterHeaderFontSize,
                                             color: Theme.of(context)
                                                 .unselectedWidgetColor,
                                             fontWeight: FontWeight.bold)),
@@ -82,18 +82,18 @@ class _BookScreenState extends State<BookScreen> with BookSharedPreferences {
                                     child: Align(
                                         alignment: Alignment.topLeft,
                                         child: Text(
-                                          chapters[position].russianTitle,
+                                          chapters[position].russianHeader,
                                           style: TextStyle(
                                               fontSize:
-                                                  mainChapterTitleFontSize,
+                                                  mainChapterHeaderFontSize,
                                               fontWeight: FontWeight.bold),
                                         ))),
                                 Align(
                                     alignment: Alignment.topLeft,
-                                    child: Text(chapters[position].arabicTitle,
+                                    child: Text(chapters[position].arabicHeader,
                                         style: TextStyle(
                                             fontSize:
-                                                secondaryChapterTitleFontSize,
+                                                secondaryChapterHeaderFontSize,
                                             color: Theme.of(context)
                                                 .unselectedWidgetColor,
                                             fontWeight: FontWeight.bold)))

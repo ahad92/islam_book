@@ -16,8 +16,8 @@ List<Widget> getChapterTabBodies(
     if (chapters[chapterIndex].tabList[i].text != null) {
       defaultTabBodies.add(TextView(
           header: chapters[chapterIndex].tabList[i].isArabic
-              ? chapters[chapterIndex].arabicTitle
-              : chapters[chapterIndex].russianTitle,
+              ? chapters[chapterIndex].arabicHeader
+              : chapters[chapterIndex].russianHeader,
           text: chapters[chapterIndex].tabList[i].text,
           chapterIndex: chapterIndex,
           fontSize: chapters[chapterIndex].tabList[i].isArabic

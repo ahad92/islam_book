@@ -40,7 +40,7 @@ class TextView extends StatelessWidget {
                             color: Theme.of(context).unselectedWidgetColor,
                             fontWeight: FontWeight.bold))),
                 Container(
-                    padding: EdgeInsets.only(top: chapterTitleBorderSize),
+                    padding: EdgeInsets.only(top: chapterHeaderBorderSize),
                     alignment: textDirection == TextDirection.rtl
                         ? Alignment.topRight
                         : Alignment.topLeft,
