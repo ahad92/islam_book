@@ -28,7 +28,12 @@ List<Widget> getChapterTabBodies(
               : TextDirection.ltr,
           key: tabListKeyList[i]));
     } else {
-      defaultTabBodies.add(AudioList(key: tabListKeyList[i]));
+      defaultTabBodies.add(AudioList(
+          header: chapters[chapterIndex].tabList[i].isArabic
+              ? chapters[chapterIndex].arabicHeader
+              : chapters[chapterIndex].russianHeader,
+          chapterIndex: chapterIndex,
+          key: tabListKeyList[i]));
     }
   }
 

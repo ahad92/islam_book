@@ -10,6 +10,9 @@ const double chapterHeaderBorderSize = 4.0;
 const double headerFontSizeMultiplier = 1.33;
 const textRowHeight = 1.2;
 
+// audio_tab
+const double audioIconSize = 48.0;
+
 // font_size_setting_dialog
 const double fonSizeFontSize = 26.0;
 const double minFontSizePercentage = 0.7;
@@ -35,6 +38,7 @@ const double textEdgeInset = 16.0;
 
 const String resourceChapterRussian = 'Глава';
 const String resourceChapterArabic = 'الفصل';
+const String resourceLectureRussian = 'Лекция';
 
 // book_shared_preferences
 const String resourceLastChapter = 'lastChapter';

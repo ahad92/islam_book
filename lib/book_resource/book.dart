@@ -9,7 +9,18 @@ List<Chapter> chapters = [
         TabDescription(text: """با""", isArabic: true),
         TabDescription(text: """шарх qq"""),
         TabDescription(text: """вопросы qq"""),
-        TabDescription(audioList: AudioDescription()),
+        TabDescription(lecturerList: [
+          LecturerDescription(audioList: [
+            AudioDescription(address: '1'),
+            AudioDescription(address: '2'),
+            AudioDescription(address: '3')
+          ]),
+          LecturerDescription(audioList: [
+            AudioDescription(address: '1'),
+            AudioDescription(address: '2')
+          ]),
+          LecturerDescription(audioList: [AudioDescription(address: '1')])
+        ]),
       ]),
   Chapter(
       russianHeader: """Вступление и предисловие 1""",
@@ -19,7 +30,18 @@ List<Chapter> chapters = [
         TabDescription(text: """با""", isArabic: true),
         TabDescription(text: """шарх qq"""),
         TabDescription(text: """вопросы qq"""),
-        TabDescription(audioList: AudioDescription()),
+        TabDescription(lecturerList: [
+          LecturerDescription(audioList: [
+            AudioDescription(address: '1'),
+            AudioDescription(address: '2'),
+            AudioDescription(address: '3')
+          ]),
+          LecturerDescription(audioList: [
+            AudioDescription(address: '1'),
+            AudioDescription(address: '2')
+          ]),
+          LecturerDescription(audioList: [AudioDescription(address: '1')])
+        ]),
       ]),
   Chapter(
       russianHeader: """Вступление и предисловие 2""",
@@ -29,6 +51,17 @@ List<Chapter> chapters = [
         TabDescription(text: """با""", isArabic: true),
         TabDescription(text: """шарх qq"""),
         TabDescription(text: """вопросы qq"""),
-        TabDescription(audioList: AudioDescription()),
+        TabDescription(lecturerList: [
+          LecturerDescription(audioList: [
+            AudioDescription(address: '1'),
+            AudioDescription(address: '2'),
+            AudioDescription(address: '3')
+          ]),
+          LecturerDescription(audioList: [
+            AudioDescription(address: '1'),
+            AudioDescription(address: '2')
+          ]),
+          LecturerDescription(audioList: [AudioDescription(address: '1')])
+        ]),
       ]),
 ];

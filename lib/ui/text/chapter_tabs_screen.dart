@@ -38,17 +38,13 @@ class _ChapterTabsScreenState extends State<ChapterTabsScreen>
               forceElevated: innerBoxIsScrolled,
               actions: <Widget>[
                 IconButton(
-                  icon: Icon(CustomIcons.fontsize),
-                  onPressed: () {
-                    if (_tabController.index !=
-                        tabsOrder.indexOf(defaultAudioTabPosition)) {
+                    icon: Icon(CustomIcons.fontsize),
+                    onPressed: () {
                       showFontSizeDialog(
                           isArabic: _tabController.index ==
                               tabsOrder.indexOf(defaultArabicMatnTabPosition),
                           updateText: _updateText);
-                    }
-                  },
-                ),
+                    }),
                 IconButton(
                     onPressed: () {
                       setBookmark(widget.chapterIndex);
