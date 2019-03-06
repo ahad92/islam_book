@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+
 String bookTitle = 'Книга Единобожия';
 
 const List<String> resourceTabNames = [
@@ -20,3 +22,9 @@ List<String> defaultTabsNamesOrder = [
   '${resourceTabNames[3]}, рассматриваемые в главе',
   resourceTabNames[4]
 ];
+
+const List<String> lecturers = ['Лектор 1', 'Лектор 2', 'Лектор 3'];
+
+// colors
+const Color primaryColor = Colors.indigo;
+const Color accentColor = Colors.indigo;

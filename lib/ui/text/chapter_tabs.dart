@@ -3,7 +3,7 @@ import 'package:kitab_at_tauhid/ui/audio/audio_tab.dart';
 import 'package:kitab_at_tauhid/ui/text/text_view.dart';
 
 import '../../book_resource/book.dart';
-import '../../book_resource/constants.dart';
+import '../../book_resource/decription.dart';
 import '../../util/book_shared_preferences.dart';
 import '../../util/constants.dart';
 

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../book_resource/book.dart';
-import '../book_resource/constants.dart';
+import '../book_resource/decription.dart';
 import 'constants.dart';
 
 List<String> bookmarks = List<String>.filled(chapters.length, 'false');

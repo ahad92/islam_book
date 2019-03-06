@@ -17,9 +17,6 @@ const double maxFontSizePercentage = 1.3;
 const String resourceRussianFontSizeText = 'Размер шрифта';
 const String resourceArabicFontSizeText = 'حجم الخط';
 
-// audio_tab
-const List<String> lecturers = ['Лектор 1', 'Лектор 2', 'Лектор 3'];
-
 // settings_screen
 const double defaultListTilePadding = 4.0;
 const double increasedListTilePadding = 32.0;
@@ -57,6 +54,3 @@ final List<PageStorageKey> tabListKeyList = List<PageStorageKey>.generate(
 
 final List<PageStorageKey> tabKeyList = List<PageStorageKey>.generate(
     10, (int index) => PageStorageKey('tabKeyList$index'));
-
-// colors
-const Color primaryColor = Colors.indigo;

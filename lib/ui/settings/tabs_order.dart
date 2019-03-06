@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../book_resource/constants.dart';
+import '../../book_resource/decription.dart';
 import '../../util/book_shared_preferences.dart';
 import '../../util/constants.dart';
 import '../../util/default_text.dart';

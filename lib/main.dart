@@ -1,9 +1,8 @@
 import 'package:dynamic_theme/dynamic_theme.dart';
 import 'package:flutter/material.dart';
 
-import 'book_resource/constants.dart';
+import 'book_resource/decription.dart';
 import 'ui/book/book_screen.dart';
-import 'util/constants.dart';
 
 void main() => runApp(MyApp());
 
@@ -15,7 +14,7 @@ class MyApp extends StatelessWidget {
         data: (brightness) => ThemeData(
             primarySwatch: primaryColor,
             brightness: brightness,
-            accentColor: primaryColor),
+            accentColor: accentColor),
         themedWidgetBuilder: (context, theme) {
           return MaterialApp(
             debugShowCheckedModeBanner: false,
