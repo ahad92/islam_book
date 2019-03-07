@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 // book_screen
 const double mainChapterHeaderFontSize = 20.0;
-const double secondaryChapterHeaderFontSize = 14.0;
-const double thirdlyChapterHeaderFontSize = 12.0;
+const double secondaryChapterHeaderFontSize = 16.0;
+const double thirdlyChapterHeaderFontSize = 14.0;
 const double chapterHeaderBorderSize = 4.0;
 
 // chapter_tabs_screen
@@ -21,8 +21,8 @@ const String resourceRussianFontSizeText = 'Размер шрифта';
 const String resourceArabicFontSizeText = 'حجم الخط';
 
 // settings_screen
-const double defaultListTilePadding = 4.0;
-const double increasedListTilePadding = 32.0;
+const double defaultPadding = 4.0;
+const double largePadding = 32.0;
 const String resourceSettings = 'Настройки';
 const String resourceDownloadAllAudio = 'Загрузить все аудиолекции';
 
@@ -31,8 +31,8 @@ const String resourceChooseTabOrder = 'Изменить порядок вкла�
 const String resourceDragAndDropTabs = 'Перетащите элементы';
 
 //general
-const double defaultRussianFontSize = 18.0;
-const double defaultArabicFontSize = 20.0;
+const double defaultRussianFontSize = 16.0;
+const double defaultArabicFontSize = 18.0;
 
 const double textEdgeInset = 16.0;
 

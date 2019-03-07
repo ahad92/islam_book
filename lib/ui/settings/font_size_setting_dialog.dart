@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 import '../../util/book_shared_preferences.dart';
 import '../../util/constants.dart';
-import '../../util/default_text.dart';
+import '../common_widgets/text.dart';
 
 class FontSizeSetting extends StatefulWidget {
   final Function updateText;

@@ -4,6 +4,8 @@ import '../../book_resource/book.dart';
 import '../../book_resource/decription.dart';
 import '../../util/book_shared_preferences.dart';
 import '../../util/constants.dart';
+import '../common_widgets/divider.dart';
+import '../common_widgets/text.dart';
 
 class AudioList extends StatefulWidget {
   final String header;
@@ -26,42 +28,12 @@ class _AudioListState extends State<AudioList> with BookSharedPreferences {
 
   getAudioTabList() {
     List<Widget> audioTabList = [];
-    audioTabList.add(Container(
-        padding:
-            const EdgeInsets.only(left: textEdgeInset, right: textEdgeInset),
-        child: Column(
-          children: <Widget>[
-            Align(
-                alignment: Alignment.topLeft,
-                child: Text(
-                    '$resourceChapterRussian ${widget.chapterIndex + 1}',
-                    style: TextStyle(
-                        fontSize: russianFontSize,
-                        color: Theme.of(context).unselectedWidgetColor,
-                        fontWeight: FontWeight.bold))),
-            Padding(
-              padding: const EdgeInsets.only(top: chapterHeaderBorderSize),
-              child: Align(
-                  alignment: Alignment.topLeft,
-                  child: Text(
-                    chapters[widget.chapterIndex].russianHeader,
-                    style: TextStyle(
-                        fontSize: russianFontSize * headerFontSizeMultiplier,
-                        fontWeight: FontWeight.bold,
-                        height: textRowHeight),
-                  )),
-            )
-          ],
-        )));
+    audioTabList.add(TabTextHeader(
+        header: chapters[widget.chapterIndex].russianHeader,
+        chapterIndex: widget.chapterIndex,
+        fontSize: russianFontSize));
     for (int i = 0; i < lecturers.length; i++) {
-      audioTabList.add(Container(
-          padding: EdgeInsets.all(4.0),
-          decoration: BoxDecoration(
-            border: Border(
-                bottom: BorderSide(
-                    color: Theme.of(context).dividerColor,
-                    width: chapterHeaderBorderSize)),
-          )));
+      audioTabList.add(DividedContainer());
       audioTabList.add(ListTile(
           title: Text(lecturers[i],
               style: TextStyle(
@@ -86,9 +58,15 @@ class _AudioListState extends State<AudioList> with BookSharedPreferences {
               style: TextStyle(
                 fontSize: russianFontSize,
               )),
+          onTap: playLecture(
+              chapterIndex: widget.chapterIndex,
+              lecturerIndex: i,
+              audioIndex: j),
         ));
       }
     }
     return audioTabList;
   }
+
+  playLecture({int chapterIndex, int lecturerIndex, int audioIndex}) {}
 }

@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import '../../book_resource/decription.dart';
 import '../../util/book_shared_preferences.dart';
 import '../../util/constants.dart';
-import '../../util/default_text.dart';
-import '../../util/reorderable_list_simple.dart';
+import '../common_widgets/reorderable_list_simple.dart';
+import '../common_widgets/text.dart';
 
 class TabsOrderScreen extends StatefulWidget {
   @override

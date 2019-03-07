@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:kitab_at_tauhid/ui/settings/font_size_setting_dialog.dart';
-import 'package:kitab_at_tauhid/ui/text/chapter_tabs.dart';
 
 import '../../book_resource/decription.dart';
 import '../../util/book_shared_preferences.dart';
-import '../../util/custom_icons.dart';
+import '../common_widgets/custom_icons.dart';
+import '../settings/font_size_setting_dialog.dart';
 import '../settings/night_mode_button.dart';
+import 'chapter_tabs.dart';
 
 class ChapterTabsScreen extends StatefulWidget {
   final int chapterIndex;

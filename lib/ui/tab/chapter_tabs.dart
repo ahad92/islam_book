@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:kitab_at_tauhid/ui/audio/audio_tab.dart';
-import 'package:kitab_at_tauhid/ui/text/text_view.dart';
 
 import '../../book_resource/book.dart';
 import '../../book_resource/decription.dart';
 import '../../util/book_shared_preferences.dart';
 import '../../util/constants.dart';
+import '../audio/audio_tab.dart';
+import '../common_widgets/text.dart';
 
 List<Widget> getChapterTabBodies(
     int chapterIndex, double russianFontSize, double arabicFontSize) {
@@ -14,7 +14,7 @@ List<Widget> getChapterTabBodies(
 
   for (int i = 0; i < resourceTabNames.length; i++) {
     if (chapters[chapterIndex].tabList[i].text != null) {
-      defaultTabBodies.add(TextView(
+      defaultTabBodies.add(TabText(
           header: chapters[chapterIndex].tabList[i].isArabic
               ? chapters[chapterIndex].arabicHeader
               : chapters[chapterIndex].russianHeader,

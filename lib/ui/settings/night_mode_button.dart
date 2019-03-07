@@ -1,7 +1,7 @@
 import 'package:dynamic_theme/dynamic_theme.dart';
 import 'package:flutter/material.dart';
 
-import '../../util/custom_icons.dart';
+import '../common_widgets/custom_icons.dart';
 
 class NigthModeButton extends StatelessWidget {
   @override

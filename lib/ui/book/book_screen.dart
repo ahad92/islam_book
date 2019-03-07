@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:kitab_at_tauhid/ui/text/chapter_tabs_screen.dart';
 
 import '../../book_resource/book.dart';
 import '../../util/book_shared_preferences.dart';
 import '../../util/constants.dart';
+import '../common_widgets/divider.dart';
 import '../settings/night_mode_button.dart';
 import '../settings/settings_screen.dart';
+import '../tab/chapter_tabs_screen.dart';
 
 class BookScreen extends StatefulWidget {
   final String title;
@@ -49,69 +50,60 @@ class _BookScreenState extends State<BookScreen> with BookSharedPreferences {
                       color: position == lastChapter
                           ? Theme.of(context).highlightColor
                           : null,
-                      child: Container(
-                          padding: EdgeInsets.all(8.0),
-                          decoration: BoxDecoration(
-                            border: Border(
-                                bottom: BorderSide(
-                                    color: Theme.of(context).dividerColor,
-                                    width: chapterHeaderBorderSize)),
-                          ),
+                      child: DividedContainer(
                           child: ListTile(
-                            title: Column(
+                        title: Column(
+                          children: <Widget>[
+                            Row(
                               children: <Widget>[
-                                Row(
-                                  children: <Widget>[
-                                    Text(
-                                        '$resourceChapterRussian ${position + 1} ',
-                                        style: TextStyle(
-                                            fontSize:
-                                                thirdlyChapterHeaderFontSize,
-                                            color: Theme.of(context)
-                                                .unselectedWidgetColor,
-                                            fontWeight: FontWeight.bold)),
-                                    Icon(Icons.bookmark,
-                                        color: (bookmarks[position] == 'false')
-                                            ? Color(0x00000000)
-                                            : Theme.of(context).accentColor)
-                                  ],
-                                ),
-                                Padding(
-                                    padding:
-                                        EdgeInsets.only(top: 4.0, bottom: 4.0),
-                                    child: Align(
-                                        alignment: Alignment.topLeft,
-                                        child: Text(
-                                          chapters[position].russianHeader,
-                                          style: TextStyle(
-                                              fontSize:
-                                                  mainChapterHeaderFontSize,
-                                              fontWeight: FontWeight.bold),
-                                        ))),
-                                Align(
-                                    alignment: Alignment.topLeft,
-                                    child: Text(chapters[position].arabicHeader,
-                                        style: TextStyle(
-                                            fontSize:
-                                                secondaryChapterHeaderFontSize,
-                                            color: Theme.of(context)
-                                                .unselectedWidgetColor,
-                                            fontWeight: FontWeight.bold)))
+                                Text('$resourceChapterRussian ${position + 1} ',
+                                    style: TextStyle(
+                                        fontSize: thirdlyChapterHeaderFontSize,
+                                        color: Theme.of(context)
+                                            .unselectedWidgetColor,
+                                        fontWeight: FontWeight.bold)),
+                                Icon(Icons.bookmark,
+                                    color: (bookmarks[position] == 'false')
+                                        ? Color(0x00000000)
+                                        : Theme.of(context).accentColor)
                               ],
                             ),
-                            onTap: () {
-                              setLastChapter(position);
-                              Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                    builder: (context) => ChapterTabsScreen(
-                                        chapterIndex: position)),
-                              );
-                            },
-                            onLongPress: () {
-                              setBookmark(position);
-                            },
-                          )));
+                            Padding(
+                                padding: EdgeInsets.only(
+                                    top: defaultPadding,
+                                    bottom: defaultPadding),
+                                child: Align(
+                                    alignment: Alignment.topLeft,
+                                    child: Text(
+                                      chapters[position].russianHeader,
+                                      style: TextStyle(
+                                          fontSize: mainChapterHeaderFontSize,
+                                          fontWeight: FontWeight.bold),
+                                    ))),
+                            Align(
+                                alignment: Alignment.topLeft,
+                                child: Text(chapters[position].arabicHeader,
+                                    style: TextStyle(
+                                        fontSize:
+                                            secondaryChapterHeaderFontSize,
+                                        color: Theme.of(context)
+                                            .unselectedWidgetColor,
+                                        fontWeight: FontWeight.bold)))
+                          ],
+                        ),
+                        onTap: () {
+                          setLastChapter(position);
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) =>
+                                    ChapterTabsScreen(chapterIndex: position)),
+                          );
+                        },
+                        onLongPress: () {
+                          setBookmark(position);
+                        },
+                      )));
                 })));
   }
 }

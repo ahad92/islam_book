@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
 import '../../book_resource/decription.dart';
+import '../../util/audio.dart';
 import '../../util/book_shared_preferences.dart';
 import '../../util/constants.dart';
-import '../../util/default_text.dart';
-import '../audio/audio.dart';
+import '../common_widgets/text.dart';
 import 'night_mode_button.dart';
 import 'tabs_order.dart';
 
@@ -38,7 +38,7 @@ class _SettingsScreenState extends State<SettingsScreen>
     List<Widget> menuItems = [];
     menuItems.add(Divider());
     menuItems.add(TabsOrderMenuItem());
-    menuItems.add(Divider(height: 32.0));
+    menuItems.add(Divider(height: largePadding));
 
     if (lecturers.length > 0) {
       menuItems.add(Container(
@@ -49,10 +49,10 @@ class _SettingsScreenState extends State<SettingsScreen>
       for (int i = 0; i < lecturers.length; i++) {
         menuItems.add(ListTile(
           contentPadding: EdgeInsets.only(
-              left: increasedListTilePadding,
-              top: defaultListTilePadding,
-              bottom: defaultListTilePadding,
-              right: defaultListTilePadding),
+              left: largePadding,
+              top: defaultPadding,
+              bottom: defaultPadding,
+              right: defaultPadding),
           title: DefaultRussianText(lecturers[i]),
           trailing: Wrap(
             children: <Widget>[
