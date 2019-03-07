@@ -15,9 +15,10 @@ const textRowHeight = 1.2;
 const double audioIconSize = 48.0;
 
 // font_size_setting_dialog
+const int fontSizeDivisionNumber = 9;
 const double fonSizeFontSize = 26.0;
-const double minFontSizePercentage = 0.7;
-const double maxFontSizePercentage = 1.3;
+const double minFontSizePercentage = 0.6;
+const double maxFontSizePercentage = 1.5;
 const String resourceRussianFontSizeText = 'Размер шрифта';
 const String resourceArabicFontSizeText = 'حجم الخط';
 

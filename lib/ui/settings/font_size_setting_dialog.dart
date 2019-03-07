@@ -30,7 +30,7 @@ class _FontSizeSettingState extends State<FontSizeSetting>
               value: arabicFontSize,
               min: defaultArabicFontSize * minFontSizePercentage,
               max: defaultArabicFontSize * maxFontSizePercentage,
-              divisions: 6,
+              divisions: fontSizeDivisionNumber,
               onChanged: (double value) {
                 setArabicFontSize(value);
                 widget.updateText();
@@ -50,7 +50,7 @@ class _FontSizeSettingState extends State<FontSizeSetting>
               value: russianFontSize,
               min: defaultRussianFontSize * minFontSizePercentage,
               max: defaultRussianFontSize * maxFontSizePercentage,
-              divisions: 6,
+              divisions: fontSizeDivisionNumber,
               onChanged: (double value) {
                 setRussianFontSize(value);
                 widget.updateText();
