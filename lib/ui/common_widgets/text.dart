@@ -67,7 +67,7 @@ class TabTextHeader extends StatelessWidget {
                     '${textDirection == TextDirection.rtl ? resourceChapterArabic : resourceChapterRussian} ${chapterIndex + 1}',
                     textDirection: textDirection,
                     style: TextStyle(
-                        fontSize: fontSize,
+                        fontSize: fontSize * secondaryHeaderFontSizeMultiplier,
                         color: Theme.of(context).unselectedWidgetColor,
                         fontWeight: FontWeight.bold))),
             Container(
@@ -79,7 +79,7 @@ class TabTextHeader extends StatelessWidget {
                   header,
                   textDirection: textDirection,
                   style: TextStyle(
-                      fontSize: fontSize * headerFontSizeMultiplier,
+                      fontSize: fontSize * mainHeaderFontSizeMultiplier,
                       fontWeight: FontWeight.bold,
                       height: textRowHeight),
                 ))

@@ -7,7 +7,8 @@ const double thirdlyChapterHeaderFontSize = 14.0;
 const double chapterHeaderBorderSize = 4.0;
 
 // chapter_tabs_screen
-const double headerFontSizeMultiplier = 1.33;
+const double mainHeaderFontSizeMultiplier = 1.2;
+const double secondaryHeaderFontSizeMultiplier = 0.85;
 const textRowHeight = 1.2;
 
 // audio_tab
