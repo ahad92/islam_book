@@ -5,6 +5,7 @@ import '../../util/audio.dart';
 import '../../util/book_shared_preferences.dart';
 import '../../util/constants.dart';
 import '../common_widgets/text.dart';
+import 'app_description.dart';
 import 'night_mode_button.dart';
 import 'tabs_order.dart';
 
@@ -36,6 +37,8 @@ class _SettingsScreenState extends State<SettingsScreen>
 
   List<Widget> getMenuItems() {
     List<Widget> menuItems = [];
+    menuItems.add(Divider());
+    menuItems.add(AboutAppMenuItem());
     menuItems.add(Divider());
     menuItems.add(TabsOrderMenuItem());
     menuItems.add(Divider(height: largePadding));

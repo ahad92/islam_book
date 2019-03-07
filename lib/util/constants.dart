@@ -26,6 +26,7 @@ const String resourceArabicFontSizeText = 'حجم الخط';
 const double defaultPadding = 4.0;
 const double largePadding = 32.0;
 const String resourceSettings = 'Настройки';
+const String resourceAboutAppMenuItem = 'О приложении';
 const String resourceDownloadAllAudio = 'Загрузить все аудиолекции';
 
 //tabs_order_screen
