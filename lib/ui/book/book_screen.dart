@@ -56,7 +56,10 @@ class _BookScreenState extends State<BookScreen> with BookSharedPreferences {
                           children: <Widget>[
                             Row(
                               children: <Widget>[
-                                Text('$resourceChapterRussian ${position + 1} ',
+                                Text(
+                                    position == 0
+                                        ? ''
+                                        : '$resourceChapterRussian ${position}',
                                     style: TextStyle(
                                         fontSize: thirdlyChapterHeaderFontSize,
                                         color: Theme.of(context)

@@ -64,7 +64,9 @@ class TabTextHeader extends StatelessWidget {
                     ? Alignment.topRight
                     : Alignment.topLeft,
                 child: Text(
-                    '${textDirection == TextDirection.rtl ? resourceChapterArabic : resourceChapterRussian} ${chapterIndex + 1}',
+                    chapterIndex == 0
+                        ? ''
+                        : '${textDirection == TextDirection.rtl ? resourceChapterArabic : resourceChapterRussian} ${chapterIndex}',
                     textDirection: textDirection,
                     style: TextStyle(
                         fontSize: fontSize * secondaryHeaderFontSizeMultiplier,
