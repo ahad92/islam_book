@@ -5,6 +5,7 @@ import '../../util/book_shared_preferences.dart';
 import '../common_widgets/custom_icons.dart';
 import '../settings/font_size_setting_dialog.dart';
 import '../settings/night_mode_button.dart';
+import '../../book_resource/book.dart';
 import 'chapter_tabs.dart';
 
 class ChapterTabsScreen extends StatefulWidget {
@@ -37,6 +38,16 @@ class _ChapterTabsScreenState extends State<ChapterTabsScreen>
               snap: true,
               forceElevated: innerBoxIsScrolled,
               actions: <Widget>[
+                IconButton(
+                    onPressed: () {
+                      _goToPage(widget.chapterIndex - 1);
+                    },
+                    icon: Icon(Icons.arrow_back_ios)),
+                IconButton(
+                    onPressed: () {
+                      _goToPage(widget.chapterIndex + 1);
+                    },
+                    icon: Icon(Icons.arrow_forward_ios)),
                 IconButton(
                     icon: Icon(CustomIcons.fontsize),
                     onPressed: () {
@@ -101,5 +112,16 @@ class _ChapterTabsScreenState extends State<ChapterTabsScreen>
             ],
           );
         });
+  }
+
+  _goToPage(index) {
+    if (index >= 0 && index < chapters.length) {
+      setLastChapter(index);
+      Navigator.pushReplacement(
+        context,
+        MaterialPageRoute(
+            builder: (context) => ChapterTabsScreen(chapterIndex: index)),
+      );
+    }
   }
 }
