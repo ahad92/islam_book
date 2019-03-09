@@ -20,9 +20,11 @@ class AudioList extends StatefulWidget {
 class _AudioListState extends State<AudioList> with BookSharedPreferences {
   @override
   Widget build(BuildContext context) {
-    return ListView(
+    return Scrollbar(
       key: widget.key,
-      children: getAudioTabList(),
+      child: ListView(
+        children: getAudioTabList(),
+      ),
     );
   }
 

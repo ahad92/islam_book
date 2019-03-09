@@ -21,22 +21,24 @@ class TabText extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ListView(
+    return Scrollbar(
       key: key,
-      children: <Widget>[
-        TabTextHeader(
-            header: header,
-            chapterIndex: chapterIndex,
-            fontSize: fontSize,
-            textDirection: textDirection),
-        Html(
-          data: text,
+      child: ListView(
+        children: <Widget>[
+          TabTextHeader(
+              header: header,
+              chapterIndex: chapterIndex,
+              fontSize: fontSize,
+              textDirection: textDirection),
+          Html(
+            data: text,
 //Optional parameters:
-          padding: EdgeInsets.all(textEdgeInset),
-          defaultTextStyle:
-              TextStyle(fontSize: fontSize, height: textRowHeight),
-        ),
-      ],
+            padding: EdgeInsets.all(textEdgeInset),
+            defaultTextStyle:
+                TextStyle(fontSize: fontSize, height: textRowHeight),
+          ),
+        ],
+      ),
     );
   }
 }

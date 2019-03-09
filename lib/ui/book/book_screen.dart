@@ -41,9 +41,9 @@ class _BookScreenState extends State<BookScreen> with BookSharedPreferences {
             NigthModeButton(),
           ],
         ),
-        body: Container(
+        body: Scrollbar(
+            key: chaptersListKey,
             child: ListView.builder(
-                key: chaptersListKey,
                 itemCount: chapters.length,
                 itemBuilder: (BuildContext context, int position) {
                   return Container(
