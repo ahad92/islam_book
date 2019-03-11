@@ -24,7 +24,8 @@ class LecturerDescription {
 
 class AudioDescription {
   final String name;
+  final String description;
   final String address;
 
-  AudioDescription({this.address, this.name: null});
+  AudioDescription({this.address, this.name: null, this.description: null});
 }
