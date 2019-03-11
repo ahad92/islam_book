@@ -4,7 +4,6 @@ import '../../book_resource/book.dart';
 import '../../book_resource/decription.dart';
 import '../../util/book_shared_preferences.dart';
 import '../../util/constants.dart';
-import '../common_widgets/divider.dart';
 import '../common_widgets/text.dart';
 
 class AudioList extends StatefulWidget {
@@ -35,7 +34,7 @@ class _AudioListState extends State<AudioList> with BookSharedPreferences {
         chapterIndex: widget.chapterIndex,
         fontSize: russianFontSize));
     for (int i = 0; i < lecturers.length; i++) {
-      audioTabList.add(DividedContainer());
+      audioTabList.add(Divider());
       audioTabList.add(ListTile(
           title: Text(lecturers[i],
               style: TextStyle(
@@ -50,7 +49,6 @@ class _AudioListState extends State<AudioList> with BookSharedPreferences {
                   .audioList
                   .length;
           j++) {
-        audioTabList.add(Divider());
         audioTabList.add(ListTile(
           leading: Icon(
             Icons.volume_up,
