@@ -14,6 +14,10 @@ const textRowHeight = 1.2;
 // audio_tab
 const double audioIconSize = 48.0;
 
+const String lastPlayedAudioChapterIndex = 'lastPlayedAudioChapterIndex';
+const String lastPlayedAudioLecturerIndex = 'lastPlayedAudioLecturerIndex';
+const String lastPlayedAudioIndex = 'lastPlayedAudioIndex';
+
 // font_size_setting_dialog
 const int fontSizeDivisionNumber = 9;
 const double fonSizeFontSize = 26.0;
@@ -41,13 +45,13 @@ const double textEdgeInset = 16.0;
 
 const String resourceChapterRussian = 'Глава';
 const String resourceChapterArabic = 'الفصل';
-const String resourceLectureRussian = 'Лекция';
+const String resourceLectureRussian = 'Лекция №';
 
 // book_shared_preferences
 const String resourceLastChapter = 'lastChapter';
 const String resourceRussianFontSize = 'russianFontSize';
 const String resourceArabicFontSize = 'arabicFontSize';
-const String resourceBookmarks = 'bookmarks';
+const String resourceBookmarks = 'bookmarks_sp';
 const String resourceIsLecturersAudioDownloaded = 'isLecturersAudioDownloaded';
 
 final List<String> sharedResourceTabList =

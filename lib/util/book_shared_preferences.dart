@@ -3,6 +3,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import '../book_resource/book.dart';
 import '../book_resource/decription.dart';
+import 'audio.dart';
 import 'constants.dart';
 
 List<String> bookmarks = List<String>.filled(chapters.length, 'false');
@@ -12,6 +13,7 @@ double russianFontSize = defaultRussianFontSize;
 double arabicFontSize = defaultArabicFontSize;
 List<int> tabsOrder = defaultTabsOrder;
 int lastChapter = 0;
+AudioFile lastAudio = AudioFile(0, 0, 0);
 
 mixin BookSharedPreferences<T extends StatefulWidget> on State<T> {
   setBookmark(int chapterIndex) async {
@@ -103,6 +105,27 @@ mixin BookSharedPreferences<T extends StatefulWidget> on State<T> {
       isLecturersAudioDownloaded =
           (prefs.getStringList(resourceIsLecturersAudioDownloaded) ??
               List<String>.filled(lecturers.length, 'false'));
+    });
+  }
+
+  setLastPlayedAudio(
+      int chapterIndex, int lecturerIndex, int audioIndex) async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    setState(() {
+      lastAudio = AudioFile(chapterIndex, lecturerIndex, audioIndex);
+      prefs.setInt(lastPlayedAudioChapterIndex, chapterIndex);
+      prefs.setInt(lastPlayedAudioLecturerIndex, lecturerIndex);
+      prefs.setInt(lastPlayedAudioIndex, audioIndex);
+    });
+  }
+
+  getLastPlayedAudio() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    setState(() {
+      lastAudio = AudioFile(
+          prefs.getInt(lastPlayedAudioChapterIndex) ?? 0,
+          prefs.getInt(lastPlayedAudioLecturerIndex) ?? 0,
+          prefs.getInt(lastPlayedAudioIndex) ?? 0);
     });
   }
 }

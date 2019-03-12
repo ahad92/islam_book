@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
+import '../../book_resource/book.dart';
 import '../../book_resource/decription.dart';
 import '../../util/book_shared_preferences.dart';
 import '../common_widgets/custom_icons.dart';
 import '../settings/font_size_setting_dialog.dart';
 import '../settings/night_mode_button.dart';
-import '../../book_resource/book.dart';
 import 'chapter_tabs.dart';
 
 class ChapterTabsScreen extends StatefulWidget {
