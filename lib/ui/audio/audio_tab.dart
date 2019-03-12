@@ -18,6 +18,12 @@ class AudioList extends StatefulWidget {
 
 class _AudioListState extends State<AudioList> with BookSharedPreferences {
   @override
+  void initState() {
+    super.initState();
+    getLastPlayedAudio();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Scrollbar(
       key: widget.key,
@@ -33,40 +39,67 @@ class _AudioListState extends State<AudioList> with BookSharedPreferences {
         header: chapters[widget.chapterIndex].russianHeader,
         chapterIndex: widget.chapterIndex,
         fontSize: russianFontSize));
-    for (int i = 0; i < lecturers.length; i++) {
-      audioTabList.add(Divider());
-      audioTabList.add(ListTile(
-          title: Text(lecturers[i],
-              style: TextStyle(
-                  fontSize: russianFontSize,
-                  fontWeight: FontWeight.bold,
-                  height: textRowHeight))));
-      for (int j = 0;
-          j <
+    for (int lecturerIndex = 0;
+        lecturerIndex < lecturers.length;
+        lecturerIndex++) {
+      if (chapters[widget.chapterIndex]
+              .tabList[defaultAudioTabPosition]
+              .lecturerList[lecturerIndex]
+              .audioList
+              .length >
+          0) {
+        audioTabList.add(Divider());
+        audioTabList.add(ListTile(
+            title: Text(lecturers[lecturerIndex],
+                style: TextStyle(
+                    fontSize: russianFontSize,
+                    fontWeight: FontWeight.bold,
+                    height: textRowHeight)),
+            subtitle: Text(lecture_sources[lecturerIndex],
+                style: TextStyle(
+                    fontSize:
+                        russianFontSize * secondaryHeaderFontSizeMultiplier,
+                    fontWeight: FontWeight.bold,
+                    height: textRowHeight))));
+      }
+      for (int audioIndex = 0;
+          audioIndex <
               chapters[widget.chapterIndex]
                   .tabList[defaultAudioTabPosition]
-                  .lecturerList[i]
+                  .lecturerList[lecturerIndex]
                   .audioList
                   .length;
-          j++) {
-        audioTabList.add(ListTile(
-          leading: Icon(
-            Icons.volume_up,
-            size: audioIconSize,
-          ),
-          title: Text('$resourceLectureRussian ${j + 1}',
-              style: TextStyle(
-                fontSize: russianFontSize,
-              )),
-          onTap: playLecture(
-              chapterIndex: widget.chapterIndex,
-              lecturerIndex: i,
-              audioIndex: j),
+          audioIndex++) {
+        audioTabList.add(Container(
+          color: (widget.chapterIndex == lastAudio.chapterIndex &&
+                  lecturerIndex == lastAudio.lecturerIndex &&
+                  audioIndex == lastAudio.audioIndex)
+              ? Theme.of(context).highlightColor
+              : null,
+          child: ListTile(
+              leading: Icon(
+                Icons.volume_up,
+                size: audioIconSize,
+                color: (widget.chapterIndex == lastAudio.chapterIndex &&
+                        lecturerIndex == lastAudio.lecturerIndex &&
+                        audioIndex == lastAudio.audioIndex)
+                    ? Theme.of(context).accentColor
+                    : Theme.of(context).unselectedWidgetColor,
+              ),
+              title: Text('$resourceLectureRussian ${audioIndex + 1}',
+                  style: TextStyle(
+                    fontSize: russianFontSize,
+                  )),
+              onTap: () {
+                setState(() {
+                  setLastPlayedAudio(
+                      widget.chapterIndex, lecturerIndex, audioIndex);
+                  lastAudio.play();
+                });
+              }),
         ));
       }
     }
     return audioTabList;
   }
-
-  playLecture({int chapterIndex, int lecturerIndex, int audioIndex}) {}
 }
