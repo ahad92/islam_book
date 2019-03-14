@@ -12,8 +12,6 @@ const double secondaryHeaderFontSizeMultiplier = 0.85;
 const textRowHeight = 1.2;
 
 // audio_tab
-const double audioIconSize = 48.0;
-
 const String lastPlayedAudioChapterIndex = 'lastPlayedAudioChapterIndex';
 const String lastPlayedAudioLecturerIndex = 'lastPlayedAudioLecturerIndex';
 const String lastPlayedAudioIndex = 'lastPlayedAudioIndex';
@@ -65,3 +63,5 @@ final List<PageStorageKey> tabListKeyList = List<PageStorageKey>.generate(
 
 final List<PageStorageKey> tabKeyList = List<PageStorageKey>.generate(
     10, (int index) => PageStorageKey('tabKeyList$index'));
+
+const Color white = Color(0xffffffff);

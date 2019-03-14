@@ -5,6 +5,7 @@ import '../../book_resource/decription.dart';
 import '../../util/book_shared_preferences.dart';
 import '../../util/constants.dart';
 import '../common_widgets/text.dart';
+import 'audio_icon.dart';
 
 class AudioList extends StatefulWidget {
   final String header;
@@ -77,15 +78,12 @@ class _AudioListState extends State<AudioList> with BookSharedPreferences {
               ? Theme.of(context).highlightColor
               : null,
           child: ListTile(
-              leading: Icon(
-                Icons.volume_up,
-                size: audioIconSize,
-                color: (widget.chapterIndex == lastAudio.chapterIndex &&
-                        lecturerIndex == lastAudio.lecturerIndex &&
-                        audioIndex == lastAudio.audioIndex)
-                    ? Theme.of(context).accentColor
-                    : Theme.of(context).unselectedWidgetColor,
-              ),
+              leading: AudioIcon(
+                  color: (widget.chapterIndex == lastAudio.chapterIndex &&
+                          lecturerIndex == lastAudio.lecturerIndex &&
+                          audioIndex == lastAudio.audioIndex)
+                      ? white
+                      : Theme.of(context).unselectedWidgetColor),
               title: Text('$resourceLectureRussian ${audioIndex + 1}',
                   style: TextStyle(
                     fontSize: russianFontSize,
