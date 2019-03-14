@@ -63,5 +63,3 @@ final List<PageStorageKey> tabListKeyList = List<PageStorageKey>.generate(
 
 final List<PageStorageKey> tabKeyList = List<PageStorageKey>.generate(
     10, (int index) => PageStorageKey('tabKeyList$index'));
-
-const Color white = Color(0xffffffff);

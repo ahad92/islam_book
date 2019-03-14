@@ -12,6 +12,9 @@ class MyApp extends StatelessWidget {
     return DynamicTheme(
         defaultBrightness: Brightness.light,
         data: (brightness) => ThemeData(
+            canvasColor: brightness == Brightness.dark
+                ? canvasColorDark
+                : canvasColorLight,
             primarySwatch: primaryColor,
             brightness: brightness,
             accentColor: accentColor),

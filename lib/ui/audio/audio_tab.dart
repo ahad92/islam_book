@@ -82,7 +82,7 @@ class _AudioListState extends State<AudioList> with BookSharedPreferences {
                   color: (widget.chapterIndex == lastAudio.chapterIndex &&
                           lecturerIndex == lastAudio.lecturerIndex &&
                           audioIndex == lastAudio.audioIndex)
-                      ? white
+                      ? canvasColorLight
                       : Theme.of(context).unselectedWidgetColor),
               title: Text('$resourceLectureRussian ${audioIndex + 1}',
                   style: TextStyle(

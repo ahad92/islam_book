@@ -38,6 +38,8 @@ const List<String> lecture_sources = [
 // colors
 const Color primaryColor = Colors.indigo;
 const Color accentColor = Colors.indigo;
+const Color canvasColorLight = Colors.white;
+final Color canvasColorDark = Colors.grey[850];
 
 const String resourceAboutAppText = """
 السلام عليكم ورحمه الله وبركاته
