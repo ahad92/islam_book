@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 class AudioIcon extends StatelessWidget {
-  final Color color;
-  AudioIcon({this.color});
+  final bool isSelected;
+  AudioIcon({this.isSelected});
 
   @override
   Widget build(BuildContext context) {
@@ -25,7 +25,8 @@ class AudioIcon extends StatelessWidget {
             ],
           ),
           borderRadius: BorderRadius.all(Radius.circular(8.0))),
-      child: Icon(Icons.volume_up, size: 30.0, color: color),
+      child: Icon(Icons.volume_up,
+          size: 30.0, color: isSelected ? Colors.white : Colors.white30),
     );
   }
 }

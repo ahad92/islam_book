@@ -61,8 +61,7 @@ class _SettingsScreenState extends State<SettingsScreen>
             children: <Widget>[
               IconButton(
                 icon: Icon(Icons.delete),
-                color: Theme.of(context)
-                    .unselectedWidgetColor,
+                color: Theme.of(context).unselectedWidgetColor,
                 onPressed: () {
                   setIsLecturerAudioLoaded(i, false);
                   deleteAllLecturerAudio(i);

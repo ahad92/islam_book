@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
             primarySwatch: primaryColor,
             brightness: brightness,
             accentColor: accentColor,
-        unselectedWidgetColor: secondaryTextColor),
+            unselectedWidgetColor: secondaryTextColor),
         themedWidgetBuilder: (context, theme) {
           return MaterialApp(
             debugShowCheckedModeBanner: false,

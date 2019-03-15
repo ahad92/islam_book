@@ -60,8 +60,7 @@ class _AudioListState extends State<AudioList> with BookSharedPreferences {
                 style: TextStyle(
                     fontSize:
                         russianFontSize * secondaryHeaderFontSizeMultiplier,
-                    color: Theme.of(context)
-                        .unselectedWidgetColor,
+                    color: Theme.of(context).unselectedWidgetColor,
                     height: textRowHeight))));
       }
       for (int audioIndex = 0;
@@ -80,11 +79,9 @@ class _AudioListState extends State<AudioList> with BookSharedPreferences {
               : null,
           child: ListTile(
               leading: AudioIcon(
-                  color: (widget.chapterIndex == lastAudio.chapterIndex &&
-                          lecturerIndex == lastAudio.lecturerIndex &&
-                          audioIndex == lastAudio.audioIndex)
-                      ? canvasColorLight
-                      : Theme.of(context).unselectedWidgetColor),
+                  isSelected: widget.chapterIndex == lastAudio.chapterIndex &&
+                      lecturerIndex == lastAudio.lecturerIndex &&
+                      audioIndex == lastAudio.audioIndex),
               title: Text('$resourceLectureRussian ${audioIndex + 1}',
                   style: TextStyle(
                     fontSize: russianFontSize,

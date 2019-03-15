@@ -36,11 +36,11 @@ const List<String> lecture_sources = [
 ];
 
 // colors
-const Color primaryColor = Colors.indigo;
-const Color accentColor = Colors.indigo;
-const Color canvasColorLight = Colors.white;
+final Color primaryColor = Colors.indigo;
+final Color accentColor = Colors.indigo;
+final Color canvasColorLight = Colors.white;
 final Color canvasColorDark = Colors.grey[850];
-final Color secondaryTextColor = Colors.blueGrey[700];
+final Color secondaryTextColor = Colors.blueGrey[600];
 
 const String resourceAboutAppText = """
 السلام عليكم ورحمه الله وبركاته
