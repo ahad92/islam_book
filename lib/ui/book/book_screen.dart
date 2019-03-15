@@ -63,8 +63,7 @@ class _BookScreenState extends State<BookScreen> with BookSharedPreferences {
                                     style: TextStyle(
                                         fontSize: thirdlyChapterHeaderFontSize,
                                         color: Theme.of(context)
-                                            .unselectedWidgetColor,
-                                        fontWeight: FontWeight.bold)),
+                                            .unselectedWidgetColor)),
                                 Icon(Icons.bookmark,
                                     color: (bookmarks[position] == 'false')
                                         ? Color(0x00000000)
@@ -90,8 +89,7 @@ class _BookScreenState extends State<BookScreen> with BookSharedPreferences {
                                         fontSize:
                                             secondaryChapterHeaderFontSize,
                                         color: Theme.of(context)
-                                            .unselectedWidgetColor,
-                                        fontWeight: FontWeight.bold)))
+                                            .unselectedWidgetColor)))
                           ],
                         ),
                         onTap: () {

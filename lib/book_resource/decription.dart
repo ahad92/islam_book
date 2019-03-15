@@ -40,6 +40,7 @@ const Color primaryColor = Colors.indigo;
 const Color accentColor = Colors.indigo;
 const Color canvasColorLight = Colors.white;
 final Color canvasColorDark = Colors.grey[850];
+final Color secondaryTextColor = Colors.blueGrey[700];
 
 const String resourceAboutAppText = """
 السلام عليكم ورحمه الله وبركاته

@@ -60,7 +60,8 @@ class _AudioListState extends State<AudioList> with BookSharedPreferences {
                 style: TextStyle(
                     fontSize:
                         russianFontSize * secondaryHeaderFontSizeMultiplier,
-                    fontWeight: FontWeight.bold,
+                    color: Theme.of(context)
+                        .unselectedWidgetColor,
                     height: textRowHeight))));
       }
       for (int audioIndex = 0;

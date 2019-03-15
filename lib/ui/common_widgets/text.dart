@@ -72,8 +72,7 @@ class TabTextHeader extends StatelessWidget {
                     textDirection: textDirection,
                     style: TextStyle(
                         fontSize: fontSize * secondaryHeaderFontSizeMultiplier,
-                        color: Theme.of(context).unselectedWidgetColor,
-                        fontWeight: FontWeight.bold))),
+                        color: Theme.of(context).unselectedWidgetColor))),
             Container(
                 padding: EdgeInsets.only(top: chapterHeaderBorderSize),
                 alignment: textDirection == TextDirection.rtl
