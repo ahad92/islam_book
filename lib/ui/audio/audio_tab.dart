@@ -45,8 +45,7 @@ class _AudioListState extends State<AudioList> with BookSharedPreferences {
         lecturerIndex++) {
       if (chapters[widget.chapterIndex]
               .tabList[defaultAudioTabPosition]
-              .lecturerList[lecturerIndex]
-              .audioList
+              .lectureList[lecturerIndex]
               .length >
           0) {
         audioTabList.add(Divider());
@@ -67,8 +66,7 @@ class _AudioListState extends State<AudioList> with BookSharedPreferences {
           audioIndex <
               chapters[widget.chapterIndex]
                   .tabList[defaultAudioTabPosition]
-                  .lecturerList[lecturerIndex]
-                  .audioList
+                  .lectureList[lecturerIndex]
                   .length;
           audioIndex++) {
         audioTabList.add(Container(

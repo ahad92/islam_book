@@ -9,23 +9,8 @@ class Chapter {
 class TabDescription {
   final String text;
   final bool isArabic;
-  final List<LecturerDescription> lecturerList;
+  final List lectureList;
 
   TabDescription(
-      {this.text: null, this.isArabic: false, this.lecturerList: null});
-}
-
-class LecturerDescription {
-  final String name;
-  final List<AudioDescription> audioList;
-
-  LecturerDescription({this.audioList, this.name: null});
-}
-
-class AudioDescription {
-  final String name;
-  final String description;
-  final String address;
-
-  AudioDescription({this.address, this.name: null, this.description: null});
+      {this.text: null, this.isArabic: false, this.lectureList: null});
 }
