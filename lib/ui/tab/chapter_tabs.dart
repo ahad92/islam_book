@@ -8,7 +8,7 @@ import '../audio/audio_tab.dart';
 import '../common_widgets/text.dart';
 
 List<Widget> getChapterTabBodies(
-    int chapterIndex, double russianFontSize, double arabicFontSize) {
+    {int chapterIndex, double russianFontSize, double arabicFontSize, player}) {
   List<Widget> tabBodies = [];
   List<Widget> defaultTabBodies = [];
 
@@ -33,7 +33,8 @@ List<Widget> getChapterTabBodies(
               ? chapters[chapterIndex].arabicHeader
               : chapters[chapterIndex].russianHeader,
           chapterIndex: chapterIndex,
-          key: tabListKeyList[i]));
+          key: tabListKeyList[i],
+          player: player));
     }
   }
 

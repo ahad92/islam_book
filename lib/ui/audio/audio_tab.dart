@@ -1,3 +1,5 @@
+import 'package:educational_audioplayer/ui/audio_loader.dart';
+import 'package:educational_audioplayer/ui/bottom_player.dart';
 import 'package:flutter/material.dart';
 
 import '../../book_resource/book.dart';
@@ -11,8 +13,9 @@ class AudioList extends StatefulWidget {
   final String header;
   final int chapterIndex;
   final PageStorageKey key;
+  final BottomPlayer player;
 
-  AudioList({this.header, this.chapterIndex, this.key});
+  AudioList({this.header, this.chapterIndex, this.key, this.player});
   @override
   _AudioListState createState() => _AudioListState();
 }
@@ -50,17 +53,38 @@ class _AudioListState extends State<AudioList> with BookSharedPreferences {
           0) {
         audioTabList.add(Divider());
         audioTabList.add(ListTile(
-            title: Text(lecturers[lecturerIndex],
-                style: TextStyle(
-                    fontSize: russianFontSize,
-                    fontWeight: FontWeight.bold,
-                    height: textRowHeight)),
-            subtitle: Text(lecture_sources[lecturerIndex],
-                style: TextStyle(
-                    fontSize:
-                        russianFontSize * secondaryHeaderFontSizeMultiplier,
-                    color: Theme.of(context).unselectedWidgetColor,
-                    height: textRowHeight))));
+          title: Text(lecturers[lecturerIndex],
+              style: TextStyle(
+                  fontSize: russianFontSize,
+                  fontWeight: FontWeight.bold,
+                  height: textRowHeight)),
+          subtitle: Text(lecture_sources[lecturerIndex],
+              style: TextStyle(
+                  fontSize: russianFontSize * secondaryHeaderFontSizeMultiplier,
+                  color: Theme.of(context).unselectedWidgetColor,
+                  height: textRowHeight)),
+          trailing: Wrap(children: <Widget>[
+            IconButton(
+                icon: Icon(Icons.delete),
+                onPressed: () {
+                  deleteAudios(
+                      context: context,
+                      urls: chapters[widget.chapterIndex]
+                          .tabList[defaultAudioTabPosition]
+                          .lectureList[lecturerIndex]);
+                }),
+            IconButton(
+                icon: Icon(Icons.cloud_download),
+                onPressed: () {
+                  loadAudios(
+                      context: context,
+                      urls: chapters[widget.chapterIndex]
+                          .tabList[defaultAudioTabPosition]
+                          .lectureList[lecturerIndex],
+                      sizes: [1, 2, 3, 4, 5, 6]);
+                })
+          ]),
+        ));
       }
       for (int audioIndex = 0;
           audioIndex <
@@ -85,11 +109,21 @@ class _AudioListState extends State<AudioList> with BookSharedPreferences {
                     fontSize: russianFontSize,
                   )),
               onTap: () {
-                setState(() {
-                  setLastPlayedAudio(
-                      widget.chapterIndex, lecturerIndex, audioIndex);
-                  lastAudio.play();
-                });
+                setLastPlayedAudio(audioIndex,
+                    lecturerIndex: lecturerIndex,
+                    chapterIndex: widget.chapterIndex);
+                lastAudio.play();
+                widget.player.show();
+                widget.player.play(
+                    urls: chapters[widget.chapterIndex]
+                        .tabList[defaultAudioTabPosition]
+                        .lectureList[lecturerIndex],
+                    index: audioIndex,
+                    names: chapters[widget.chapterIndex]
+                        .tabList[defaultAudioTabPosition]
+                        .lectureList[lecturerIndex],
+                    lecturerName: lecturers[lecturerIndex],
+                    chapterName: chapters[widget.chapterIndex].russianHeader);
               }),
         ));
       }

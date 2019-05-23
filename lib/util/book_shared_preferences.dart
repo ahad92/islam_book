@@ -108,9 +108,15 @@ mixin BookSharedPreferences<T extends StatefulWidget> on State<T> {
     });
   }
 
-  setLastPlayedAudio(
-      int chapterIndex, int lecturerIndex, int audioIndex) async {
+  setLastPlayedAudio(int audioIndex,
+      {int lecturerIndex: -1, int chapterIndex: -1}) async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
+    if (chapterIndex == -1) {
+      chapterIndex = lastAudio.chapterIndex;
+    }
+    if (lecturerIndex == -1) {
+      lecturerIndex = lastAudio.lecturerIndex;
+    }
     setState(() {
       lastAudio = AudioFile(chapterIndex, lecturerIndex, audioIndex);
       prefs.setInt(lastPlayedAudioChapterIndex, chapterIndex);
