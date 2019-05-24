@@ -2,6 +2,7 @@ import 'package:educational_audioplayer/ui/audio_loader.dart';
 import 'package:educational_audioplayer/ui/bottom_player.dart';
 import 'package:flutter/material.dart';
 
+import '../../book_resource/audio.dart';
 import '../../book_resource/book.dart';
 import '../../book_resource/decription.dart';
 import '../../util/book_shared_preferences.dart';
@@ -46,11 +47,7 @@ class _AudioListState extends State<AudioList> with BookSharedPreferences {
     for (int lecturerIndex = 0;
         lecturerIndex < lecturers.length;
         lecturerIndex++) {
-      if (chapters[widget.chapterIndex]
-              .tabList[defaultAudioTabPosition]
-              .lectureList[lecturerIndex]
-              .length >
-          0) {
+      if (audios[widget.chapterIndex][lecturerIndex].length > 0) {
         audioTabList.add(Divider());
         audioTabList.add(ListTile(
           title: Text(lecturers[lecturerIndex],
@@ -69,61 +66,41 @@ class _AudioListState extends State<AudioList> with BookSharedPreferences {
                 onPressed: () {
                   deleteAudios(
                       context: context,
-                      urls: chapters[widget.chapterIndex]
-                          .tabList[defaultAudioTabPosition]
-                          .lectureList[lecturerIndex]);
+                      audios: audios[widget.chapterIndex][lecturerIndex]);
                 }),
             IconButton(
                 icon: Icon(Icons.cloud_download),
                 onPressed: () {
                   loadAudios(
                       context: context,
-                      urls: chapters[widget.chapterIndex]
-                          .tabList[defaultAudioTabPosition]
-                          .lectureList[lecturerIndex],
-                      sizes: [1, 2, 3, 4, 5, 6]);
+                      audios: audios[widget.chapterIndex][lecturerIndex]);
                 })
           ]),
         ));
       }
       for (int audioIndex = 0;
-          audioIndex <
-              chapters[widget.chapterIndex]
-                  .tabList[defaultAudioTabPosition]
-                  .lectureList[lecturerIndex]
-                  .length;
+          audioIndex < audios[widget.chapterIndex][lecturerIndex].length;
           audioIndex++) {
         audioTabList.add(Container(
-          color: (widget.chapterIndex == lastAudio.chapterIndex &&
-                  lecturerIndex == lastAudio.lecturerIndex &&
-                  audioIndex == lastAudio.audioIndex)
+          color: (audios[widget.chapterIndex][lecturerIndex][audioIndex].url ==
+                  lastAudioUrl)
               ? Theme.of(context).highlightColor
               : null,
           child: ListTile(
               leading: AudioIcon(
-                  isSelected: widget.chapterIndex == lastAudio.chapterIndex &&
-                      lecturerIndex == lastAudio.lecturerIndex &&
-                      audioIndex == lastAudio.audioIndex),
+                  isSelected: audios[widget.chapterIndex][lecturerIndex]
+                              [audioIndex]
+                          .url ==
+                      lastAudioUrl),
               title: Text('$resourceLectureRussian ${audioIndex + 1}',
                   style: TextStyle(
                     fontSize: russianFontSize,
                   )),
               onTap: () {
-                setLastPlayedAudio(audioIndex,
-                    lecturerIndex: lecturerIndex,
-                    chapterIndex: widget.chapterIndex);
-                lastAudio.play();
                 widget.player.show();
                 widget.player.play(
-                    urls: chapters[widget.chapterIndex]
-                        .tabList[defaultAudioTabPosition]
-                        .lectureList[lecturerIndex],
-                    index: audioIndex,
-                    names: chapters[widget.chapterIndex]
-                        .tabList[defaultAudioTabPosition]
-                        .lectureList[lecturerIndex],
-                    lecturerName: lecturers[lecturerIndex],
-                    chapterName: chapters[widget.chapterIndex].russianHeader);
+                    audios[widget.chapterIndex][lecturerIndex], audioIndex,
+                    setLastAudioMethodLocal: setLastPlayedAudio);
               }),
         ));
       }

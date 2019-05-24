@@ -3,7 +3,6 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import '../book_resource/book.dart';
 import '../book_resource/decription.dart';
-import 'audio.dart';
 import 'constants.dart';
 
 List<String> bookmarks = List<String>.filled(chapters.length, 'false');
@@ -13,7 +12,7 @@ double russianFontSize = defaultRussianFontSize;
 double arabicFontSize = defaultArabicFontSize;
 List<int> tabsOrder = defaultTabsOrder;
 int lastChapter = 0;
-AudioFile lastAudio = AudioFile(0, 0, 0);
+String lastAudioUrl = '';
 
 mixin BookSharedPreferences<T extends StatefulWidget> on State<T> {
   setBookmark(int chapterIndex) async {
@@ -108,30 +107,25 @@ mixin BookSharedPreferences<T extends StatefulWidget> on State<T> {
     });
   }
 
-  setLastPlayedAudio(int audioIndex,
-      {int lecturerIndex: -1, int chapterIndex: -1}) async {
+  setLastPlayedAudio(url) async {
+    print('setLastPlayedAudio');
     SharedPreferences prefs = await SharedPreferences.getInstance();
-    if (chapterIndex == -1) {
-      chapterIndex = lastAudio.chapterIndex;
-    }
-    if (lecturerIndex == -1) {
-      lecturerIndex = lastAudio.lecturerIndex;
+    if (url == '') {
+      url = lastAudioUrl;
     }
     setState(() {
-      lastAudio = AudioFile(chapterIndex, lecturerIndex, audioIndex);
-      prefs.setInt(lastPlayedAudioChapterIndex, chapterIndex);
-      prefs.setInt(lastPlayedAudioLecturerIndex, lecturerIndex);
-      prefs.setInt(lastPlayedAudioIndex, audioIndex);
+      lastAudioUrl = url;
+      prefs.setString(lastPlayedAudioUrl, url);
     });
+    print(prefs.getString(lastPlayedAudioUrl) ?? '');
   }
 
   getLastPlayedAudio() async {
+    print('getLastPlayedAudio');
     SharedPreferences prefs = await SharedPreferences.getInstance();
     setState(() {
-      lastAudio = AudioFile(
-          prefs.getInt(lastPlayedAudioChapterIndex) ?? 0,
-          prefs.getInt(lastPlayedAudioLecturerIndex) ?? 0,
-          prefs.getInt(lastPlayedAudioIndex) ?? 0);
+      lastAudioUrl = prefs.getString(lastPlayedAudioUrl) ?? '';
     });
+    print(lastAudioUrl);
   }
 }

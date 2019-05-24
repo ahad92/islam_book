@@ -9,8 +9,7 @@ class Chapter {
 class TabDescription {
   final String text;
   final bool isArabic;
-  final List lectureList;
+  final bool isAudio;
 
-  TabDescription(
-      {this.text: null, this.isArabic: false, this.lectureList: null});
+  TabDescription({this.text: null, this.isArabic: false, this.isAudio: false});
 }

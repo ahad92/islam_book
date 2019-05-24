@@ -12,9 +12,7 @@ const double secondaryHeaderFontSizeMultiplier = 0.85;
 const textRowHeight = 1.2;
 
 // audio_tab
-const String lastPlayedAudioChapterIndex = 'lastPlayedAudioChapterIndex';
-const String lastPlayedAudioLecturerIndex = 'lastPlayedAudioLecturerIndex';
-const String lastPlayedAudioIndex = 'lastPlayedAudioIndex';
+const String lastPlayedAudioUrl = 'lastPlayedAudioUrl';
 
 // font_size_setting_dialog
 const int fontSizeDivisionNumber = 9;

@@ -135,23 +135,7 @@ List<Chapter> chapters = [
 </div>
 </div>"""),
       TabDescription(text: """"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/72/download/audio.mp3",
-            "https://toislam.podster.fm/73/download/audio.mp3",
-            "https://toislam.podster.fm/74/download/audio.mp3",
-            "https://toislam.podster.fm/75/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_001.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_002.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_003.mp3",
-          ],
-          [],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -257,29 +241,7 @@ List<Chapter> chapters = [
 <li>Огромное значение вопроса о таухиде.</li>
 <li>Превосходство Муаза ибн Джабаля (да будет доволен им Аллах).</li>
 </ol>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/76/download/audio.mp3",
-            "https://toislam.podster.fm/77/download/audio.mp3",
-            "https://toislam.podster.fm/78/download/audio.mp3",
-            "https://toislam.podster.fm/79/download/audio.mp3",
-            "https://toislam.podster.fm/80/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_004.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_005.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_006.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_007.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_008.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_01a_str_9.mp3",
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_01b_str_16.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -348,26 +310,7 @@ List<Chapter> chapters = [
 <p>18. Значение выражения&nbsp;<strong>&laquo;&hellip;в соответствии с делами его/не смотря на его дела&raquo;</strong></p>
 <p>19. Знание о том, что весы имеют две чаши.</p>
 <p>20. Значение выражения&nbsp;<strong>&laquo;лик Аллаха&raquo;</strong></p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/81/download/audio.mp3",
-            "https://toislam.podster.fm/82/download/audio.mp3",
-            "https://toislam.podster.fm/83/download/audio.mp3",
-            "https://toislam.podster.fm/84/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_009.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_010.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_011.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_012.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_02_str_23.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -438,25 +381,7 @@ List<Chapter> chapters = [
 <p>20. Превосходство &lsquo;Уккаши.</p>
 <p>21. Использование иносказательных выражений в речи.</p>
 <p>22. Прекрасная этика посланника Аллаха, да благословит его Аллах и приветствует.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/85/download/audio.mp3",
-            "https://toislam.podster.fm/86/download/audio.mp3",
-            "https://toislam.podster.fm/87/download/audio.mp3",
-            "https://toislam.podster.fm/88/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_013.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_014.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_015.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_03_str_34.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -529,24 +454,7 @@ List<Chapter> chapters = [
 <p>9. Урок, который извлёк Ибрахим из положения большинства людей, что видно из его слов:&nbsp;<strong>&laquo;Господь мой! Они ведь ввели в заблуждение многих людей&hellip;&raquo;</strong>&nbsp;(Сура 14-&laquo;Ибрахим&raquo;, 36 аят).</p>
 <p>10. Толкование в этой главе слов&nbsp;<em>&laquo;нет божества, достойного поклонения, кроме Аллаха&raquo;</em>как об этом упомянул аль-Бухари.</p>
 <p>11. Превосходство того, кто спасся от ширка.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/89/download/audio.mp3",
-            "https://toislam.podster.fm/90/download/audio.mp3",
-            "https://toislam.podster.fm/91/download/audio.mp3",
-            "https://toislam.podster.fm/92/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_016.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_017.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_04_str_42.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -591,25 +499,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Призыв к Аллаху &mdash; это путь тех, кто последовал за посланником Аллаха, да благословит его Аллах и приветствует.<br />2. Обращается внимание на искренность, ибо многие люди, призывая к истине, делают это ради собственных интересов.<br />3. Знание является одним из обязательных предписаний (в призыве).<br />4. Свидетельством красоты таухида является отдаление всего дурного от Всевышнего Аллаха.<br />5. Одной из безобразных черт ширка является то, что он представляет собой оскорбление Аллаха.<br />6. Одним из важнейших вопросов является необходимость отстранения мусульманина от мушриков, чтобы он не заразился ширком, даже в том случае, если он не приобщает к Аллаху ничего и никого.<br />7. Таухид является первейшей обязанностью людей.<br />8. Призыв к религии начинается в первую очередь с таухида, даже прежде Намаза.<br />9. Смысл слов&nbsp;<strong>&laquo;Призови их к таухиду Аллаха&raquo;</strong>&nbsp;заключается в свидетельстве&nbsp;<em>&laquo;нет божества, достойного поклонения, кроме Аллаха&raquo;.</em><br />10. Человек может принадлежать к обладателям Писания, но не знать этого свидетельства, либо знать, но не действовать в соответствии с ним.<br />11. Указание на необходимость постепенного обучения людей.<br />12. Необходимость начинать с самого главного.<br />13. Принцип расходования средств закята.<br />14. Учёному следует развеять недопонимания обучаемого.<br />15. Запрещение брать закят из отборного имущества.<br />16. Предписание бояться мольбы угнетённого.<br />17. Возвещение о том, что между мольбой угнетённого и Аллахом нет преграды.<br />18. Одной из закономерностей таухида являются те трудности, голод и массовые беды, которым подвергались господин всех посланников, да благословит его Аллах и приветствует, и лучших угодников Аллаха.<br />19. Слова&nbsp;<strong>&laquo;&hellip;я вручу знамя&hellip;&raquo;</strong>&nbsp;представляют собой одно из доказательств пророчества.<br />20. Плевание в глаза Али &mdash; также одно из доказательств пророчества.<br />21. Достоинство Али.<br />22. Бессонная ночь сподвижников и обсуждение ими доброй вести о победе свидетельствуют об их праведности.<br />23. Вера в предопределение, заключающееся в том, что знамя получил тот, кто не стремился к нему, а тому, кто стремился получить его, оно не досталось.<br />24. То, что Пророк, да благословит его Аллах и приветствует, учил правилам повидения при джихаде, в его словах:&nbsp;<strong>&laquo;Иди со спокойствием&hellip;&raquo;</strong>&nbsp;.<br />25. Призыв к Исламу перед началом боевых действий.<br />26. Необходимость этого даже для тех, кого раньше уже призывали и с кем воевали.<br />27. Мудрость ведения призыва, так как Пророк, да благословит его Аллах и приветствует, сказал:&nbsp;<strong>&laquo;&hellip;сообщи им то, что они обязаны делать&hellip;&raquo;</strong><br />28. Знание прав Аллаха в Исламе.<br />29. Награда тому, кто способствовал наставлению на путь истинный хотя бы одного человека.<br />30. Допустимость клятвы при вынесении фетвы.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/93/download/audio.mp3",
-            "https://toislam.podster.fm/94/download/audio.mp3",
-            "https://toislam.podster.fm/95/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_018.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_019.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_020.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_021_konsultacia.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_05_str_51.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -692,25 +582,7 @@ List<Chapter> chapters = [
  <p>4. Из тех вещей, которые разъясняют таухид, это слова возлюбленного (мир ему), с которыми он обратился к неверующим:&nbsp;<strong>&laquo;Поистине, я отрекаюсь от того, чему вы поклоняетесь, кроме Того, Кто создал меня&raquo;</strong>, исключив из всех кому поклоняются только своего Господа. И Всевышний упомянул, что вот это отречение и устремление (к Аллаху), это и есть тафсир свидетельства &laquo;Ля иляха илля Аллах&raquo; и сказал:&nbsp;<strong>&laquo;И сделал это словом, которое осталось в потомстве его, может быть они вернутся к этому слову&raquo;</strong></p>
  <p>5. Из тех вещей, которые разъясняют таухид, это аят из суры &laquo;аль-Бакакра&raquo; о неверующих, о которых Аллах сказал:&nbsp;<strong>&laquo;И они никогда не выйдут из адского огня&raquo;</strong> И упомянул, что они любят тех, кого приравнивают Аллаху, так, как любят Аллаха. Это указывает на то, что они любят Аллаха большой любовью, но это не ввело их в Ислам. Что же тогда говорить о том, кто любит тех, кого приравнивают Аллаху, больше чем Аллаха?! А что же тогда сказать про того, кто любит только тех, кого приравнивают Аллаху, и не любит Аллаха?!</p>
  <p>6. Из тех вещей, которые разъясняют таухид, это слова пророка (мир ему и благословение Аллаха):&nbsp;<strong>&laquo;Будет неприкосновенным имущество и жизнь того, кто сказал &laquo;нет никого достойного поклонения, кроме Аллаха&raquo; и отрёкся от поклонения всему, кроме Аллаха&raquo;</strong> Это является самым главным доводом, разъясняющим смысл &laquo;Ля иляха илля Аллах&raquo;. Потому что, он не сделал произнесение шахады достаточным для спасения, и даже знание смысла шахады вместе с произнесением, и даже подтверждение этого, и даже то, что он поклоняется только одному Аллаху и не придает Ему сотоварищей, до тех пор, пока ко всем перечисленным не прибавит отречение/неверие от/в того/то, чему поклоняются помимо Аллаха, а если засомневается или воздержится, то не спасется.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/96/download/audio.mp3",
-            "https://toislam.podster.fm/97/download/audio.mp3",
-            "https://toislam.podster.fm/98/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_022.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_023.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_024.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_06a_str_61.mp3",
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_06b_str_66.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -776,24 +648,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Строгое порицание ношения колец, шнурков и других амулетов, так как это считается ширком.<br />2. Слова Пророка, да благословит его Аллах и приветствует, о том, что сподвижник, о котором говорится в хадисе, не достиг бы счастья, если бы умер с кольцом на руке. Это подтверждает высказывание сподвижников о том, что малый ширк хуже смертных грехов.<br />3. Невежество не может служить этому оправданием.<br />&mdash; Оправдание по невежеству<br />4. Амулет не только не приносит пользы в этом мире, но и вредит, поскольку Пророк, да благословит его Аллах и приветствует, сказал:&nbsp;<strong>&laquo;&hellip;ибо оно лишь увеличивает твою слабость&raquo;</strong><br />5. Строгое порицание тех, кто поступает подобным образом.<br />6. Разъяснение того, что тот, кто носит что-либо подобное (и связывает свое сердце с ним), будет доверян этому предмету.<br />7. Разъяснение того, что тот, кто надел на себя амулет, совершил ширк.<br />8. Подвязывание шнурка от лихорадки также является ширком.<br />9. Чтение Хузейфой аята свидетельствует о том, что сподвижники Пророка, да благословит его Аллах и приветствует, использовали аяты Корана, относящиеся к большому ширку, в качестве доказательства для выявления и осуждения малого ширка, как упомянул об этом Ибн Аббас в отношении аята из суры &laquo;аль-Бакара&raquo;.<br />10. Навешивание на себя ракушку от сглаза также является ширком.<br />11. Дуа пророка, да благословит его Аллах и приветствует, против того, кто повесил на себя амулет, с тем чтобы Аллах не дал ему благого конца, и того, кто повесил на себя ракушку, с тем что бы Аллах не дал ему спокойствие, означает, что Аллах отказался от таких людей.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/99/download/audio.mp3",
-            "https://toislam.podster.fm/100/download/audio.mp3",
-            "https://toislam.podster.fm/101/download/audio.mp3",
-            "https://toislam.podster.fm/102/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_025.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_026.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_07_str_70.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -864,25 +719,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Смысл понятий &laquo;рукъя&raquo; и &laquo;тамима&raquo;.<br />2. Смысл понятия &laquo;тиуаля&raquo;.<br />3. Все эти три понятия относятся к ширку.<br />4. Исключением является только заклинание из истинных слов от дурного глаза и укуса (змеи или скорпиона).<br />5. Если амулет представляет собой аяты Курана, то мнения учёных по поводу того, является ли это ширком или нет, разделились.<br />6. Навешивание ожерелий из тетивы на верховых животных является ширком.<br />7. Грозное предупреждение тому, кто повесил на себя ожерелье из тетивы.<br />8. Достоинства награды того, кто сорвал с человека амулет.<br />9. Слова Ибрахима (ан-Наха&rsquo;и) не противоречат сказанному выше, поскольку он имел в виду последователей Абдуллы ибн Масуда.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/103/download/audio.mp3",
-            "https://toislam.podster.fm/104/download/audio.mp3",
-            "https://toislam.podster.fm/105/download/audio.mp3",
-            "https://toislam.podster.fm/106/download/audio.mp3",
-            "https://toislam.podster.fm/107/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_027.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_028.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_08_str_77.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -931,25 +768,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Тафсир 19&mdash;23 аятов из суры &laquo;ан-Наджм&raquo;.<br />2. Знание о виде просьбы, что они требовали.<br />3. Однако они этого не совершили.<br />4. Их цель состояла в том, чтобы тем самым приблизиться к Аллаху, поскольку они предполагали, что Ему это любимо.<br />5. Если им это не было известно, то другие были ещё более невежественны.<br />6. За ними есть добрые дела и обещание прощения от Аллаха, чего нет у других.<br />7. Пророк, да благословит его Аллах и приветствует, не оправдал их, а ответил им следующими словами:&nbsp;<strong>&laquo;Аллах Акбар! Это всё обычаи прошлого!.. Поистине, вы следуете обычаям тех, кто были прежде вас!&raquo;</strong>&nbsp;И жестко порицал их дело тремя изложенными пунктами.<br />8. Великий вопрос, в котором заключается суть (порицания), что он, да благословит его Аллах и приветствует, сообщил им что их просьба подобно просьбе сынов Исраиля, когда они сказали Мусе:&nbsp;<strong>&laquo;Сделай и нам божество &mdash; такое же, как и у них&raquo;</strong><br />9. Отрицание этого содержится в смысле слов &laquo;<em>Ля иляха илля Аллах</em>&raquo;, однако, это было для них тонким и скрытым вопросом.<br />10. Пророк, да благословит его Аллах и приветствует, поклялся при вынесении фетвы, а он клялся только если в этом есть польза.<br />11. Ширк имеет большую и малую форму, поскольку они не вышли из Ислама после того как попросили пророка сделать им дерево, подобно дереву мушриков.<br />12. Их слова: &laquo;<em>Мы были ещё новыми мусульманами, недавно отказавшимися от неверия</em>&raquo;, свидетельствуют о том, что другим сподвижникам это было известно.<br />13. Возвеличивание Аллаха при удивлении, вопреки тому, что некоторые порицают это.<br />14. Перекрытие путей (ведущих к греху).<br />15. Запрет уподобляться людям времён джахилиййи.<br />16. Проявление гнева при обучений.<br />17. Общее правило в силу сказанного &laquo;<strong>Это всё обычаи&hellip;</strong>&raquo;<br />18. Это является одним из пророческих возвещений, поскольку случилось именно так, как было возвещено.<br />19. Всё, за что Аллах порицал иудеев и христиан в Куране, относится и к мусульманам.<br />20. У них установлено, что обряды поклонения основаны на приказе. И здесь есть указание на вопросы в могиле. Что касается вопроса &laquo;<em>Кто Господь твой?</em>&raquo;, то ответ ясен. Что касается вопроса &laquo;<em>Кто пророк твой?</em>&raquo;, то им является тот, кто возвещает им сокровенное. Что же касается вопроса &laquo;<em>Какова твоя религия?</em>&raquo;, то это выясняется из их слов &laquo;<em>Сделай и нам Зату-Ануат&hellip;</em>&raquo; и т.д.<br />21. Путь обладателей Писания осуждается так же, как и путь мушриков.<br />22. У тех людей, которые только перешли от лжи, на котором они пребывали долгое время, к истине, нельзя дать гарантию что в их сердцах не осталось остатки прежних обычаев. Как это видно из слов: &laquo;<em>&hellip;мы были ещё новыми мусульманами, недавно отказавшимися от неверия&hellip;</em>&raquo;.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/108/download/audio.mp3",
-            "https://toislam.podster.fm/109/download/audio.mp3",
-            "https://toislam.podster.fm/110/download/audio.mp3",
-            "https://toislam.podster.fm/111/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_029.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_030.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_031.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_09_str_88.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -1000,27 +819,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Смысл аята&nbsp;<strong>&laquo;Скажи: &laquo;Поистине, мой намаз и моё жертвоприношение&hellip;&raquo;&raquo;</strong>&nbsp;(Сура 6-&laquo;аль-Ан&rsquo;ам&raquo;, 162&mdash;163 аяты).<br />2. Смысл аята&nbsp;<strong>&laquo;Посему совершай намаз ради своего Господа и закалывай жертву&raquo;</strong>(Сура 108-&laquo;аль-Каусар&raquo;, 2 аят).<br />3. Первым проклинается тот, кто приносит жертву не Аллаху.<br />4. &laquo;<strong>Аллах проклял того, кто проклял своих родителей</strong>&laquo;. К этому относится и то, когда ты проклинаешь родителей кого-то, то он, в свою очередь, проклинает твоих родителей.<br />5. &laquo;<strong>Аллах проклял того, кто предоставляет кров человеку, совершившему ересь</strong>&raquo; и тем самым нарушившему право Аллаха. Если кто-то скрывает подобного человека, тем самым он оказывает ему содействие.<br />6. &laquo;<strong>Аллах проклял того, кто изменил границы раздела земли</strong>&laquo;, нарушая тем самым право соседа на землю.<br />7. Различие между проклятием определённого человека и проклятием грешников в общем.<br />8. Огромное значение хадиса о жертвоприношении мухи идолу.<br />9. Человек попал в Огонь из-за принесённой в жертву мухи, чего он вовсе не хотел, но сделал это для того, чтобы избавиться от зла тех людей.<br />10. Знание ширка и величины его греха в сердцах верующих. Второй человек стойко встретил смерть, не уступив требованиям идолопоклонников, хотя они хотели от него чисто внешнего действия.<br />11. Тот, кто попал в Огонь, был мусульманином, так как если бы он был неверным, то о нём не было бы сказано, что он попал в Огонь из-за одной мухи.<br />12. В этом есть свидетельство достоверного хадиса:&nbsp;<strong>&laquo;Рай ближе к вам, чем шнурок ваших сандалий, и Огонь на таком же расстоянии от вас&raquo;</strong> (Аль-Бухари 11/275, Ахмад 1/387, 413 и 442 от Ибн Масуда).<br />13. Знание того, что действие, совершённое велением сердца, является величайшей целью даже у идолопоклонников.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/112/download/audio.mp3",
-            "https://toislam.podster.fm/113/download/audio.mp3",
-            "https://toislam.podster.fm/114/download/audio.mp3",
-            "https://toislam.podster.fm/115/download/audio.mp3",
-            "https://toislam.podster.fm/116/download/audio.mp3",
-            "https://toislam.podster.fm/117/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_032.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_033.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_034.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_10_str_94.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -1045,22 +844,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Смысл высказывания Аллаха&nbsp;<strong>&laquo;&hellip;Не стой в ней [в мечети Дырар] никогда&hellip;&raquo;</strong>&nbsp;(Сура 9-&laquo;ат-Тауба&raquo;, 108 аят).<br />2. Грех и неповиновение оказывают воздействие и на землю, так же, как и подчинение.<br />3. Возвращать неясный вопрос в разряд ясных для преодоления его неясности.<br />4. Выяснение муфтия подробностей у спрашивающего при необходимости.<br />5. Является дозволенным конкретизировать определенное место для исполнения обета, если в данном месте не имеется никаких шариатских препятствий.<br />6. Этого делать не разрешается, если в данном месте находился один из языческих идолов, даже если это было в прошлом.<br />7. Это не дозволено также в том случае, если в данном месте проходил &rsquo;иид (т.е. постоянные собрания) язычников, даже если это и было в прошлом.<br />8. Исполнять обет в данном месте нельзя, так как такой обет является греховным.<br />9. Запрет уподобляться мушрикам в их &rsquo;иидах (в их празднествах), даже если это происходит непреднамеренно.<br />10. Нельзя давать обет в неповиновении Аллаху или грехе.<br />11. Сын Адама не должен давать обет в том, чем он не владеет.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/118/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_035.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_036.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_037.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_11_str_102.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -1093,20 +877,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Необходимость быть верным данному обету.<br />2. Если доказано, что обет является обрядом поклонения, то его обращение не к Аллаху, а к чему-либо другому, является ширком.<br />3. Нельзя исполнять обет, данный в неповиновении Аллаху.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/119/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_038.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_12_str_106.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -1152,22 +923,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Тафсир 6 аята из суры &laquo;аль-Джин&raquo;.<br />2. Прибегать за защитой к кому-либо, помимо Аллаха, является ширком.<br />3. Это подтверждается и приведённым хадисом, которую учёные использовали в качестве аргумента в пользу того, что слова Аллаха не являются сотворенными, потому что прибегать за защитой к созданиям является ширком.<br />4. Достоинство этой молитвы, несмотря на её краткость.<br />5. Если что-то приносит мирскую выгоду, отвращая зло или принося пользу, то это ещё не свидетельствует об отсутствии в этом ширка.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/120/download/audio.mp3",
-            "https://toislam.podster.fm/121/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_039.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_040.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_13_str_109.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -1224,25 +980,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Употребление слова &laquo;<em>дуа</em>&raquo; после слова &laquo;<em>истигъоса</em>&raquo; в названии главы является принятым в арабском языке употреблением общего смысла после частного.<br />2. Тафсир слов Аллаха:&nbsp;<strong>&laquo;Не взывай помимо Аллаха к тем, которые не могут принести тебе ни пользы, ни вреда!&raquo;</strong>&nbsp;(Сура 10-&laquo;Йунус&raquo;, 106 аят).<br />3. Это является большим ширком.<br />4. Если даже самые праведные люди сделают это, ища благосклонности кого-нибудь другого, то они тем самым становятся беззаконниками (т.е. мушриками).<br />5. Смысл следующего аята.<br />6. Мало того что это является куфром, к тому же не приносит мирскую выгоду.<br />7. Смысл третьего аята.<br />8. Просить удела следует только у Аллаха, точно так же, как испрашивать Рая можно только у Него.<br />9. Смысл четвёртого аята.<br />10. Нет более заблуждающегося, чем тот, кто поклоняется или взывает с мольбой не к Аллаху.<br />11. Тот, к кому взывают помимо Аллаха, не внимает мольбе взывающего, поскольку он не знает об этом.<br />12. Подобная мольба является причиной гнева того, к кому взывают, по отношению к взывающему, а также его вражды к нему.<br />13. Такой вид взывания является поклонением в отношений того, к кому взывают.<br />14. Отказ того, к кому взывают, от подобного поклонения.<br />15. В этом и состоит причина того, что он является самым заблудшим.<br />16. Смысл пятого аята.<br />17. Как ни странно, идолопоклонники считают, что в беде на мольбу ответит только Аллах, и поэтому при любом несчастье они взывают именно к Нему, будучи искренними в своей вере в Него.<br />18. Защита избранным Пророком, да благословит его Аллах и приветствует, неприкосновенности таухида и его праведное поведение в отношении Аллаха.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/122/download/audio.mp3",
-            "https://toislam.podster.fm/123/download/audio.mp3",
-            "https://toislam.podster.fm/124/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_041.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_042.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_043.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_044_konsultacia.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_14_str_113.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -1305,24 +1043,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Тафсир двух аятов из суры &laquo;аль-Араф&raquo; и суры &laquo;Фарыт&raquo;.<br />2. История, случившаяся при битве Ухуд.<br />3. Ду&rsquo;а кунут во время намаза господина всех посланников, да благословит его Аллах и приветствует, и его праведных последователей, стоявших за ним и говоривших &laquo;Аминь!&raquo;<br />4. Все проклинаемые были неверными.<br />5. Они творили такие действия, которых не делали большинство неверных, в том числе &mdash; разбили лицо Пророка, да благословит его Аллах и приветствует, и хотели убить его. Они также надругались над убитыми, хотя те были их родственниками.<br />6. Аллах ниспослал ему по этому поводу следующий аят:&nbsp;<strong>&laquo;Ничего от тебя не зависит &hellip;&raquo;</strong>&nbsp;(Сура 3-&laquo;Аали Имран&raquo;, 128 аят).<br />7. Затем было ниспослано:&nbsp;<strong>&laquo;&hellip;примет ли Он их покаяние, или покарает их&hellip;&raquo;</strong>&nbsp;(Сура 3-&laquo;Аали Имран&raquo;, 128 аят). И действительно Аллах смилостивился над ними, приняв их покаяние, и они уверовали.<br />8. Ду&rsquo;а кунут при беде.<br />9. Проклинаемые были названы в мольбе по именам и именам их отцов.<br />10. Проклятие определённого человека при совершении ду&rsquo;а кунут.<br />11. Повествование о действиях Пророка, да благословит его Аллах и приветствует, когда ему было ниспослано:&nbsp;<strong>&laquo;И увещевай ближайших родственников своих&raquo;</strong> (Сура 26-&laquo;аш-Шу&rsquo;ара&raquo;, 214 аят).<br />12. Усердие Пророка, да благословит его Аллах и приветствует, в выполнении этого приказа (призыва) не смотря на то, что люди приписали ему состояние ненормальности. То же самое произойдёт, если это сделает какой-либо мусульманин в наши дни.<br />13. Как близким и дальним родственникам пророк, да благословит его Аллах и приветствует, обращался с призывом: &laquo;<em>Я ничем не могу тебе помочь перед Аллахом!</em>&raquo; Он даже сказал: &laquo;<em>О Фатима, дочь Мухаммада!.. Я ничем не могу тебе помочь перед Аллахом!</em>&raquo; Если это заявил господин всех посланников, да благословит его Аллах и приветствует, утверждая, что он ничем не может помочь своей дочери, госпоже женщин всех миров, и если человек верит в то, что посланник Аллаха, да благословит его Аллах и приветствует, говорит только правду, а затем посмотрит, что заполняет сегодня сердца избранных людей, то он чётко осознает, что такое таухид и что такое отчуждение от религии.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/125/download/audio.mp3",
-            "https://toislam.podster.fm/126/download/audio.mp3",
-            "https://toislam.podster.fm/127/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_045.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_046.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_047.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_15_str_123.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -1351,23 +1072,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Тафсир 23 аята из суры &laquo;Саба&raquo;.<br />2. В этом аяте содержится обоснование недействительности ширка, в особенности касающегося праведников. Про этот аят сказано, что он подрубает дерево ширка в самом его основании.<br />3. Тафсир высказывания Аллаха:&nbsp;<strong>&laquo;Они ответят: &laquo;Истину, ведь Он &mdash; Всевышний, Великий!&raquo;</strong>&nbsp;(Сура 34-&laquo;Саба&raquo;, 23 аят).<br />4. Причина их испрашивания об этом.<br />5. Джибриль отвечает им после этого: &laquo;Он сказал то-то и то-то&raquo;.<br />6. Упомянуто, что первым, кто поднимает голову, является Джибриль.<br />7. Он обращается ко всем обитателям Небес, поскольку они испрашивают его.<br />8. Все обитатели Небес повергаются ниц пред Аллахом.<br />9. Небеса содрогаются слыша речь Аллаха.<br />10. Джибриль передает Божественное откровение туда, куда повелел ему Аллах.<br />11. Упоминание о подслушивании шайтанов.<br />12. Описание расположения одних из них над другими.<br />13. Посылание падающих звёзд.<br />14. Иногда шайтан сбивается падающей звездой прежде, чем он передаёт откровение нижестоящему, а иногда откровение передаётся до того, как звезда сбивает его, пока оно не доходит таким образом до колдуна.<br />15. Прорицатель иногда может говорить правду.<br />16. Вместе с этой правдой он распространяет сотню неправд и измышлений.<br />17. Ложь принимается только из-за слова, ниспосланного с Небес.<br />18. Принятие душами лжи: они цепляются за одно, а целую сотню не берут в расчёт.<br />19. Одни передают другим ниспосланное слово, заучивают его и опираются на него.<br />20. Утверждение Божественных качеств в отличие от муаттылитов (ашаритов-муаттылитов).<br />21. Указание на то, что причиной всеобщего потрясения является страх пред Аллахом, Всемогущ Он и Велик.<br />22. Они падают ниц пред Аллахом.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/128/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_048.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_049.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_050.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_051.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_16_str_134.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -1427,25 +1132,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Тафсир аятов из этой главы.<br />2. Характеристика отвергаемого заступничества.<br />3. Характеристика утверждённого заступничества.<br />4. Упоминание великого заступничества пророка, мир ему и благословения Аллаха, удостоенного &laquo;восхваляемого места&raquo; у Аллаха.<br />5. Описание действий Пророка, да благословит его Аллах и приветствует, который сам не начинает заступничество, а делает это только когда получает на это дозволение Аллаха.<br />6. Кто является самым счастливым из людей, заслуживших ходатайство Пророка, да благословит его Аллах и приветствует.<br />7. Ходатайство недопустимо в отношении тех, которые приобщают равных к Аллаху.<br />8. Разъяснение истинной сущности заступничества.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/129/download/audio.mp3",
-            "https://toislam.podster.fm/130/download/audio.mp3",
-            "https://toislam.podster.fm/131/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_052.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_053.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_054.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_055.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_17_str_141.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -1490,26 +1177,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Тафсир аята:&nbsp;<strong>&laquo;Поистине, ты не наставишь на правильный путь тех, кого возлюбил (или тех, для кого ты любишь прямой путь)&hellip;&raquo;</strong>&nbsp;(Сура 28-&laquo;аль-Касас&raquo;, 56 аят).<br />2. Тафсир высказывания Всевышнего:&nbsp;<strong>&laquo;Не подобает пророку&hellip;&raquo;</strong>&nbsp;(Сура 9-&laquo;ат-Тауба&raquo;, 113 аят).<br />3. Важным вопросом является понимание слов пророка, мир ему и благословения Аллаха: &laquo;<strong>Скажи: &laquo;Нет никого достойного поклонения, кроме Аллаха&raquo;&hellip;</strong>&raquo; как опровержение тем, кто заявляет о знании этого.<br />4. Абу Джахль и те, кто были с ним, прекрасно знали, чего хотел Пророк, да благословит его Аллах и приветствует, который, войдя, сказал умирающему: &laquo;<strong>Скажи: &laquo;Нет никого достойного поклонения, кроме Аллаха&raquo;</strong>&hellip;. Да унизит Аллах тех, кто не понимает из основ Ислама то, чего понимал Абу Джахль!<br />5. Усердие Пророка, да благословит его Аллах и приветствует, в его воззвании к своему умирающему дяде, чтобы он хотя бы перед смертью принял Ислам.<br />6. Опровержение тем, кто утверждает что Абу Талиб принял Ислам.<br />7. Пророк, да благословит его Аллах и приветствует, испрашивал прощения для него, однако прощение не было дано, а самому Пророку, да благословит его Аллах и приветствует, было запрещено делать это.<br />8. Вред дурного общества для человека.<br />9. Вред возвеличивания предков и знатных людей.<br />10. Этим руководствуются невежественные люди.<br />11. Свидетельство того, что деяния оцениваются по заключительным делам. Если бы Абу Талиб сказал то, к чему его призывали, то это принесло бы ему благо.<br />12. Размышление о глубине этого сомнения в сердцах заблуждающихся, так как в упомянутом хадисе они спорят с Пророком, да благословит его Аллах и приветствует, который усиливал и повторял свой призыв именно с этой позиции. Учитывая силу и отчётливость этого сомнения, они ограничились им.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/132/download/audio.mp3",
-            "https://toislam.podster.fm/133/download/audio.mp3",
-            "https://toislam.podster.fm/134/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_056.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_057.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_058.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_059_konsultacia_1.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_060_konsultacia_2.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_18_str_153.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -1576,27 +1244,7 @@ List<Chapter> chapters = [
           text:
               """<p>1. Для того, кто поймет эту и две последующие главы этой книги, становится ясным искажение истинной сущности Ислама и причины его чуждости в наши дни, а также увидит нечто удивительное из могущества Аллаха в отклонении сердец.<br />2. Знание того, что первый ширк на Земле появился по причине возвеличивания праведников.<br />3. Знание того, что было первым, изменившим религию пророков, причины этого и знание того, что Аллах направил посланников для очищения Его религии.<br />4. Знание того, что люди принимают нововведения в религий, хотя законоположения Аллаха и природа человека отвергают это.<br />5. Причина этого [ширка, бид&rsquo;ата.&mdash; Ред.] заключается в смешении истины с ложью. Сначала была любовь к праведникам. Затем, ученые начали делать то, что, по их мнению, принесёт добро, однако последующие поколения сочли, что они тем самым хотели другого (т.е. поклонения).<br />6. Тафсир 23 аята из суры &laquo;Нух&raquo;.<br />7. Знание врождённого качества человека, заключающегося в том, что истина уменьшается в сердце его, а ложь возрастает.</p>
  <p>8. В этом есть подтверждение того, что сказали некоторые саляфы о том, что нововведение (бид&rsquo;а) является причиной неверия.<br />9. Знание Шайтаном того, к чему приводит бид&rsquo;а, даже если делающий это и преследует самую добрую цель.<br />10. Ознакомление с универсальным правилом, запрещающим возвеличивание творений и знание того, к чему это ведёт.<br />11. Вред совершения обрядов поклонения на могиле с целью совершения праведного деяния.<br />12. Знание запрета на сооружение памятников и мудрость в их уничтожении.<br />13. Знание огромного значения истории о праведных людях из народа Нуха и крайняя необходимость их изучения, наряду с тем, что многие люди не знают о ней, либо не обращают на неё внимания.<br />14. Самым удивительным является то, что сторонники нововведений читали эту историю в толкованиях Курана и хадисах, однако еще удивительней тот факт, что они поняли её смысл таким образом, что действия народа Нуха представляют собой наилучшее поклонение. И взяли в убеждение то, что запретил Аллах и Его посланник, да благословит его Аллах и приветствует, и то, что является неверием, которое лишает неприкосновенности жизни и имущество того, кто его совершает.<br />15. Указание на то, что им нужно было только их заступничество.<br />16. Они думали что учёные, нарисовавшие изображения праведников, также хотели именно этого.<br />17. Великое разъяснение в словах Пророка: &laquo;<strong>Не возвеличивайте меня так, как это делают христиане с сыном Марйам&hellip;&raquo;</strong>&nbsp;Да благословит Аллах и ниспошлёт мир тому Пророку, который довел нам ясное возвещение!<br />18. Наставление Пророка, да благословит его Аллах и приветствует, предупредившего нас о гибели излишествующих.<br />19. Указание на то, что им не поклонялись, пока знание о них не было забыто. Отсюда становится ясной польза знания и опасность его потери.<br />20. Причина исчезновения знания это смерть учёных.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/135/download/audio.mp3",
-            "https://toislam.podster.fm/136/download/audio.mp3",
-            "https://toislam.podster.fm/137/download/audio.mp3",
-            "https://toislam.podster.fm/138/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_061.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_062.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_063.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_064.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_065.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_19_str_158.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -1649,26 +1297,7 @@ List<Chapter> chapters = [
           text:
               """<p>1. Слова посланника Аллаха, да благословит его Аллах и приветствует, по поводу тех, кто строит места для поклонения Аллаху на могилах праведников, даже если это делается из добрых побуждений.<br />2. Запрещение создавать скульптуры и изображения и серьёзное предупреждение тем, кто занимается созданием подобных предметов.<br />3. Полезный урок в наставлении Пророка, да благословит его Аллах и приветствует, по этому поводу, который сначала разъяснил это своим сподвижникам, затем за пять дней до смерти сказал то, что изложено ниже, и даже будучи при смерти не довольствовался тем, что сделал ранее.<br />4. Пророк, мир ему и благословения Аллаха, запрещал делать что-либо подобное на его могиле еще тогда, когда её еще и не было.<br />5. Подобные действия, то есть возведение мест для поклонения на могилах пророков, являются обычаями иудеев и христиан.<br />6. Пророк, да благословит его Аллах и приветствует, проклял их за это.<br />7. Тем самым он хотел предупредить нас в отношении своей могилы.<br />8. Причина захоронения Пророка, да благословит его Аллах и приветствует, в закрытом месте.<br />9. Понимание превращения могилы в место поклонения.<br />10. Он, да благословит его Аллах и приветствует, упомянул превращающих могилы в места поклонения наряду с теми, кого застанет Судный День, будучи живым. Он указал на путь, ведущий к ширку, ещё до его появления, а также показал его конечный исход.</p>
  <p>11. В своей хутбе которую он сделал за пять дней до смерти Пророк, да благословит его Аллах и приветствует, опроверг взгляды двух заблудших течений, члены которых являются самыми наихудшими еретиками. Некоторые учёные даже исключили их из 72 заблудших течений. Речь идёт о&nbsp;<strong>джахмитах&nbsp;</strong>и&nbsp;<strong>рафидитах</strong>&nbsp;<strong>Именно из-за рафидитов среди мусульман возродился ширк и поклонение могилам, на которых они первыми начали возводить мечети</strong><br />12. Предсмертные муки Пророка, да благословит его Аллах и приветствует.<br />13. Оказанная ему высокая честь быть халил Аллаха.<br />14. Разъяснение того, что это (хулля) больше, чем просто любовь(махабба).<br />15. Указание на то, что Абу Бакр ас-Сиддик, да будет доволен им Аллах, является наилучшим из сподвижников Пророка, да благословит его Аллах и приветствует.<br />16. Указание на то, что он будет преемником власти &mdash; халифом посланника Аллаха, да благословит его Аллах и приветствует.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/139/download/audio.mp3",
-            "https://toislam.podster.fm/140/download/audio.mp3",
-            "https://toislam.podster.fm/141/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_066.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_067.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_068.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_069.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_070.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_20_str_168.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -1699,21 +1328,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Смысл понятия &laquo;уасан&raquo;.<br />2. Определение понятии &laquo;поклонение&raquo;.<br />3. Пророк, да благословит его Аллах и приветствует, взывал к Аллаху о помощи только в том случае, когда боялся, что действительно может произойти.<br />4. Так же он добавил в дуа превращение могил пророков в мечети.<br />5. Упоминание о сильном гневе Аллаха.<br />6. Важнейшим вопросом можно считать знание причины поклонения ал-Лат, который был одним из главных идолов древних арабов.<br />7. Знание того, что этим идолом являлась могила праведного человека.<br />8. Знание того, что ал-Лат &mdash; это имя находящегося в могиле, и упоминание почему его так именовали. (По мнению многих учёных, среди которых Ибн Аббас и Муджахид, имя ал-Лат (или ал-Латт) происходит от арабского глагола &laquo;латта&raquo;, одним из значений которого является &laquo;готовить кашу&raquo;, что и явилось истинной причиной его имени).<br />9. Проклятие Пророком, да благословит его Аллах и приветствует, женщин, постоянно посещающих могилы.<br />10. Проклятие им тех, кто зажигает на могилах светильники.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/142/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_071.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_072.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_21_str_178.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -1740,21 +1355,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Тафсир 128 и 129 аятов из суры &laquo;ат-Тауба&raquo;.<br />2. Максимальное отдаление Пророком, да благословит его Аллах и приветствует, своей общины от нарушения границ окрестностей таухида.<br />3. Упоминание о его внимании, сострадании и милосердии к нам.<br />4. Его запрещение посещать его могилу с особой целью, хотя посещение его могилы является одним из самых лучших деяний.<br />5. Его запрет на частые посещения могил.<br />6. Пророк, да благословит его Аллах и приветствует, побуждал совершать дополнительные намазы дома.<br />7. У саляфов было общеизвестно что намаз не совершается около могил.<br />8. Обосновывается это тем, что испрашиваемые для него благословение и мир достигнут его из любого места, даже самого отдалённого, и поэтому нет необходимости в вымыслах тех, кто ищет приближения к нему.<br />9. Находясь за барьером этой жизни &mdash; в барзахе &mdash; Пророку, да благословит его Аллах и приветствует, представляется дела его общины посредством молитв за него и прошений мира за него.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/143/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_073.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_074.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_22_str_183.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -1810,28 +1411,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Тафсир 51 аята из суры &laquo;ан-Ниса&raquo;.<br />2. Тафсир 60 аята из суры &laquo;аль-Маида&raquo;.<br />3. Тафсир 21 аята из суры &laquo;аль-Кахф&raquo;.<br />4. Важнейший вопрос состоит в следующем: что означает в данном случае вера в джибта и тагута? Ограничивается ли это убеждением сердца? Либо же это внешнее уподобление тем, кто верит в это, чувствуя ненависть к этому и будучи убеждённым в несостоятельности этого?<br />5. Их высказывание о том, что неверные, неверие которых известно, идут более правильным путём, чем верующие.<br />6. Именно в этом и состоит цель написания данной главы: приобщение к Аллаху сотоварищей несомненно имеет место в этой общине, как об этом говорится в хадисе Абу Сайда.<br />7. Его заявление о том, что это обязательно произойдёт: имеется в виду поклонение идолам большого количества людей из этой общины.<br />8. Нечто весьма удивительное: появление людей, провозглашающих себя пророками, подобно аль-Мухтару, несмотря на то, что он произносил свидетельство, а также заявлял, что он из этой же общины, что Мухаммад &mdash; истинный посланник, да благословит его Аллах и приветствует, что Коран &mdash; истинна! Он также считал Мухаммада печатью пророков, искренне веря в это, несмотря на существующее во всём этом вопиющее противоречие. Аль-Мухтар появился в конце эпохи сподвижников Пророка, да благословит его Аллах и приветствует, и его поддержало большое число людей.<br />9. Добрая весть о том, что истина никогда не исчезнет полностью, как это случалось с прошлыми общинами, поскольку одна группа будет постоянно её придерживаться.<br />10. Великое знамение, состоящее в том, что несмотря на малочисленность победоносный общины, людям этой группы не могут причинить вреда те, кто оставляет их без поддержки или выступает против них.<br />11. Это обстоятельство будет существовать вплоть до наступления Часа.<br />12. В этой главе называются следующие великие знамения:<br />&mdash; возвещение Пророка, да благословит его Аллах и приветствует, о том, что Аллах свернул перед ним землю от востока до запада, сообщив о значении этого, что и случилось в действительности; при этом ничего не было сказано о юге и севере;<br />&mdash; возвещение о даровании ему двух сокровищниц;<br />&mdash; возвещение о положительном ответе на две просьбы Пророка, да благословит его Аллах и приветствует, для его общины;<br />&mdash; возвещение о том, что его третья просьба была отклонена;<br />&mdash; возвещение о падении на них меча, который не будет поднят;<br />&mdash; возвещение о том, что мусульмане начнут губить и пленять друг друга, а также его боязнь того, что в его общине появятся вводящие в заблуждение имамы;<br />&mdash; возвещение о появлении лжепророков в общине Посланника, да благословит его Аллах и приветствует;<br />&mdash; и возвещение о постоянном существовании победоносной общины.<br />Всё произошло именно так, как было возвещено Пророком, да благословит его Аллах и приветствует, хотя никто не мог даже и предположить этого.<br />13. Страх Пророка, да благословит его Аллах и приветствует, за свою общину заключается в его опасении появления вводящих в заблуждение имамов.<br />14. Обращение внимания на смысл поклонения идолам.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/144/download/audio.mp3",
-            "https://toislam.podster.fm/145/download/audio.mp3",
-            "https://toislam.podster.fm/146/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_075.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_076.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_077.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_078.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_079.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_080_konsultacia_1.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_081_konsultacia_2.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_23_str_188.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -1881,23 +1461,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Тафсир 102 аята из суры &laquo;аль-Бакара&raquo;.<br />2. Тафсир 51 аята из суры &laquo;ан-Ниса&raquo;.<br />3. Тафсир понятий &laquo;джибт&raquo; и &laquo;тагут&raquo; с указанием разницы между ними.<br />4. Тагут может быть как джинном, так и человеком.<br />5. Знание семи грехов, особо запрещённых посланником Аллаха, да благословит его Аллах и приветствует.<br />6. Колдун является неверным.<br />7. Он должен быть казнен, и от него покаяние не требуется.<br />8. Если такое явление имело место среди мусульман во время правления Умара, да будет доволен им Аллах, то что же говорить о том, что было позже?</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/147/download/audio.mp3",
-            "https://toislam.podster.fm/148/download/audio.mp3",
-            "https://toislam.podster.fm/149/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_082.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_083.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_24_str_199.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -1932,21 +1496,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. То, что &lsquo;ияфа, таркъ и суеверие являются джибтом.<br />2. Смысл понятий &laquo;&rsquo;ийафа&raquo; и &laquo;тарк&raquo;.<br />3. Астрология является одной из разновидностей колдовства.<br />4. Завязывание узлов и плевание на них также относится к колдовству.<br />5. Клевета и сплетни также расцениваются как колдовство.<br />6. Определённого рода красноречие тоже относится к этому.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/150/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_084.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_085.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_25_str_204.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -1989,21 +1539,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Вера в слова предсказателя несовместима с верой в Коран.<br />2. И вера в предсказателя является неверием.<br />3. О тех, кто просит предсказать.<br />4. О тех, для кого гадают.<br />5. О тех, кто прибегает к помощи колдовства.<br />6. О тех, кто занимается нумерологией.<br />7. О разнице между предсказателем (кахин) и прорицателем (&lsquo;арраф).</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/151/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_086.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_087.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_26_str_213.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -2034,20 +1570,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Запрет снятия колдовства посредством другого колдовства.<br />2. Указание на разницу между тем, что запрещается, и тем, что разрешается, для того, чтобы устранить непонятность.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/152/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_088.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_27_str_221.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -2096,23 +1619,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Обращается внимание на высказывания Всевышнего:&nbsp;<strong>&laquo;Поистине их предзнаменование от Аллаха&hellip;&raquo;</strong>&nbsp;(Сура 7-&laquo;аль-А&rsquo;раф&raquo;, 131 аят) и&nbsp;<strong>&laquo;&hellip;Предзнаменование ваше &mdash; обратится против вас&hellip;&raquo;</strong>&nbsp;(Сура 36-&laquo;Йа Син&raquo;, 19 аят).<br />2. Отрицание того, что инфекция сама по себе может перейти.<br />3. Отрицание влияния дурных примет.<br />4. Отрицание плачущей совы как причина.<br />5. Отрицание злополучности месяца сафар.<br />6. Доброе предзнаменование не относится к вышеизложенному, напротив, оно желательно.<br />7. Разъяснение смысла понятия &laquo;доброе предзнаменование&raquo;.<br />8. Оказываемое тем самым на сердце отрицательное влияние ликвидируется Аллахом посредством упования на Него.<br />9. Молитва, которую следует прочитать тому, кто обнаружил это у себя.<br />10. Провозглашение веры в дурные приметы ширком.<br />11. Разъяснение смысла понятия &laquo;Суеверие&raquo;.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/153/download/audio.mp3",
-            "https://toislam.podster.fm/154/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_089.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_090.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_091.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_28_str_225.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -2142,21 +1649,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Мудрость сотворения звёзд.<br />2. Опровержение тех, кто утверждает что-либо помимо этого.<br />3. Упоминание о расхождении во взглядах учёных на науку о положении небесных тел.<br />4. Угроза тому, кто верит хотя бы во что-нибудь, имеющее отношение к колдовству, даже если ему известно, что это ложь.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/155/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_092.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_093.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_29_str_236.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -2184,23 +1677,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Тафсир 82 аята из суры &laquo;аль-Уаки&rsquo;а&raquo;.<br />2. Упоминание о четырёх качествах, оставшихся со времён джахилиййи.<br />3. То, что некоторые из них являются неверием.<br />4. Иногда неверием является то, что не выводит мусульманина из исламской общины.<br />5. Слова Аллаха из хадиса кудсий &laquo;<strong>Среди Моих рабов выявились верящие в Меня и неверующие&hellip;</strong>&raquo; связаны с признанием благ Аллаха и отрицанием их.<br />6. Осознание веры в данной ситуации.<br />7. Осознание неверия в данной ситуации.<br />8. Понимание высказывания &laquo;<em>Оправдала надежду такая-то звезда</em>&raquo;.<br />9. Постановка учёным вопроса перед обучающимися для того, чтобы привлечь их внимание. Ярким примером этому является вопрос Пророка, да благословит его Аллах и приветствует: &laquo;<strong>Известно ли вам, что сказал ваш Господь?</strong>&raquo;<br />10. Суровая угроза плакальщице (нааиха).</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/156/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_094.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_095.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_096_konsultacia_1.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_097_konsultacia_2.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_30_str_241.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -2237,22 +1714,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Тафсир 165 аята из суры &laquo;аль-Бакара&raquo;.<br />2. Тафсир 24 аята из суры &laquo;ат-Тауба&raquo;.<br />3. Любовь человека к Пророку, да благословит его Аллах и приветствует, должна быть сильнее его любви к самому себе, своим близким и к деньгам.<br />4. Отрицание Пророком, да благословит его Аллах и приветствует, наличия веры в данном хадисе не свидетельствует о выходе из Ислама.<br />5. Вера имеет свою сладость, которую человек может ощутить, а может и не ощущать.<br />6. Только четыре действия сердца могут обеспечить человеку покровительство Аллаха и познание вкуса веры.<br />7. Понимание сподвижниками Пророка, да благословит его Аллах и приветствует, того, что братство людей чаще бывает ради мирской жизни.<br />8. Смысл высказывания Аллаха&nbsp;<strong>&laquo;&hellip;И оборвутся у них связи&hellip;&raquo;</strong>&nbsp;(Сура 2-&laquo;аль-Бакара&raquo;, 166 аят).<br />9. Среди мушриков есть такие, кто любит Аллаха сильной любовью.<br />10. Угроза тому, для кого восемь видов богатства, перечисленных Аллахом, любезнее, чем религия.<br />11. Кто возлюбил что-то так же сильно, как Аллаха, тот впал в ширк.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/157/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_098.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_099.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_100.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_31_str_249.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -2283,21 +1745,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Тафсир 175 аята из суры &laquo;Аали Имран&raquo;.<br />2. Тафсир 18 аята из суры &laquo;ат-Тауба&raquo;.<br />3. Тафсир 10 аята из суры &laquo;аль-Анкабут&raquo;.<br />4. Убеждённость (якыйн) человека может слабеть и крепнуть.<br />5. Признаки слабости убеждённости, три из которых содержатся в хадисе Абу Саида.<br />6. Посвящение страха одному Аллах является одним из обязательных религиозных предписаний.<br />7. Напоминание о награде тому,кто делает это<br />8. Напоминание о наказаний для того, кто оставляет их</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/158/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_101.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_102.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_32_str_257.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -2336,21 +1784,7 @@ List<Chapter> chapters = [
               """<p>1. Упование на Аллаха является обязательным религиозным предписанием.<br />2. Это является одним из условий веры.<br />3. Тафсир 2-3 аята из суры &laquo;аль-Анфаль&raquo;.<br />4. Тафсир 64 аята из той же суры.<br />5. Тафсир 3 аята из суры &laquo;Развод&raquo;.<br />6. Величие этого вырожения, так как Ибрахим и Мухаммад, да будет над ними благословение Аллаха, ответили именно ею в критической обстановке.</p>
  <p>Выводы шейха Усаймина (да помилует его Аллах):</p>
  <p>7. Иман увеличивается и уменьшается.<br />8. Когда бывают беды, потрясения и сложности, человеку нужно опираться на Аллаха и делать то, что от него зависит.<br />9. Следование за пророком (мир ему и благословение Аллаха) &mdash; это причина, из-за которой Аллах становится для человека достаточным!</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/159/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_103.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_104.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_33_str_268.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -2383,20 +1817,7 @@ List<Chapter> chapters = [
           text:
               """<p>1. Тафсир 99 аята из суры &laquo;аль-А&rsquo;раф&raquo;.<br />2. Тафсир 56 аята из суры &laquo;Аль-Хиджр&raquo;.<br />3. Суровая угроза для тех, кто считает себя в безопасности от хитрости Аллаха.<br />4. Суровая угроза для тех, кто отчаялся в милости Аллаха.</p>
  """),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/160/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_105.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_34_str_273.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -2439,22 +1860,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Тафсир 11 аята из суры &laquo;ат-Тагабун&raquo;.<br />2. Сабр является составной частью веры в Аллаха.<br />3. Опорочивание рода является неверием.<br />4. Суровая угроза тому, кто бьёт себя по щекам и рвёт свою одежду, а также обращается с призывом времён джахилиййи.<br />5. Указание на то, каким оброзом Аллах желает добра Своему рабу.<br />6. Указание на то, каким оброзом Аллах желает зла Своему рабу.<br />7. Проявление любви Всевышнего Аллаха к Своему рабу.<br />8. Запрет негодования.<br />9. Награда за довольствие испытанием.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/161/download/audio.mp3",
-            "https://toislam.podster.fm/162/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_106.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_107.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_35_str_277.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -2481,20 +1887,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Тафсир 110 аята из суры &laquo;аль-Кахф&raquo;.<br />2. Серьёзное предупреждение об отвергании любого праведного деяния, если оно в какой-то степени посвящено не Аллаху.<br />3. Упоминание причины отвергания этого Аллахом, которая заключается в том, что Он абсолютно ни в чём не нуждается.<br />4. Так же, причиной является то, что Он лучше всех тех, кого к Нему приобщают.<br />5. Опасение Пророка, да благословит его Аллах и приветствует, по поводу возможности распространения показухи среди своих сподвижников.<br />6. Он разъяснил это на примере того, как человек молится Аллаху, однако приукрашивает свой Намаз, когда видит, что за ним наблюдают другие.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/163/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_108.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_36_str_285.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -2520,21 +1913,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Желание человека обрести мирские блага за счёт содеянного им для Будущей жизни.<br />2. Тафсир аятов 15&mdash;16 из суры &laquo;Худ&raquo;.<br />3. Именование мусульманина выражениями &laquo;<strong>раб динара</strong>&raquo;, &laquo;<strong>раб дирхема</strong>&raquo;, &laquo;<strong>раб убранства</strong>&raquo;.<br />4. Разъяснение этого тем, что &laquo;<strong>он доволен, если даровано ему благо, а если не получает ничего, то проявляет негодование</strong>&raquo;.<br />5. Высказывание Пророка, да благословит его Аллах и приветствует: &laquo;<strong>Да будет он несчастен и опрокинется его дела с ног на голову!</strong>&raquo;<br />6. Его высказывание: &laquo;<strong>Даже будучи уколотым колючкой, да не извлечёт он её!</strong>&raquo;<br />7. Восхваление муджахида, обладающего указанными в этой главе качествами.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/164/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_109.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_110.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_37_str_290.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -2575,25 +1954,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Тафсир 63 аята из суры &laquo;ан-Нур&raquo;.<br />2. Тафсир 31 аята из суры &laquo;ат-Тауба&raquo;.<br />3. Указание на смысл поклонения, которое отрицал Ади ибн Хатим.<br />4. Приведение Ибн Аббасом в пример Абу Бакра и Умара, а Ахмадом &mdash; Суфйана ас-Саури.<br />5. Изменение истинной религии до такой степени, что для большинства поклонение монахам стало праведнейшим делом, получившим название святости (аль-уилая), а поклонение книжникам стало наукой и знанием. Затем ситуация усугубилась ещё более, и объектом поклонения наряду с Аллахом стали не праведники, а невежественные люди.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/165/download/audio.mp3",
-            "https://toislam.podster.fm/166/download/audio.mp3",
-            "https://toislam.podster.fm/167/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_111.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_112.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_113.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_114.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_38_str_295.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -2650,25 +2011,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Тафсир 60&mdash;62 аятов из суры &laquo;ан-Ниса&raquo; с разъяснением понятий о том, что является тагутом.<br />2. Тафсир 11 аята из суры &laquo;аль-Бакара&raquo;:&nbsp;<strong>&laquo;А когда говорят им: &laquo;Не распространяйте нечестия на Земле!..&raquo;</strong><br />3. Смысл аята 56 из суры &laquo;Преграды&raquo;:&nbsp;<strong>&laquo;Не распространяйте нечестия на Земле после того, как упрочен на ней порядок&hellip;&raquo;</strong><br />4. Тафсир аята&nbsp;<strong>&laquo;Неужели суда времён джахилиййи они желают?..&raquo;</strong>&nbsp;(аль-Маида, 50).<br />5. То, что сказал аш-Ша&rsquo;аби относительно ниспосылания первого аята.<br />6. Смысл истинной и лживой веры.<br />7. Рассказ об Умаре и лицемере.<br />8. Указание на то, что человек обретёт веру только в том случае, если подчинит свои желания тому, с чем был послан посланник Аллаха, да благословит его Аллах и приветствует.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/168/download/audio.mp3",
-            "https://toislam.podster.fm/169/download/audio.mp3",
-            "https://toislam.podster.fm/170/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_115.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_116.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_117_konsultacia_1.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_118_konsultacia_2.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_39_str_301.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -2715,25 +2058,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Отрицание какого-либо из имён и качеств Аллаха является признаком отсутствия веры.<br />2. Тафсир 30 аята из суры &laquo;Ра&rsquo;д&raquo;.<br />3. Запрещение рассказывать то, чего слушающий не понимает.<br />4. Причина этого заключается в том, что непонятное ведёт к отвержению Аллаха и Его посланника, да благословит его Аллах и приветствует, даже если отрицающий делает это непреднамеренно.<br />5. Высказывание Ибн Аббаса о том, кто отрицает что-либо из имён и качеств Аллаха, и что это губит его.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/171/download/audio.mp3",
-            "https://toislam.podster.fm/172/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_119.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_120.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_121.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_122.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_123_konsultacia.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_40_str_314.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -2768,20 +2093,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Разъяснение познании и отрицании милостей Аллаха.<br />2. То, что подобное распространено у многих на языке.<br />3. Подобные высказывания называются &laquo;отрицанием милостей Аллаха&raquo;.<br />4. В сердце человека может сочетаться две противоположности.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/173/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_124.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_41_str_320.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -2815,21 +2127,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Тафсир 22 аята из суры &laquo;аль-Бакара&raquo; в отношении приобщения к Аллаху равных.<br />2. Сподвижники Пророка, да будет доволен ими Аллах и да благословит нашего Пророка, толковали этот аят, ниспосланный по поводу большого ширка, в том смысле, что он включает и запрещение малого ширка.<br />3. Клятва не Аллахом является ширком.<br />4. Истинная клятва не Аллахом более греховна, чем ложная клятва Аллахом.<br />5. Разница между союзом &laquo;и&raquo; и наречием &laquo;затем&raquo; в речи.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/174/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_125.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_126.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_42_str_324.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -2851,20 +2149,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Запрещение клясться отцами.<br />2. Повеление удовлетворяться тому, кому клянутся Аллахом.<br />3. Суровая угроза тому, кто не удовлетворяется ею.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/175/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_127.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_43_str_331.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -2888,21 +2173,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Знание иудеев о малом ширке.<br />2. Понимание человеком подобных вопросов, если это соответствует его страстям.<br />3. Высказывание Пророка, да благословит его Аллах и приветствует:&nbsp;<em><strong>&laquo;Ты что, приравниваешь меня к Аллаху?&raquo;</strong></em>&nbsp;Чего же тогда заслуживает человек, который написал следующие строки: &laquo;<em>О благороднейший из людей!</em>&nbsp;[т.е. Пророк, да благословит его Аллах и приветствует. &mdash; Ред.].&nbsp;<em>Не у кого мне искать спасения, кроме как у тебя&hellip;</em>&raquo;<br />4. Это выражение не является большим ширком, так как Пророк, да благословит его Аллах и приветствует, сказал:&nbsp;<em><strong>&laquo;&hellip;в силу некоторых обстоятельств я не мог&hellip;&raquo;</strong></em><br />5. Праведное сновидение является частью Божественного откровения.<br />6. То, что сон иногда может служить основанием для некоторых законоположений.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/176/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_128.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_129.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_44_str_333.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -2930,21 +2201,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Запрет ругать время.<br />2. Ругание времени считается оскорблением Аллаха.<br />3. Размышление по поводу изречения:&nbsp;<em><strong>&laquo;&hellip;ибо, истинно, Аллах есть время&raquo;</strong></em><br />4. Ругающий время оскорбляет Аллаха, даже если он не преследует такой цели в своём сердце.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/177/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_130.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_131.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_45_str_339.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -2969,20 +2226,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Запрет называться &laquo;<em>царь всех царей</em>&raquo;.<br />2. Все выражения, имеющие такой же смысл, также запрещены, и на то указал Суфйан ибн Уйейна.<br />3. Понимание того, что это и подобные выражения запретны, даже если человек не преследует такой цели в своём сердце.<br />4. Понимание того, что человек должен отказаться от подобных титулов ради уважения к Всевышнему и Всемогущему Аллаху.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/178/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_132.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_46_str_343.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -3006,20 +2250,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Необходимость уважительного отношения к именам и качествам Аллаха и запрещение присваивать их людям, даже если в этом нет специального умысла.<br />2. Смена своего имени ради этого.<br />3. Выбор имени старшего сына для кунья.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/179/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_133.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_47_str_345.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -3047,21 +2278,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Очень важный вопрос о том, что любой, позволяющий себе подобные шутки, является неверным.<br />2. Таково толкование аята в отношении совершившего это, кем бы он ни был.<br />3. Разница между доносом и благожелательностью по отношению к Аллаху и Его посланнику, да благословит его Аллах и приветствует.<br />4. Разница между милосердием, которое угодно Аллаху, и беспощадностью по отношению к врагам Аллаха.<br />5. Вопрос о том, что не каждое извинение должно приниматься.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/180/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_134.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_135.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_48_str_348.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -3099,21 +2316,7 @@ List<Chapter> chapters = [
       TabDescription(
           text: """<p><strong>РАССМАТРИВАЕМЫЕ ВОПРОСЫ ДАННОЙ ГЛАВЫ:</strong></p>
  <p>1. Тафсир аята из суры &laquo;Фуссылят&raquo;:&nbsp;<strong>&laquo;&hellip;Он, конечно же, говорит: &laquo;Это &mdash; моё&hellip;&raquo;&raquo;</strong><br />2. Смысл слов:&nbsp;<strong>&laquo;&hellip;конечно же, говорит: &laquo;Это &ndash; мое (или даровоно мне)&raquo;</strong><br />3. Смысл слов:&nbsp;<strong>&laquo;Всё, что мне даровано, &mdash; благодаря знанию&raquo;</strong>&nbsp;из суры &laquo;аль-Касас&raquo;.<br />4. Поразительный рассказ, содержащий много поучительных уроков.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/181/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_136.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_137.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_49_str_353.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -3150,21 +2353,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Запрет на все имена, смысл которых содержит преклонение перед кем-либо, помимо Аллаха.<br />2. Тафсир 190 аята из суры &laquo;аль-А&lsquo;раф&raquo;.<br />3. Этот ширк только в имени, а не в настоящий.<br />4. Дарование Аллахом человеку здоровой девочки также является Его благом.<br />5. Саляфы подчёркивали разницу между ширком в повиновении и ширком в поклонении.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/182/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_138.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_139.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_50_str_360.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -3193,20 +2382,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Утверждение наличия имён у Аллаха.<br />2. И Его имена прекрасны.<br />3. Повеление взывать к Аллаху по средством этих имен.<br />4. Повеление отвергать невежественных людей, которые отрицают имена Аллаха и уклоняются от истины в них.<br />5. Разъяснение понятия &laquo;<strong>уклоняются от истины</strong>&raquo; в отношении имён Аллаха.<br />6. Угроза тому кто уклоняются от истины.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/183/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_140.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_51_str_363.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -3228,20 +2404,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Тафсир слова &laquo;салям&raquo;.<br />2. Указание на то, что это является приветствием.<br />3. Это приветствие неприемлемо по отношению к Аллаху.<br />4. Указание на причину этого.<br />5. Как нужно обращаться к Аллаху с приветствием.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/184/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_141.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_52_str_366.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -3264,20 +2427,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Запрет говорить&nbsp;<em>&laquo;Ин ша Аллах</em>&raquo; при дуа.<br />2. Указание причины этого запрета.<br />3. Высказывание Пророка, да благословит его Аллах и приветствует: &laquo;<em><strong>Необходимо упорно просить желаемое&hellip;</strong></em>&raquo;<br />4. Необходимость усиливать пожелание обращающегося с мольбой.<br />5. Указание на причины этого.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/185/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_142.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_53_str_368.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -3299,20 +2449,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Запрет выражений &laquo;<em>мой раб</em>&raquo; и &laquo;<em>моя рабыня</em>&raquo;.<br />2. Слуга не должен обращаться к своему хозяину со словами &laquo;<em>мой господь</em>&raquo;, а хозяину не следует говорить своему слуге &laquo;<em>накорми своего господа</em>&raquo;.<br />3. Хозяину следует обращаться к слуге со словами: &laquo;<em>мой юноша</em>&raquo;, &laquo;<em>моя девочка</em>&raquo; или &laquo;<em>мой мальчик</em>&raquo;.<br />4. Слуге же следует обращаться к своему хозяину со словами: &laquo;<em>мой господин</em>&raquo; или &laquo;<em>мой хозяин</em>&raquo;.<br />5. Цель этого заключается в воплощении таухида даже в словах.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/186/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_143.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_54_str_370.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -3334,20 +2471,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Необходимость предоставления убежища тому, кто просил его именем Аллаха<br />2. Необходимость удовлетворения просьбы просящего именем Аллаха.<br />3. Необходимость ответа на зов того, кто зовёт в гости.<br />4. Необходимость отблагодарить того, кто сделал вам добро.<br />5. Если человек не имеет невозможностей отблагодарить, то ему необходимо сделать за него дуа.<br />6. Слова Пророка, да благословит его Аллах и приветствует: &laquo;<em><strong>&hellip;Пока не посчитаете, что вы его отблагодарили</strong></em>&raquo;.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/187/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_144.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_55_str_372.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -3368,20 +2492,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Запрет испрашивать что-либо ликом Аллаха, кроме наивысшей цели &mdash; Рая.<br />2. Утверждение атрибута лика.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/188/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_145.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_56_str_374.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -3408,21 +2519,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Смысл аятов 154 и 168 из суры &laquo;Аали Имран&raquo;.<br />2. Явный запрет на произнесение выражения &laquo;если бы&hellip;&raquo; в случае какой-либо неприятности.<br />3. Причиной этого является то, что при употреблении этого выражения открывается возможность для козней шайтана.<br />4. Прекрасные слова, которые необходимо произносить в таких случаях.<br />5. Повеление настойчиво стремиться к полезному, испрашивая при этом помощи у Аллаха.<br />6. Запрет на то, что противоположно этому, то есть на проявление слабости и бессилия.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/189/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_146.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_147.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_57_str_376.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -3446,20 +2543,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Запрет ругать ветер.<br />2. Наставление говорить добрые слова, когда человек видит то, что ему неприятно.<br />3. Указание на то, что ветер подчинен воле Аллаха.<br />4. Ветру может быть приказано нести с собой добро или зло.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/190/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_148.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_58_str_382.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -3505,21 +2589,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Тафсир 154 аята из суры &laquo;Аали Имран&raquo;.<br />2. Тафсир 6 аята из суры &laquo;аль-Фатх&raquo;.<br />3. Сообщение о том, что число разновидностей злых мыслей относительно Аллаха, которые имеют лицемеры и мушрики, не ограничено.<br />4. От подобных мыслей избавятся только те, кто познал имена и качества Аллаха и признал свою ничтожную сущность.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/191/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_149.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_150.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_59_str_384.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -3552,24 +2622,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Разъяснение обязательности веры в Предопределение.<br />2. Разъяснение того, как следует верить в Предопределение.<br />3. Указание на бесплодность действий того, кто не уверовал в Предопределение.<br />4. Указание на то, что человек не почувствует вкуса веры до тех пор, пока не уверует в Предопределение.<br />5. Упоминание о том, что Аллах создал в первую очередь.<br />6. В тот час, когда Аллах создал Перо была записана предопределение всего сущего вплоть до наступления Часа.<br />7. Отречение Пророка, да благословит его Аллах и приветствует, от того, кто не уверовал в Предопределение.<br />8. Обычай саляфов устранять сомнения по поводу какого-либо вопроса путём постановки данной проблемы перед учёными.<br />9. Учёные отвечали им тем, что устраняло их сомнение, обосновывая свои слова ссылкой только на посланника Аллаха, да благословит его Аллах и приветствует.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/192/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_151.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_152.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_153.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_154.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_155.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_60_str_391.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -3598,21 +2651,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Страшная угроза в адрес создающих изображения.<br />2. Указание на причину этого, то есть их неуважение по отношению к Аллаху, Который сказал: &laquo;<em><strong>Кто же может быть несправедливее того, кто пытается создать нечто подобное тому, что сотворил Я?</strong></em>&raquo;<br />3. Указание на Его могущество и их беспомощность, так как Всевышний сказал: &laquo;<em><strong>Пусть попробуют создать хотя бы букашку или хотя бы пшеничное или ячменное зерно</strong></em>&raquo;.<br />4. Такие люди понесут жесточайшее наказание.<br />5. Аллах создаст души в соответствии с числом сделанных изображений и оживит их всех, и они будут мучить художника (скульптора) в Аду.<br />6. Художнику (скульптору) будет велено вдохнуть в них душу.<br />7. Повеление стирать или уничтожать изображения при виде их.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/193/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_156.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_157.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_61_str_397.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -3644,21 +2683,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Завет оберегать клятвы.<br />2. Сообщение о том, что клятва при купле-продаже приводит к потере баракята в доходе не смотря на то, что этот товар ходко продается.<br />3. Суровая угроза тому, кто не покупает и не продаёт ничего, не поклявшись.<br />4. Указание на то, что совершённый грех усугубляется, если у совершившего его нет на то причины.<br />5. Порицание тех, которые клянутся, когда их не просят об этом.<br />6. Похвала Пророка, да благословит его Аллах и приветствует, трём или четырём поколениям и возвещение того, что произойдёт после них.<br />7. Порицание тех, которые свидетельствуют, когда их не просят свидетельствовать.<br />8. Саляфы били детей за обязательства или за свидетельства.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/194/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_158.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_159.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_62_str_404.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -3687,21 +2712,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Разница между обязательства Аллаха и Его пророка, да благословит его Аллах и приветствует, и обязательства мусульман.<br />2. Наставление всегда выбирать наименее опасный вариант.<br />3. Слова Пророка, да благословит его Аллах и приветствует: &laquo;<em><strong>Выступайте в поход с именем Аллаха и ради Аллаха&hellip;</strong></em>&laquo;.<br />4. Слова Пророка, да благословит его Аллах и приветствует: &laquo;<em><strong>&hellip;сражайтесь против тех, кто не верует в Аллаха</strong></em>&laquo;.<br />5. Слова Пророка, да благословит его Аллах и приветствует: &laquo;<em><strong>&hellip;сражайся против них, испрашивая помощи у Аллаха</strong></em>&laquo;.<br />6. Разница между постановлением Аллаха и постановлением мусульманских учёных.<br />7. Сподвижник Пророка, да благословит его Аллах и приветствует, при необходимости мог вынести постановление, однако при этом не знать, соответствует это<br />постановлению Аллаха или нет.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/195/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_160.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_161.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_63_str_412.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -3723,20 +2734,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Предостережение о запрещении клятв Аллаху.<br />2. Огонь ближе к каждому из нас, чем ремешки его сандалий.<br />3. Рай находится от нас на таком же расстоянии.<br />4. В этом хадисе тоже самое, что в хадисе &laquo;<em><strong>Поистине человек иногда говорит одно слово не обращая на него внимания и заходит в Огонь на семьдесят лет</strong></em>&raquo;.<br />5. Человеку может быть прощено Аллахом, по причине того что больше всего ему ненавистно.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/196/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_162.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_64_str_419.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -3757,20 +2755,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Порицание Пророка, да благословит его Аллах и приветствует, к словам сказавшего: &laquo;<em>Мы просим Аллаха, чтобы Он походатайствовал перед тобой&hellip;</em>&raquo;<br />2. От этих слов Пророк, да благословит его Аллах и приветствует, настолько изменился в лице, что это заставило измениться и лица его сподвижников.<br />3. Слова &laquo;<em>&hellip;и просим тебя, чтобы ты походатайствовал пред Аллахом</em>&raquo; им не были запрещены.<br />4. Тафсир слов &laquo;Субханаллах!&raquo;<br />5. Мусульмане обращались к посланнику Аллаха, да благословит его Аллах и приветствует, с просьбами совершить молитву о ниспослании дождя.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/197/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_163.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_65_str_421.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -3796,20 +2781,7 @@ List<Chapter> chapters = [
       TabDescription(
           text:
               """<p>1. Предостережение людей от излишества в религии.<br />2. Что следует сказать тому, кому сказано: &laquo;<em>Ты &mdash; наш господин</em>&raquo;.<br />3. Слова Пророка, да благословит его Аллах и приветствует: &laquo;<em><strong>&hellip;чтобы не увлёк вас Шайтан</strong></em>&laquo;, хотя то, что говорили люди, была истина.<br />4. Слова Пророка, да благословит его Аллах и приветствует: &laquo;<em><strong>Мне не нравится, что вы превозносите меня выше того места, которое даровал мне Всевышний и Всемогущий Аллах</strong></em>&laquo;.</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/198/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_164.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_66_str_424.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
   Chapter(
@@ -3856,27 +2828,7 @@ List<Chapter> chapters = [
           text:
               """<p>1. Тафсир слов Всевышнего&nbsp;<strong>&laquo;&hellip;а ведь вся Земля в День воскресения будет всего лишь пригоршней Его, а небеса будут скручены Его Десницей&hellip;&raquo;</strong>&nbsp;(Сура 39-&laquo;аз-Зумар&raquo;, 67 аят).<br />2. Эти и подобные им знания ещё сохранялись у иудеев, живших во времена Пророка, да благословит его Аллах и приветствует, которые тогда ещё не отрицали этого и не занимались их аллегорическим толкованием.<br />3. Пророк, да благословит его Аллах и приветствует, подтвердил истинность того, что рассказал ему учёный, а Аллах удостоверил это ниспосланным аятом.<br />4. Пророк, да благословит его Аллах и приветствует, рассмеялся, когда услышал то великое знание, которое раскрыл ему учёный.<br />5. Упоминание о наличии у Аллаха двух рук и размещении Им всех небес в правой руке, а всех земель в другой руке.<br />6. Упоминание о том, что вторая рука называется левой.<br />7. После этого Всевышний Аллах упомянул положение высокомерных и заносчивых людей.<br />8. Слова Ибн Аббаса: &laquo;&hellip;подобно горчичному зёрнышку в руке одного из вас&raquo;.<br />9. Величие Курси (Престола) по отношению к небесам.<br />10. Величие Арша (Трона) по отношению к Курси (Престолу).<br />11. Арша (Трон) является чем-то отличным от Курси (Престола) и воды.<br />12. Расстояние между каждым небом и следующим.<br />13. Расстояние между седьмым небом и Курси (Престолом).<br />14. Расстояние между Престолом и водой.<br />15. Трон находится над водой.<br />16. Аллах находится над Троном.<br />17. Расстояние между небом и землёй.<br />18. Каждое из небес простирается на расстояние в пятьсот лет.<br />19. Глубина моря, находящегося над небесами, составляет пятьсот лет.</p>
  <p>Всевышнему Аллаху всё это ведомо лучше!</p>"""),
-      TabDescription(
-        lectureList: [
-          [
-            "https://toislam.podster.fm/199/download/audio.mp3",
-          ],
-          [
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_165.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_166.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_167.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_168_konsultacia_1.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_169_konsultacia_2.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_170_konsultacia_3.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_171_konsultacia_4.mp3",
-            "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_172_konsultacia_5.mp3",
-          ],
-          [
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_67_str_428.mp3",
-          ],
-          [],
-        ],
-      ),
+      TabDescription(isAudio: true),
     ],
   ),
 ];

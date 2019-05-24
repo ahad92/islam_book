@@ -106,7 +106,7 @@ class _ChapterTabsScreenState extends State<ChapterTabsScreen>
     _scrollViewController = ScrollController();
     _tabController =
         TabController(vsync: this, length: resourceTabNames.length);
-    bottomPlayer = BottomPlayer(setLastAudioMethod: setLastPlayedAudio);
+    bottomPlayer = BottomPlayer();
   }
 
   showFontSizeDialog({bool isArabic, Function updateText}) {

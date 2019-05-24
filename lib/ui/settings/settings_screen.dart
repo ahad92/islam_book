@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 import '../../book_resource/decription.dart';
-import '../../util/audio.dart';
 import '../../util/book_shared_preferences.dart';
 import '../../util/constants.dart';
 import '../common_widgets/text.dart';
@@ -64,7 +63,7 @@ class _SettingsScreenState extends State<SettingsScreen>
                 color: Theme.of(context).unselectedWidgetColor,
                 onPressed: () {
                   setIsLecturerAudioLoaded(i, false);
-                  deleteAllLecturerAudio(i);
+//                  deleteAllLecturerAudio(i);
                 },
               ),
               IconButton(
@@ -74,7 +73,7 @@ class _SettingsScreenState extends State<SettingsScreen>
                         : Theme.of(context).accentColor),
                 onPressed: () {
                   setIsLecturerAudioLoaded(i, true);
-                  downloadAllLecturerAudio(i);
+//                  downloadAllLecturerAudio(i);
                 },
               )
             ],
