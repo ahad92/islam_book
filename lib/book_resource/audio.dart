@@ -1,4 +1,4 @@
-import 'package:educational_audioplayer/util/audio.dart';
+import 'package:educational_audioplayer/player.dart';
 
 List<String> authorNames = [
   "Ринат абу Мухаммад (Шарх шейха Салиха Али Шейха)",

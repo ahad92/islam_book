@@ -1,5 +1,4 @@
-import 'package:educational_audioplayer/ui/audio_loader.dart';
-import 'package:educational_audioplayer/ui/bottom_player.dart';
+import 'package:educational_audioplayer/player.dart';
 import 'package:flutter/material.dart';
 
 import '../../book_resource/audio.dart';
@@ -14,7 +13,7 @@ class AudioList extends StatefulWidget {
   final String header;
   final int chapterIndex;
   final PageStorageKey key;
-  final BottomPlayer player;
+  final Player player;
 
   AudioList({this.header, this.chapterIndex, this.key, this.player});
   @override

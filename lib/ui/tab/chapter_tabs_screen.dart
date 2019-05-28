@@ -1,4 +1,4 @@
-import 'package:educational_audioplayer/ui/bottom_player.dart';
+import 'package:educational_audioplayer/player.dart';
 import 'package:flutter/material.dart';
 
 import '../../book_resource/book.dart';
@@ -21,7 +21,7 @@ class _ChapterTabsScreenState extends State<ChapterTabsScreen>
     with SingleTickerProviderStateMixin, BookSharedPreferences {
   ScrollController _scrollViewController;
   TabController _tabController;
-  BottomPlayer bottomPlayer;
+  Player bottomPlayer;
 
   _updateText() {
     setState(() {});
@@ -106,7 +106,7 @@ class _ChapterTabsScreenState extends State<ChapterTabsScreen>
     _scrollViewController = ScrollController();
     _tabController =
         TabController(vsync: this, length: resourceTabNames.length);
-    bottomPlayer = BottomPlayer();
+    bottomPlayer = Player();
   }
 
   showFontSizeDialog({bool isArabic, Function updateText}) {
