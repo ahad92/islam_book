@@ -1,3 +1,4 @@
+import 'package:educational_audioplayer/loader.dart';
 import 'package:educational_audioplayer/player.dart';
 import 'package:flutter/material.dart';
 
@@ -60,20 +61,9 @@ class _AudioListState extends State<AudioList> with BookSharedPreferences {
                   color: Theme.of(context).unselectedWidgetColor,
                   height: textRowHeight)),
           trailing: Wrap(children: <Widget>[
-            IconButton(
-                icon: Icon(Icons.delete),
-                onPressed: () {
-                  deleteAudios(
-                      context: context,
-                      audios: audios[widget.chapterIndex][lecturerIndex]);
-                }),
-            IconButton(
-                icon: Icon(Icons.cloud_download),
-                onPressed: () {
-                  loadAudios(
-                      context: context,
-                      audios: audios[widget.chapterIndex][lecturerIndex]);
-                })
+            LoadDeleteButton(
+                context: context,
+                audios: audios[widget.chapterIndex][lecturerIndex])
           ]),
         ));
       }
