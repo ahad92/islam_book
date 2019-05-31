@@ -50,22 +50,20 @@ class _AudioListState extends State<AudioList> with BookSharedPreferences {
       if (audios[widget.chapterIndex][lecturerIndex].length > 0) {
         audioTabList.add(Divider());
         audioTabList.add(ListTile(
-          title: Text(lecturers[lecturerIndex],
-              style: TextStyle(
-                  fontSize: russianFontSize,
-                  fontWeight: FontWeight.bold,
-                  height: textRowHeight)),
-          subtitle: Text(lecture_sources[lecturerIndex],
-              style: TextStyle(
-                  fontSize: russianFontSize * secondaryHeaderFontSizeMultiplier,
-                  color: Theme.of(context).unselectedWidgetColor,
-                  height: textRowHeight)),
-          trailing: Wrap(children: <Widget>[
-            LoadDeleteButton(
+            title: Text(lecturers[lecturerIndex],
+                style: TextStyle(
+                    fontSize: russianFontSize,
+                    fontWeight: FontWeight.bold,
+                    height: textRowHeight)),
+            subtitle: Text(lecture_sources[lecturerIndex],
+                style: TextStyle(
+                    fontSize:
+                        russianFontSize * secondaryHeaderFontSizeMultiplier,
+                    color: Theme.of(context).unselectedWidgetColor,
+                    height: textRowHeight)),
+            trailing: LoadDeleteButton(
                 context: context,
-                audios: audios[widget.chapterIndex][lecturerIndex])
-          ]),
-        ));
+                audios: audios[widget.chapterIndex][lecturerIndex])));
       }
       for (int audioIndex = 0;
           audioIndex < audios[widget.chapterIndex][lecturerIndex].length;

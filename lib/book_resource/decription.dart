@@ -35,6 +35,18 @@ const List<String> lecture_sources = [
   'Шарх шейха аль-Фаузана'
 ];
 
+const List<String> telegramChannelsNames = [
+  '@kifayat_al_mustazid',
+  '@kitab_tauhid_uthaymeen',
+  '@kitab_tauhid_fawzan'
+];
+
+const List<String> telegramChannelsurls = [
+  'https://t.me/kifayat_al_mustazid',
+  'https://t.me/kitab_tauhid_uthaymeen',
+  'https://t.me/kitab_tauhid_fawzan'
+];
+
 // colors
 final Color primaryColor = Colors.indigo;
 final Color accentColor = Colors.indigo;

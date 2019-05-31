@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import '../../book_resource/decription.dart';
 import '../../util/book_shared_preferences.dart';
 import '../../util/constants.dart';
+import '../common_widgets/custom_icons.dart';
 import '../common_widgets/text.dart';
 import 'app_description.dart';
 import 'night_mode_button.dart';
@@ -18,7 +20,6 @@ class _SettingsScreenState extends State<SettingsScreen>
   @override
   void initState() {
     super.initState();
-    getIsLecturerAudioLoaded();
   }
 
   @override
@@ -46,7 +47,8 @@ class _SettingsScreenState extends State<SettingsScreen>
       menuItems.add(Container(
           color: Theme.of(context).highlightColor,
           child: ListTile(
-            title: DefaultRussianText(resourceDownloadAllAudio),
+            title: DefaultRussianText(resourceTelegramChannels),
+            leading: Icon(CustomIcons.paper_plane_2),
           )));
       for (int i = 0; i < lecturers.length; i++) {
         menuItems.add(ListTile(
@@ -55,29 +57,11 @@ class _SettingsScreenState extends State<SettingsScreen>
               top: defaultPadding,
               bottom: defaultPadding,
               right: defaultPadding),
-          title: DefaultRussianText(lecturers[i]),
-          trailing: Wrap(
-            children: <Widget>[
-              IconButton(
-                icon: Icon(Icons.delete),
-                color: Theme.of(context).unselectedWidgetColor,
-                onPressed: () {
-                  setIsLecturerAudioLoaded(i, false);
-//                  deleteAllLecturerAudio(i);
-                },
-              ),
-              IconButton(
-                icon: Icon(Icons.cloud_download,
-                    color: (isLecturersAudioDownloaded[i] == 'false')
-                        ? Theme.of(context).unselectedWidgetColor
-                        : Theme.of(context).accentColor),
-                onPressed: () {
-                  setIsLecturerAudioLoaded(i, true);
-//                  downloadAllLecturerAudio(i);
-                },
-              )
-            ],
-          ),
+          title: DefaultRussianText('${lecturers[i]} (${lecture_sources[i]})'),
+          subtitle: DefaultRussianText(telegramChannelsNames[i]),
+          onTap: () {
+            launch(telegramChannelsurls[i]);
+          },
         ));
         menuItems.add(Divider());
       }

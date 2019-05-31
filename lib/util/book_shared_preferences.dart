@@ -6,8 +6,6 @@ import '../book_resource/decription.dart';
 import 'constants.dart';
 
 List<String> bookmarks = List<String>.filled(chapters.length, 'false');
-List<String> isLecturersAudioDownloaded =
-    List<String>.filled(lecturers.length, 'false');
 double russianFontSize = defaultRussianFontSize;
 double arabicFontSize = defaultArabicFontSize;
 List<int> tabsOrder = defaultTabsOrder;
@@ -87,24 +85,6 @@ mixin BookSharedPreferences<T extends StatefulWidget> on State<T> {
     for (int i = 0; i < resourceTabNames.length; i++) {
       prefs.setInt(sharedResourceTabList[i], tabsOrder[i]);
     }
-  }
-
-  setIsLecturerAudioLoaded(int lecturerIndex, bool is_loaded) async {
-    SharedPreferences prefs = await SharedPreferences.getInstance();
-    setState(() {
-      isLecturersAudioDownloaded[lecturerIndex] = is_loaded ? 'true' : 'false';
-      prefs.setStringList(
-          resourceIsLecturersAudioDownloaded, isLecturersAudioDownloaded);
-    });
-  }
-
-  getIsLecturerAudioLoaded() async {
-    SharedPreferences prefs = await SharedPreferences.getInstance();
-    setState(() {
-      isLecturersAudioDownloaded =
-          (prefs.getStringList(resourceIsLecturersAudioDownloaded) ??
-              List<String>.filled(lecturers.length, 'false'));
-    });
   }
 
   setLastPlayedAudio(url) async {

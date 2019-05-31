@@ -27,7 +27,8 @@ const double defaultPadding = 4.0;
 const double largePadding = 32.0;
 const String resourceSettings = 'Настройки';
 const String resourceAboutAppMenuItem = 'О приложении';
-const String resourceDownloadAllAudio = 'Загрузить все аудиолекции';
+const String resourceTelegramChannels =
+    'Телеграм-каналы с лекциями из этого приложения';
 
 //tabs_order_screen
 const String resourceChooseTabOrder = 'Изменить порядок вкладок в главе';

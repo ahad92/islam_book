@@ -7,9 +7,9 @@ import 'package:flutter/material.dart';
 ///
 /// flutter:
 ///   fonts:
-///    - family:  CustomIcons
+///    - family:  MyFlutterApp
 ///      fonts:
-///       - asset: fonts/CustomIcons.ttf
+///       - asset: fonts/MyFlutterApp.ttf
 ///
 ///
 /// * Iconic, Copyright (C) 2012 by P.J. Onori
@@ -21,10 +21,16 @@ import 'package:flutter/material.dart';
 class CustomIcons {
   CustomIcons._();
 
-  static const _kFontFam = 'CustomIcons';
+  static const _kFontFam = 'MyFlutterApp';
 
   static const IconData moon_inv =
       const IconData(0xe800, fontFamily: _kFontFam);
   static const IconData fontsize =
       const IconData(0xe801, fontFamily: _kFontFam);
+  static const IconData paper_plane =
+      const IconData(0xe802, fontFamily: _kFontFam);
+  static const IconData paper_plane_2 =
+      const IconData(0xe803, fontFamily: _kFontFam);
+  static const IconData paper_plane_1 =
+      const IconData(0xf1d8, fontFamily: _kFontFam);
 }
