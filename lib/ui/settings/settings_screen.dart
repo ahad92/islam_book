@@ -7,6 +7,7 @@ import '../../util/constants.dart';
 import '../common_widgets/custom_icons.dart';
 import '../common_widgets/text.dart';
 import 'app_description.dart';
+import 'menu_items.dart';
 import 'night_mode_button.dart';
 import 'tabs_order.dart';
 
@@ -41,6 +42,8 @@ class _SettingsScreenState extends State<SettingsScreen>
     menuItems.add(AboutAppMenuItem());
     menuItems.add(Divider());
     menuItems.add(TabsOrderMenuItem());
+    menuItems.add(Divider(height: largePadding));
+    menuItems.add(DeleteAllFiles());
     menuItems.add(Divider(height: largePadding));
 
     if (lecturers.length > 0) {

@@ -29,6 +29,7 @@ const String resourceSettings = 'Настройки';
 const String resourceAboutAppMenuItem = 'О приложении';
 const String resourceTelegramChannels =
     'Телеграм-каналы с лекциями из этого приложения';
+const String resourceDeleteAllFiles = 'Удалить все аудиофайлы';
 
 //tabs_order_screen
 const String resourceChooseTabOrder = 'Изменить порядок вкладок в главе';
