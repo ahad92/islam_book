@@ -8,8 +8,10 @@ class Chapter {
 
 class TabDescription {
   final String text;
+  final String shareText;
   final bool isArabic;
   final bool isAudio;
 
-  TabDescription({this.text: null, this.isArabic: false, this.isAudio: false});
+  TabDescription(
+      {this.text, this.isArabic: false, this.isAudio: false, this.shareText});
 }

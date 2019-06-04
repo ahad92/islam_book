@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_html/flutter_html.dart';
+import 'package:share/share.dart';
 
 import '../../util/constants.dart';
 
 class TabText extends StatelessWidget {
   final String header;
   final String text;
+  final String shareText;
   final int chapterIndex;
   final double fontSize;
   final TextDirection textDirection;
@@ -14,6 +16,7 @@ class TabText extends StatelessWidget {
   TabText(
       {this.header,
       this.text,
+      this.shareText,
       this.chapterIndex,
       this.fontSize,
       this.textDirection,
@@ -37,6 +40,17 @@ class TabText extends StatelessWidget {
             defaultTextStyle:
                 TextStyle(fontSize: fontSize, height: textRowHeight),
           ),
+          Center(
+            child: IconButton(
+              icon: Icon(
+                Icons.share,
+                size: shareIconSize,
+              ),
+              onPressed: () {
+                Share.share(shareText);
+              },
+            ),
+          )
         ],
       ),
     );

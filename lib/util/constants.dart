@@ -10,6 +10,7 @@ const double chapterHeaderBorderSize = 4.0;
 const double mainHeaderFontSizeMultiplier = 1.2;
 const double secondaryHeaderFontSizeMultiplier = 0.85;
 const textRowHeight = 1.2;
+const double shareIconSize = 32.0;
 
 // audio_tab
 const String lastPlayedAudioUrl = 'lastPlayedAudioUrl';

@@ -19,6 +19,7 @@ List<Widget> getChapterTabBodies(
               ? chapters[chapterIndex].arabicHeader
               : chapters[chapterIndex].russianHeader,
           text: chapters[chapterIndex].tabList[i].text,
+          shareText: chapters[chapterIndex].tabList[i].shareText,
           chapterIndex: chapterIndex,
           fontSize: chapters[chapterIndex].tabList[i].isArabic
               ? arabicFontSize
