@@ -56,18 +56,3 @@ class _TabsOrderScreenState extends State<TabsOrderScreen>
     );
   }
 }
-
-class TabsOrderMenuItem extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return ListTile(
-      title: DefaultRussianText(resourceChooseTabOrder),
-      onTap: () => Navigator.push(
-            context,
-            MaterialPageRoute(
-                fullscreenDialog: true,
-                builder: (context) => TabsOrderScreen()),
-          ),
-    );
-  }
-}
