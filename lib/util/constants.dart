@@ -27,9 +27,17 @@ const double defaultPadding = 4.0;
 const double largePadding = 32.0;
 const String resourceSettings = 'Настройки';
 const String resourceAboutAppMenuItem = 'О приложении';
+const String resourceFeedbackMenuItem = 'Обратная связь';
+const String resourceAppVersion = 'Версия приложения';
+const String resourceDeviceSystemName = 'Операцинная система';
+const String resourceDeviceSystemVersion = 'Версия операционной системы';
+const String resourceDeviceModel = 'Устройство';
+const String resourceEnterYurMessage = 'Введите ваше сообщение здесь';
 const String resourceTelegramChannels =
     'Телеграм-каналы с лекциями из этого приложения';
 const String resourceDeleteAllFiles = 'Удалить все аудиофайлы';
+
+const String feedbackEmail = 'MaratAbuMalik@gmail.com';
 
 //tabs_order_screen
 const String resourceChooseTabOrder = 'Изменить порядок вкладок в главе';

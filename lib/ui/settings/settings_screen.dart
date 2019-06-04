@@ -39,6 +39,8 @@ class _SettingsScreenState extends State<SettingsScreen>
     menuItems.add(Divider());
     menuItems.add(AboutAppMenuItem());
     menuItems.add(Divider());
+    menuItems.add(FeedbackMenuItem());
+    menuItems.add(Divider());
     menuItems.add(TabsOrderMenuItem());
     menuItems.add(Divider(height: largePadding));
     menuItems.add(DeleteAllFiles());
