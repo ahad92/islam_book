@@ -16,9 +16,9 @@ const double shareIconSize = 32.0;
 const String lastPlayedAudioUrl = 'lastPlayedAudioUrl';
 
 // font_size_setting_dialog
-const int fontSizeDivisionNumber = 9;
+const int fontSizeDivisionNumber = 10;
 const double fonSizeFontSize = 26.0;
-const double minFontSizePercentage = 0.6;
+const double minFontSizePercentage = 0.5;
 const double maxFontSizePercentage = 1.5;
 const String resourceRussianFontSizeText = 'Размер шрифта';
 const String resourceArabicFontSizeText = 'حجم الخط';
