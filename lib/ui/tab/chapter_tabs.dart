@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../../book_resource/book.dart';
 import '../../book_resource/decription.dart';
+import '../../book_resource/structure.dart';
 import '../../util/book_shared_preferences.dart';
 import '../../util/constants.dart';
 import '../audio/audio_tab.dart';

@@ -1,8 +1,8 @@
 import 'package:educational_audioplayer/player.dart';
 import 'package:flutter/material.dart';
 
-import '../../book_resource/book.dart';
 import '../../book_resource/decription.dart';
+import '../../book_resource/structure.dart';
 import '../../util/book_shared_preferences.dart';
 import '../common_widgets/custom_icons.dart';
 import '../settings/font_size_setting_dialog.dart';

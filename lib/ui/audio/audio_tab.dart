@@ -3,8 +3,8 @@ import 'package:educational_audioplayer/player.dart';
 import 'package:flutter/material.dart';
 
 import '../../book_resource/audio.dart';
-import '../../book_resource/book.dart';
 import '../../book_resource/decription.dart';
+import '../../book_resource/structure.dart';
 import '../../util/book_shared_preferences.dart';
 import '../../util/constants.dart';
 import '../common_widgets/text.dart';
