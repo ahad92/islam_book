@@ -41,7 +41,7 @@ class _TabsOrderScreenState extends State<TabsOrderScreen>
       ),
       body: ReorderableListSimple(
         allowReordering: true,
-        handleIcon: Icon(Icons.reorder),
+        handleIcon: Icon(Icons.reorder, color: Theme.of(context).accentColor,),
         children: tabs,
         onReorder: (before, after) {
           ListTile data = tabs[before];

@@ -28,7 +28,6 @@ class _BookScreenState extends State<BookScreen> with BookSharedPreferences {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          centerTitle: true,
           title: Text(widget.title),
           actions: <Widget>[
             IconButton(
