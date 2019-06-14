@@ -4,7 +4,9 @@ import 'dart:io';
 import 'package:device_info/device_info.dart';
 import 'package:educational_audioplayer/loader.dart';
 import 'package:flutter/material.dart';
+import 'package:launch_review/launch_review.dart';
 import 'package:package_info/package_info.dart';
+import 'package:share/share.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../../book_resource/decription.dart';
@@ -118,5 +120,59 @@ Future sendFeedbackEmail() async {
     await launch(url);
   } else {
     throw 'Could not launch $url';
+  }
+}
+
+class ShareMenuItem extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return ListTile(
+        leading: Icon(Icons.share),
+        title: DefaultRussianText(resourceShareAppMenuItem),
+        onTap: () {
+          Share.share(
+              '$resourceShareApp\n\n$resourceForAndroid: $resourceAndroidLink\n\n$resourceForIos: $resourceIosLink');
+        });
+  }
+}
+
+class RateAppMenuItem extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return ListTile(
+        leading: Icon(Icons.stars),
+        title: DefaultRussianText(resourceRateAppMenuItem),
+        onTap: () {
+          LaunchReview.launch(
+              androidAppId: resourceAndroidAppId, iOSAppId: resourceIosAppId);
+        });
+  }
+}
+
+class OtherAppsMenuItem extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return ListTile(
+        leading: Icon(Icons.apps),
+        title: DefaultRussianText(resourceOtherAppsMenuItem),
+        onTap: () {
+          showOtherApps();
+        });
+  }
+}
+
+Future showOtherApps() async {
+  String appsUrl = '';
+
+  if (Platform.isAndroid) {
+    appsUrl = resourceAndroidAppsUrl;
+  } else if (Platform.isIOS) {
+    appsUrl = resourceIosAppsUrl;
+  }
+
+  if (await canLaunch(appsUrl)) {
+    await launch(appsUrl);
+  } else {
+    throw 'Could not launch $appsUrl';
   }
 }
