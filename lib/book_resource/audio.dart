@@ -2538,7 +2538,17 @@ List audios = [
         authorName: authorNames[1],
       ),
     ],
-    [],
+    [
+      Audio(
+        url:
+            "https://archive.org/download/kitab_at_tauhid_dinar_ibn_baz_5/kitab_at_tauhid_dinar_ibn_baz_31.mp3",
+        audioName: "Глава 31, лекция 1",
+        audioSize: 20,
+        audioDescription: "",
+        chapterName: chapterNames[31],
+        authorName: authorNames[2],
+      ),
+    ],
     [
       Audio(
         url:
@@ -2582,7 +2592,17 @@ List audios = [
         authorName: authorNames[1],
       ),
     ],
-    [],
+    [
+      Audio(
+        url:
+            "https://archive.org/download/kitab_at_tauhid_dinar_ibn_baz_5/kitab_at_tauhid_dinar_ibn_baz_32.mp3",
+        audioName: "Глава 32, лекция 1",
+        audioSize: 14,
+        audioDescription: "",
+        chapterName: chapterNames[32],
+        authorName: authorNames[2],
+      ),
+    ],
     [
       Audio(
         url:
@@ -2626,7 +2646,17 @@ List audios = [
         authorName: authorNames[1],
       ),
     ],
-    [],
+    [
+      Audio(
+        url:
+            "https://archive.org/download/kitab_at_tauhid_dinar_ibn_baz_5/kitab_at_tauhid_dinar_ibn_baz_33.mp3",
+        audioName: "Глава 33, лекция 1",
+        audioSize: 9,
+        audioDescription: "",
+        chapterName: chapterNames[33],
+        authorName: authorNames[2],
+      ),
+    ],
     [
       Audio(
         url:
@@ -2661,7 +2691,17 @@ List audios = [
         authorName: authorNames[1],
       ),
     ],
-    [],
+    [
+      Audio(
+        url:
+            "https://archive.org/download/kitab_at_tauhid_dinar_ibn_baz_5/kitab_at_tauhid_dinar_ibn_baz_34.mp3",
+        audioName: "Глава 34, лекция 1",
+        audioSize: 6,
+        audioDescription: "",
+        chapterName: chapterNames[34],
+        authorName: authorNames[2],
+      ),
+    ],
     [
       Audio(
         url:
@@ -2713,7 +2753,17 @@ List audios = [
         authorName: authorNames[1],
       ),
     ],
-    [],
+    [
+      Audio(
+        url:
+            "https://archive.org/download/kitab_at_tauhid_dinar_ibn_baz_5/kitab_at_tauhid_dinar_ibn_baz_35.mp3",
+        audioName: "Глава 35, лекция 1",
+        audioSize: 15,
+        audioDescription: "",
+        chapterName: chapterNames[35],
+        authorName: authorNames[2],
+      ),
+    ],
     [
       Audio(
         url:
@@ -2748,7 +2798,17 @@ List audios = [
         authorName: authorNames[1],
       ),
     ],
-    [],
+    [
+      Audio(
+        url:
+            "https://archive.org/download/kitab_at_tauhid_dinar_ibn_baz_5/kitab_at_tauhid_dinar_ibn_baz_36.mp3",
+        audioName: "Глава 36, лекция 1",
+        audioSize: 10,
+        audioDescription: "",
+        chapterName: chapterNames[36],
+        authorName: authorNames[2],
+      ),
+    ],
     [
       Audio(
         url:
@@ -2792,7 +2852,17 @@ List audios = [
         authorName: authorNames[1],
       ),
     ],
-    [],
+    [
+      Audio(
+        url:
+            "https://archive.org/download/kitab_at_tauhid_dinar_ibn_baz_5/kitab_at_tauhid_dinar_ibn_baz_37.mp3",
+        audioName: "Глава 37, лекция 1",
+        audioSize: 12,
+        audioDescription: "",
+        chapterName: chapterNames[37],
+        authorName: authorNames[2],
+      ),
+    ],
     [
       Audio(
         url:
@@ -2870,7 +2940,17 @@ List audios = [
         authorName: authorNames[1],
       ),
     ],
-    [],
+    [
+      Audio(
+        url:
+            "https://archive.org/download/kitab_at_tauhid_dinar_ibn_baz_5/kitab_at_tauhid_dinar_ibn_baz_38.mp3",
+        audioName: "Глава 38, лекция 1",
+        audioSize: 11,
+        audioDescription: "",
+        chapterName: chapterNames[38],
+        authorName: authorNames[2],
+      ),
+    ],
     [
       Audio(
         url:
@@ -2948,7 +3028,17 @@ List audios = [
         authorName: authorNames[1],
       ),
     ],
-    [],
+    [
+      Audio(
+        url:
+            "https://archive.org/download/kitab_at_tauhid_dinar_ibn_baz_5/kitab_at_tauhid_dinar_ibn_baz_39.mp3",
+        audioName: "Глава 39, лекция 1",
+        audioSize: 12,
+        audioDescription: "",
+        chapterName: chapterNames[39],
+        authorName: authorNames[2],
+      ),
+    ],
     [
       Audio(
         url:
@@ -3027,7 +3117,17 @@ List audios = [
         authorName: authorNames[1],
       ),
     ],
-    [],
+    [
+      Audio(
+        url:
+            "https://archive.org/download/kitab_at_tauhid_dinar_ibn_baz_5/kitab_at_tauhid_dinar_ibn_baz_40.mp3",
+        audioName: "Глава 40, лекция 1",
+        audioSize: 21,
+        audioDescription: "",
+        chapterName: chapterNames[40],
+        authorName: authorNames[2],
+      ),
+    ],
     [
       Audio(
         url:
@@ -3062,7 +3162,17 @@ List audios = [
         authorName: authorNames[1],
       ),
     ],
-    [],
+    [
+      Audio(
+        url:
+            "https://archive.org/download/kitab_at_tauhid_dinar_ibn_baz_5/kitab_at_tauhid_dinar_ibn_baz_41.mp3",
+        audioName: "Глава 41, лекция 1",
+        audioSize: 7,
+        audioDescription: "",
+        chapterName: chapterNames[41],
+        authorName: authorNames[2],
+      ),
+    ],
     [
       Audio(
         url:
@@ -3106,7 +3216,17 @@ List audios = [
         authorName: authorNames[1],
       ),
     ],
-    [],
+    [
+      Audio(
+        url:
+            "https://archive.org/download/kitab_at_tauhid_dinar_ibn_baz_5/kitab_at_tauhid_dinar_ibn_baz_42.mp3",
+        audioName: "Глава 42, лекция 1",
+        audioSize: 17,
+        audioDescription: "",
+        chapterName: chapterNames[42],
+        authorName: authorNames[2],
+      ),
+    ],
     [
       Audio(
         url:
@@ -3141,7 +3261,17 @@ List audios = [
         authorName: authorNames[1],
       ),
     ],
-    [],
+    [
+      Audio(
+        url:
+            "https://archive.org/download/kitab_at_tauhid_dinar_ibn_baz_5/kitab_at_tauhid_dinar_ibn_baz_43.mp3",
+        audioName: "Глава 43, лекция 1",
+        audioSize: 6,
+        audioDescription: "",
+        chapterName: chapterNames[43],
+        authorName: authorNames[2],
+      ),
+    ],
     [
       Audio(
         url:
@@ -3185,7 +3315,17 @@ List audios = [
         authorName: authorNames[1],
       ),
     ],
-    [],
+    [
+      Audio(
+        url:
+            "https://archive.org/download/kitab_at_tauhid_dinar_ibn_baz_5/kitab_at_tauhid_dinar_ibn_baz_44.mp3",
+        audioName: "Глава 44, лекция 1",
+        audioSize: 7,
+        audioDescription: "",
+        chapterName: chapterNames[44],
+        authorName: authorNames[2],
+      ),
+    ],
     [
       Audio(
         url:
@@ -3229,7 +3369,17 @@ List audios = [
         authorName: authorNames[1],
       ),
     ],
-    [],
+    [
+      Audio(
+        url:
+            "https://archive.org/download/kitab_at_tauhid_dinar_ibn_baz_5/kitab_at_tauhid_dinar_ibn_baz_45.mp3",
+        audioName: "Глава 45, лекция 1",
+        audioSize: 5,
+        audioDescription: "",
+        chapterName: chapterNames[45],
+        authorName: authorNames[2],
+      ),
+    ],
     [
       Audio(
         url:
@@ -3264,7 +3414,17 @@ List audios = [
         authorName: authorNames[1],
       ),
     ],
-    [],
+    [
+      Audio(
+        url:
+            "https://archive.org/download/kitab_at_tauhid_dinar_ibn_baz_5/kitab_at_tauhid_dinar_ibn_baz_46.mp3",
+        audioName: "Глава 46, лекция 1",
+        audioSize: 4,
+        audioDescription: "",
+        chapterName: chapterNames[46],
+        authorName: authorNames[2],
+      ),
+    ],
     [
       Audio(
         url:
@@ -3299,7 +3459,17 @@ List audios = [
         authorName: authorNames[1],
       ),
     ],
-    [],
+    [
+      Audio(
+        url:
+            "https://archive.org/download/kitab_at_tauhid_dinar_ibn_baz_5/kitab_at_tauhid_dinar_ibn_baz_47.mp3",
+        audioName: "Глава 47, лекция 1",
+        audioSize: 7,
+        audioDescription: "",
+        chapterName: chapterNames[47],
+        authorName: authorNames[2],
+      ),
+    ],
     [
       Audio(
         url:
@@ -3343,7 +3513,17 @@ List audios = [
         authorName: authorNames[1],
       ),
     ],
-    [],
+    [
+      Audio(
+        url:
+            "https://archive.org/download/kitab_at_tauhid_dinar_ibn_baz_5/kitab_at_tauhid_dinar_ibn_baz_48.mp3",
+        audioName: "Глава 48, лекция 1",
+        audioSize: 9,
+        audioDescription: "",
+        chapterName: chapterNames[48],
+        authorName: authorNames[2],
+      ),
+    ],
     [
       Audio(
         url:
@@ -3387,7 +3567,17 @@ List audios = [
         authorName: authorNames[1],
       ),
     ],
-    [],
+    [
+      Audio(
+        url:
+            "https://archive.org/download/kitab_at_tauhid_dinar_ibn_baz_5/kitab_at_tauhid_dinar_ibn_baz_49.mp3",
+        audioName: "Глава 49, лекция 1",
+        audioSize: 11,
+        audioDescription: "",
+        chapterName: chapterNames[49],
+        authorName: authorNames[2],
+      ),
+    ],
     [
       Audio(
         url:
@@ -3431,7 +3621,17 @@ List audios = [
         authorName: authorNames[1],
       ),
     ],
-    [],
+    [
+      Audio(
+        url:
+            "https://archive.org/download/kitab_at_tauhid_dinar_ibn_baz_5/kitab_at_tauhid_dinar_ibn_baz_50.mp3",
+        audioName: "Глава 50, лекция 1",
+        audioSize: 10,
+        audioDescription: "",
+        chapterName: chapterNames[50],
+        authorName: authorNames[2],
+      ),
+    ],
     [
       Audio(
         url:
@@ -3466,7 +3666,17 @@ List audios = [
         authorName: authorNames[1],
       ),
     ],
-    [],
+    [
+      Audio(
+        url:
+            "https://archive.org/download/kitab_at_tauhid_dinar_ibn_baz_5/kitab_at_tauhid_dinar_ibn_baz_51.mp3",
+        audioName: "Глава 51, лекция 1",
+        audioSize: 5,
+        audioDescription: "",
+        chapterName: chapterNames[51],
+        authorName: authorNames[2],
+      ),
+    ],
     [
       Audio(
         url:
@@ -3501,7 +3711,17 @@ List audios = [
         authorName: authorNames[1],
       ),
     ],
-    [],
+    [
+      Audio(
+        url:
+            "https://archive.org/download/kitab_at_tauhid_dinar_ibn_baz_5/kitab_at_tauhid_dinar_ibn_baz_52.mp3",
+        audioName: "Глава 52, лекция 1",
+        audioSize: 3,
+        audioDescription: "",
+        chapterName: chapterNames[52],
+        authorName: authorNames[2],
+      ),
+    ],
     [
       Audio(
         url:
@@ -3536,7 +3756,17 @@ List audios = [
         authorName: authorNames[1],
       ),
     ],
-    [],
+    [
+      Audio(
+        url:
+            "https://archive.org/download/kitab_at_tauhid_dinar_ibn_baz_5/kitab_at_tauhid_dinar_ibn_baz_53.mp3",
+        audioName: "Глава 53, лекция 1",
+        audioSize: 9,
+        audioDescription: "",
+        chapterName: chapterNames[53],
+        authorName: authorNames[2],
+      ),
+    ],
     [
       Audio(
         url:
@@ -3571,7 +3801,17 @@ List audios = [
         authorName: authorNames[1],
       ),
     ],
-    [],
+    [
+      Audio(
+        url:
+            "https://archive.org/download/kitab_at_tauhid_dinar_ibn_baz_5/kitab_at_tauhid_dinar_ibn_baz_54.mp3",
+        audioName: "Глава 54, лекция 1",
+        audioSize: 4,
+        audioDescription: "",
+        chapterName: chapterNames[54],
+        authorName: authorNames[2],
+      ),
+    ],
     [
       Audio(
         url:
@@ -3606,7 +3846,17 @@ List audios = [
         authorName: authorNames[1],
       ),
     ],
-    [],
+    [
+      Audio(
+        url:
+            "https://archive.org/download/kitab_at_tauhid_dinar_ibn_baz_5/kitab_at_tauhid_dinar_ibn_baz_55.mp3",
+        audioName: "Глава 55, лекция 1",
+        audioSize: 11,
+        audioDescription: "",
+        chapterName: chapterNames[55],
+        authorName: authorNames[2],
+      ),
+    ],
     [
       Audio(
         url:
@@ -3641,7 +3891,17 @@ List audios = [
         authorName: authorNames[1],
       ),
     ],
-    [],
+    [
+      Audio(
+        url:
+            "https://archive.org/download/kitab_at_tauhid_dinar_ibn_baz_5/kitab_at_tauhid_dinar_ibn_baz_56.mp3",
+        audioName: "Глава 56, лекция 1",
+        audioSize: 2,
+        audioDescription: "",
+        chapterName: chapterNames[56],
+        authorName: authorNames[2],
+      ),
+    ],
     [
       Audio(
         url:
@@ -3685,7 +3945,17 @@ List audios = [
         authorName: authorNames[1],
       ),
     ],
-    [],
+    [
+      Audio(
+        url:
+            "https://archive.org/download/kitab_at_tauhid_dinar_ibn_baz_5/kitab_at_tauhid_dinar_ibn_baz_57.mp3",
+        audioName: "Глава 57, лекция 1",
+        audioSize: 8,
+        audioDescription: "",
+        chapterName: chapterNames[57],
+        authorName: authorNames[2],
+      ),
+    ],
     [
       Audio(
         url:
@@ -3720,7 +3990,17 @@ List audios = [
         authorName: authorNames[1],
       ),
     ],
-    [],
+    [
+      Audio(
+        url:
+            "https://archive.org/download/kitab_at_tauhid_dinar_ibn_baz_5/kitab_at_tauhid_dinar_ibn_baz_58.mp3",
+        audioName: "Глава 58, лекция 1",
+        audioSize: 3,
+        audioDescription: "",
+        chapterName: chapterNames[58],
+        authorName: authorNames[2],
+      ),
+    ],
     [
       Audio(
         url:
@@ -3764,7 +4044,17 @@ List audios = [
         authorName: authorNames[1],
       ),
     ],
-    [],
+    [
+      Audio(
+        url:
+            "https://archive.org/download/kitab_at_tauhid_dinar_ibn_baz_5/kitab_at_tauhid_dinar_ibn_baz_59.mp3",
+        audioName: "Глава 59, лекция 1",
+        audioSize: 15,
+        audioDescription: "",
+        chapterName: chapterNames[59],
+        authorName: authorNames[2],
+      ),
+    ],
     [
       Audio(
         url:
@@ -3835,7 +4125,17 @@ List audios = [
         authorName: authorNames[1],
       ),
     ],
-    [],
+    [
+      Audio(
+        url:
+            "https://archive.org/download/kitab_at_tauhid_dinar_ibn_baz_5/kitab_at_tauhid_dinar_ibn_baz_60.mp3",
+        audioName: "Глава 60, лекция 1",
+        audioSize: 13,
+        audioDescription: "",
+        chapterName: chapterNames[60],
+        authorName: authorNames[2],
+      ),
+    ],
     [
       Audio(
         url:
@@ -3879,7 +4179,17 @@ List audios = [
         authorName: authorNames[1],
       ),
     ],
-    [],
+    [
+      Audio(
+        url:
+            "https://archive.org/download/kitab_at_tauhid_dinar_ibn_baz_5/kitab_at_tauhid_dinar_ibn_baz_61.mp3",
+        audioName: "Глава 61, лекция 1",
+        audioSize: 21,
+        audioDescription: "",
+        chapterName: chapterNames[61],
+        authorName: authorNames[2],
+      ),
+    ],
     [
       Audio(
         url:
@@ -3923,7 +4233,17 @@ List audios = [
         authorName: authorNames[1],
       ),
     ],
-    [],
+    [
+      Audio(
+        url:
+            "https://archive.org/download/kitab_at_tauhid_dinar_ibn_baz_5/kitab_at_tauhid_dinar_ibn_baz_62.mp3",
+        audioName: "Глава 62, лекция 1",
+        audioSize: 15,
+        audioDescription: "",
+        chapterName: chapterNames[62],
+        authorName: authorNames[2],
+      ),
+    ],
     [
       Audio(
         url:
@@ -3967,7 +4287,17 @@ List audios = [
         authorName: authorNames[1],
       ),
     ],
-    [],
+    [
+      Audio(
+        url:
+            "https://archive.org/download/kitab_at_tauhid_dinar_ibn_baz_5/kitab_at_tauhid_dinar_ibn_baz_63.mp3",
+        audioName: "Глава 63, лекция 1",
+        audioSize: 12,
+        audioDescription: "",
+        chapterName: chapterNames[63],
+        authorName: authorNames[2],
+      ),
+    ],
     [
       Audio(
         url:
@@ -4002,7 +4332,17 @@ List audios = [
         authorName: authorNames[1],
       ),
     ],
-    [],
+    [
+      Audio(
+        url:
+            "https://archive.org/download/kitab_at_tauhid_dinar_ibn_baz_5/kitab_at_tauhid_dinar_ibn_baz_64.mp3",
+        audioName: "Глава 64, лекция 1",
+        audioSize: 5,
+        audioDescription: "",
+        chapterName: chapterNames[64],
+        authorName: authorNames[2],
+      ),
+    ],
     [
       Audio(
         url:
@@ -4037,7 +4377,17 @@ List audios = [
         authorName: authorNames[1],
       ),
     ],
-    [],
+    [
+      Audio(
+        url:
+            "https://archive.org/download/kitab_at_tauhid_dinar_ibn_baz_5/kitab_at_tauhid_dinar_ibn_baz_65.mp3",
+        audioName: "Глава 65, лекция 1",
+        audioSize: 5,
+        audioDescription: "",
+        chapterName: chapterNames[65],
+        authorName: authorNames[2],
+      ),
+    ],
     [
       Audio(
         url:
@@ -4072,7 +4422,17 @@ List audios = [
         authorName: authorNames[1],
       ),
     ],
-    [],
+    [
+      Audio(
+        url:
+            "https://archive.org/download/kitab_at_tauhid_dinar_ibn_baz_5/kitab_at_tauhid_dinar_ibn_baz_66.mp3",
+        audioName: "Глава 66, лекция 1",
+        audioSize: 8,
+        audioDescription: "",
+        chapterName: chapterNames[66],
+        authorName: authorNames[2],
+      ),
+    ],
     [
       Audio(
         url:
@@ -4170,7 +4530,17 @@ List audios = [
         authorName: authorNames[1],
       ),
     ],
-    [],
+    [
+      Audio(
+        url:
+            "https://archive.org/download/kitab_at_tauhid_dinar_ibn_baz_5/kitab_at_tauhid_dinar_ibn_baz_67.mp3",
+        audioName: "Глава 67, лекция 1",
+        audioSize: 12,
+        audioDescription: "",
+        chapterName: chapterNames[67],
+        authorName: authorNames[2],
+      ),
+    ],
     [
       Audio(
         url:
