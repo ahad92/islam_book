@@ -37,8 +37,26 @@ const String resourceEnterYurMessage = 'Введите ваше сообщени
 const String resourceTelegramChannels =
     'Телеграм-каналы с лекциями из этого приложения';
 const String resourceDeleteAllFiles = 'Удалить все аудиофайлы';
+const String resourceShareAppMenuItem = 'Поделиться';
+const String resourceRateAppMenuItem = 'Оценить приложение';
+const String resourceOtherAppsMenuItem = 'Другие приложения';
+const String resourceShareApp =
+    'Скачивайте приложение "Книга Единобожия"!\nИзучайте основы своей религии.';
+const String resourceForAndroid = 'Для Android';
+const String resourceForIos = 'Для iOS';
+const String feedbackEmail = 'abumalikapps@gmail.com';
 
-const String feedbackEmail = 'MaratAbuMalik@gmail.com';
+// TODO: fix addresses
+const String resourceAndroidLink =
+    'https://play.google.com/store/apps/details?id=com.abumalikapps.proramadan';
+const String resourceIosLink =
+    'https://itunes.apple.com/app/proramadan/id1459750514';
+const String resourceAndroidAppsUrl =
+    'https://play.google.com/store/apps/developer?id=STdev';
+const String resourceIosAppsUrl =
+    'https://play.google.com/store/apps/developer?id=STdev';
+const String resourceAndroidAppId = 'com.abumalikapps.proramadan';
+const String resourceIosAppId = '1459750514';
 
 //tabs_order_screen
 const String resourceChooseTabOrder = 'Изменить порядок вкладок в главе';
@@ -52,7 +70,6 @@ const double textEdgeInset = 16.0;
 
 const String resourceChapterRussian = 'Глава';
 const String resourceChapterArabic = 'الفصل';
-const String resourceLectureRussian = 'Лекция №';
 
 // book_shared_preferences
 const String resourceLastChapter = 'lastChapter';

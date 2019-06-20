@@ -26,24 +26,28 @@ List<String> defaultTabsNamesOrder = [
 const List<String> lecturers = [
   'Ринат абу Мухаммад',
   'Арсен абу Яхья',
+  'Динар абу Идрис',
   'Ринат абу Мухаммад'
 ];
 
 const List<String> lecture_sources = [
   'Шарх шейха Салиха Али Шейха',
   'Шарх шейха аль-Усеймина',
+  'Шарха шейха ибн База',
   'Шарх шейха аль-Фаузана'
 ];
 
 const List<String> telegramChannelsNames = [
   '@kifayat_al_mustazid',
   '@kitab_tauhid_uthaymeen',
+  '@kitab_tauhid_ibn_baz',
   '@kitab_tauhid_fawzan'
 ];
 
 const List<String> telegramChannelsurls = [
   'https://t.me/kifayat_al_mustazid',
   'https://t.me/kitab_tauhid_uthaymeen',
+  'https://t.me/kitab_tauhid_ibn_baz',
   'https://t.me/kitab_tauhid_fawzan'
 ];
 

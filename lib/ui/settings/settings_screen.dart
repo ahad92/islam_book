@@ -36,15 +36,22 @@ class _SettingsScreenState extends State<SettingsScreen>
 
   List<Widget> getMenuItems() {
     List<Widget> menuItems = [];
+
     menuItems.add(Divider());
+    menuItems.add(TabsOrderMenuItem());
+    menuItems.add(Divider());
+    menuItems.add(DeleteAllFiles());
+    menuItems.add(Divider());
+//    menuItems.add(ShareMenuItem());
+//    menuItems.add(Divider());
+//    menuItems.add(OtherAppsMenuItem());
+//    menuItems.add(Divider());
     menuItems.add(AboutAppMenuItem());
     menuItems.add(Divider());
     menuItems.add(FeedbackMenuItem());
     menuItems.add(Divider());
-    menuItems.add(TabsOrderMenuItem());
-    menuItems.add(Divider(height: largePadding));
-    menuItems.add(DeleteAllFiles());
-    menuItems.add(Divider(height: largePadding));
+//    menuItems.add(RateAppMenuItem());
+//    menuItems.add(Divider());
 
     if (lecturers.length > 0) {
       menuItems.add(Container(

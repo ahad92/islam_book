@@ -79,7 +79,9 @@ class _AudioListState extends State<AudioList> with BookSharedPreferences {
                               [audioIndex]
                           .url ==
                       lastAudioUrl),
-              title: Text('$resourceLectureRussian ${audioIndex + 1}',
+              title: Text(
+                  audios[widget.chapterIndex][lecturerIndex][audioIndex]
+                      .audioName,
                   style: TextStyle(
                     fontSize: russianFontSize,
                   )),
