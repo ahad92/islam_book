@@ -44,18 +44,18 @@ const String resourceShareApp =
     'Скачивайте приложение "Книга Единобожия"!\nИзучайте основы своей религии.';
 const String resourceForAndroid = 'Для Android';
 const String resourceForIos = 'Для iOS';
-const String feedbackEmail = 'abumalikapps@gmail.com';
+const String feedbackEmail = 'abumaliksoft@gmail.com';
 
 // TODO: fix addresses
 const String resourceAndroidLink =
-    'https://play.google.com/store/apps/details?id=com.abumalikapps.proramadan';
+    'https://play.google.com/store/apps/details?id=com.abumaliksoft.proramadan';
 const String resourceIosLink =
     'https://itunes.apple.com/app/proramadan/id1459750514';
 const String resourceAndroidAppsUrl =
-    'https://play.google.com/store/apps/developer?id=STdev';
+    'https://play.google.com/store/apps/developer?id=abumaliksoft';
 const String resourceIosAppsUrl =
-    'https://play.google.com/store/apps/developer?id=STdev';
-const String resourceAndroidAppId = 'com.abumalikapps.proramadan';
+    'https://play.google.com/store/apps/developer?id=abumaliksoft';
+const String resourceAndroidAppId = 'com.abumaliksoft.proramadan';
 const String resourceIosAppId = '1459750514';
 
 //tabs_order_screen

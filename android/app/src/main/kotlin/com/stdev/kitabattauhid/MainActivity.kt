@@ -1,4 +1,4 @@
-package com.stdev.kitabattauhid
+package com.abumaliksoft.kitabattauhid
 
 import android.os.Bundle
 
