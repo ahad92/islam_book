@@ -48,15 +48,15 @@ const String feedbackEmail = 'abumaliksoft@gmail.com';
 
 // TODO: fix addresses
 const String resourceAndroidLink =
-    'https://play.google.com/store/apps/details?id=com.abumaliksoft.proramadan';
+    'https://play.google.com/store/apps/details?id=com.abumaliksoft.kitabattauhid';
 const String resourceIosLink =
-    'https://itunes.apple.com/app/proramadan/id1459750514';
+    'https://apps.apple.com/app/%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0-%D0%B5%D0%B4%D0%B8%D0%BD%D0%BE%D0%B1%D0%BE%D0%B6%D0%B8%D1%8F/id1470606469';
 const String resourceAndroidAppsUrl =
-    'https://play.google.com/store/apps/developer?id=abumaliksoft';
+    'https://play.google.com/store/apps/developer?id=Abu+Malik';
 const String resourceIosAppsUrl =
-    'https://play.google.com/store/apps/developer?id=abumaliksoft';
-const String resourceAndroidAppId = 'com.abumaliksoft.proramadan';
-const String resourceIosAppId = '1459750514';
+    'https://apps.apple.com/us/developer/abu-malik/id1470606468';
+const String resourceAndroidAppId = 'com.abumaliksoft.kitabattauhid';
+const String resourceIosAppId = '1470606469';
 
 //tabs_order_screen
 const String resourceChooseTabOrder = 'Изменить порядок вкладок в главе';

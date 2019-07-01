@@ -42,16 +42,16 @@ class _SettingsScreenState extends State<SettingsScreen>
     menuItems.add(Divider());
     menuItems.add(DeleteAllFiles());
     menuItems.add(Divider());
-//    menuItems.add(ShareMenuItem());
-//    menuItems.add(Divider());
-//    menuItems.add(OtherAppsMenuItem());
-//    menuItems.add(Divider());
+    menuItems.add(ShareMenuItem());
+    menuItems.add(Divider());
+    menuItems.add(OtherAppsMenuItem());
+    menuItems.add(Divider());
     menuItems.add(AboutAppMenuItem());
     menuItems.add(Divider());
     menuItems.add(FeedbackMenuItem());
     menuItems.add(Divider());
-//    menuItems.add(RateAppMenuItem());
-//    menuItems.add(Divider());
+    menuItems.add(RateAppMenuItem());
+    menuItems.add(Divider());
 
     if (lecturers.length > 0) {
       menuItems.add(Container(
