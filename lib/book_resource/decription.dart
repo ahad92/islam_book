@@ -78,3 +78,20 @@ const String resourceAboutAppText = """
 
 Материал взят с сайтов daura.com, toislam.ws и alhadis.ru.
 """;
+
+// TODO: fix addresses
+const String resourceAndroidLink =
+    'https://play.google.com/store/apps/details?id=com.abumaliksoft.kitabattauhid';
+const String resourceIosLink =
+    'https://apps.apple.com/app/%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0-%D0%B5%D0%B4%D0%B8%D0%BD%D0%BE%D0%B1%D0%BE%D0%B6%D0%B8%D1%8F/id1470606469';
+const String resourceAndroidAppsUrl =
+    'https://play.google.com/store/apps/developer?id=Abu+Malik';
+const String resourceIosAppsUrl =
+    'https://apps.apple.com/us/developer/abu-malik/id1470606468';
+const String resourceAndroidAppId = 'com.abumaliksoft.kitabattauhid';
+const String resourceIosAppId = '1470606469';
+
+const String feedbackEmail = 'abumaliksoft@gmail.com';
+
+const String resourceShareApp =
+    'Скачивайте приложение "Книга Единобожия"!\nИзучайте основы своей религии.';
