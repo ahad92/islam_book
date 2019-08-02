@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-String bookTitle = 'Книга Единобожия';
+String bookTitle = 'Книга Таухида';
 
 const List<String> resourceTabNames = [
   'Матн',
@@ -94,4 +94,4 @@ const String resourceIosAppId = '1470606469';
 const String feedbackEmail = 'abumaliksoft@gmail.com';
 
 const String resourceShareApp =
-    'Скачивайте приложение "Книга Единобожия"!\nИзучайте основы своей религии.';
+    'Скачивайте приложение "Книга Таухида"!\nИзучайте основы своей религии.';
