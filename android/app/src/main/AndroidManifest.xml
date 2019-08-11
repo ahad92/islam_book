@@ -16,7 +16,7 @@
     <application
         android:name="io.flutter.app.FlutterApplication"
         android:networkSecurityConfig="@xml/network_security_config"
-        android:label="Книга Единобожия"
+        android:label="Книга Таухида"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
