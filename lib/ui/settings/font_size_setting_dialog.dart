@@ -26,7 +26,7 @@ class _FontSizeSettingState extends State<FontSizeSetting>
             '${(arabicFontSize / defaultArabicFontSize * 100 + 0.1).toInt()} %',
             style: TextStyle(fontSize: fonSizeFontSize),
           ),
-          CupertinoSlider(
+          Slider.adaptive(
               value: arabicFontSize,
               min: defaultArabicFontSize * minFontSizePercentage,
               max: defaultArabicFontSize * maxFontSizePercentage,
@@ -46,7 +46,7 @@ class _FontSizeSettingState extends State<FontSizeSetting>
             '${(russianFontSize / defaultRussianFontSize * 100 + 0.1).toInt()} %',
             style: TextStyle(fontSize: fonSizeFontSize),
           ),
-          CupertinoSlider(
+          Slider.adaptive(
               value: russianFontSize,
               min: defaultRussianFontSize * minFontSizePercentage,
               max: defaultRussianFontSize * maxFontSizePercentage,
