@@ -94,30 +94,32 @@ Future sendFeedbackEmail() async {
   String deviceSystemName = '';
   String deviceSystemVersion = '';
 
-  if (Platform.isAndroid) {
-    AndroidDeviceInfo deviceInfo = await deviceInfoPlugin.androidInfo;
-    deviceSystemName = 'Android';
-    deviceSystemVersion = deviceInfo.version.release;
-    deviceModel = deviceInfo.model;
-  } else if (Platform.isIOS) {
-    IosDeviceInfo deviceInfo = await deviceInfoPlugin.iosInfo;
-    deviceSystemName = 'iOS';
-    deviceSystemVersion = deviceInfo.systemVersion;
-    deviceModel = deviceInfo.model;
-  }
+  try {
+    if (Platform.isAndroid) {
+      AndroidDeviceInfo deviceInfo = await deviceInfoPlugin.androidInfo;
+      deviceSystemName = 'Android';
+      deviceSystemVersion = deviceInfo.version.release;
+      deviceModel = deviceInfo.model;
+    } else if (Platform.isIOS) {
+      IosDeviceInfo deviceInfo = await deviceInfoPlugin.iosInfo;
+      deviceSystemName = 'iOS';
+      deviceSystemVersion = deviceInfo.systemVersion;
+      deviceModel = deviceInfo.model;
+    }
 
-  String mailBody = '''
+    String mailBody = '''
   $resourceAppVersion: ${packageInfo.version}\n
   $resourceDeviceSystemName: $deviceSystemName\n
   $resourceDeviceSystemVersion: $deviceSystemVersion\n
   $resourceDeviceModel: $deviceModel\n
   $resourceEnterYurMessage: \n
   ''';
-  String url =
-      'mailto:$feedbackEmail?subject=${packageInfo.appName}&body=${mailBody.replaceAll(" ", "%20")}';
-  try {
+    String url =
+        'mailto:$feedbackEmail?subject=${packageInfo.appName}&body=${mailBody.replaceAll(" ", "%20")}';
     await launch(url);
-  } catch (Exception) {}
+  } catch (Exception) {
+    launch(feedbackEmail);
+  }
 }
 
 class ShareMenuItem extends StatelessWidget {
