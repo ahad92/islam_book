@@ -22,10 +22,10 @@ class AboutAppMenuItem extends StatelessWidget {
       leading: Icon(Icons.description),
       title: DefaultRussianText(resourceAboutAppMenuItem),
       onTap: () => Navigator.push(
-            context,
-            MaterialPageRoute(
-                fullscreenDialog: true, builder: (context) => AboutAppScreen()),
-          ),
+        context,
+        MaterialPageRoute(
+            fullscreenDialog: true, builder: (context) => AboutAppScreen()),
+      ),
     );
   }
 }
@@ -67,11 +67,10 @@ class TabsOrderMenuItem extends StatelessWidget {
       leading: Icon(Icons.reorder),
       title: DefaultRussianText(resourceChooseTabOrder),
       onTap: () => Navigator.push(
-            context,
-            MaterialPageRoute(
-                fullscreenDialog: true,
-                builder: (context) => TabsOrderScreen()),
-          ),
+        context,
+        MaterialPageRoute(
+            fullscreenDialog: true, builder: (context) => TabsOrderScreen()),
+      ),
     );
   }
 }
@@ -115,12 +114,10 @@ Future sendFeedbackEmail() async {
   $resourceEnterYurMessage: \n
   ''';
   String url =
-      'mailto:$feedbackEmail?subject=${packageInfo.appName}&body=$mailBody';
-  if (await canLaunch(url)) {
+      'mailto:$feedbackEmail?subject=${packageInfo.appName}&body=${mailBody.replaceAll(" ", "%20")}';
+  try {
     await launch(url);
-  } else {
-    throw 'Could not launch $url';
-  }
+  } catch (Exception) {}
 }
 
 class ShareMenuItem extends StatelessWidget {
