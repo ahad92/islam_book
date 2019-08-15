@@ -91,7 +91,7 @@ const String resourceIosAppsUrl =
 const String resourceAndroidAppId = 'com.abumaliksoft.kitabattauhid';
 const String resourceIosAppId = '1470606469';
 
-const String feedbackEmail = 'abumaliksoft@gmail.com';
+const String feedbackEmail = 'AbuMalikSoft@gmail.com';
 
 const String resourceShareApp =
     'Скачивайте приложение "Книга Таухида"!\nИзучайте основы своей религии.';

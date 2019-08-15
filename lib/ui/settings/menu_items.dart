@@ -81,6 +81,7 @@ class FeedbackMenuItem extends StatelessWidget {
     return ListTile(
         leading: Icon(Icons.feedback),
         title: DefaultRussianText(resourceFeedbackMenuItem),
+        subtitle: DefaultRussianText(feedbackEmail),
         onTap: () {
           sendFeedbackEmail();
         });
