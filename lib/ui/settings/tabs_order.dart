@@ -1,10 +1,25 @@
+import 'package:abu_malik_widgets/reorderable_list_simple.dart';
+import 'package:abu_malik_widgets/text.dart';
 import 'package:flutter/material.dart';
 
 import '../../book_resource/decription.dart';
 import '../../util/book_shared_preferences.dart';
 import '../../util/constants.dart';
-import '../common_widgets/reorderable_list_simple.dart';
-import '../common_widgets/text.dart';
+
+class TabsOrderMenuItem extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return ListTile(
+      leading: Icon(Icons.reorder),
+      title: DefaultRussianText(resourceChooseTabOrder),
+      onTap: () => Navigator.push(
+        context,
+        MaterialPageRoute(
+            fullscreenDialog: true, builder: (context) => TabsOrderScreen()),
+      ),
+    );
+  }
+}
 
 class TabsOrderScreen extends StatefulWidget {
   @override
@@ -25,7 +40,7 @@ class _TabsOrderScreenState extends State<TabsOrderScreen>
   _getSharedPreferences() async {
     setState(() {
       getTabsOrder();
-      for (int i = 0; i < resourceTabNames.length; i++) {
+      for (int i = 0; i < tabNames.length; i++) {
         tabs.add(ListTile(
             title: DefaultRussianText(defaultTabsNamesOrder[tabsOrder[i]])));
       }
@@ -41,7 +56,10 @@ class _TabsOrderScreenState extends State<TabsOrderScreen>
       ),
       body: ReorderableListSimple(
         allowReordering: true,
-        handleIcon: Icon(Icons.reorder, color: Theme.of(context).accentColor,),
+        handleIcon: Icon(
+          Icons.reorder,
+          color: Theme.of(context).accentColor,
+        ),
         children: tabs,
         onReorder: (before, after) {
           ListTile data = tabs[before];

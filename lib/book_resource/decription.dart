@@ -1,54 +1,29 @@
 import 'package:flutter/material.dart';
 
+import '../util/chapter_class.dart';
+
 String bookTitle = 'Книга Таухида';
 
-const List<String> resourceTabNames = [
-  'Матн',
-  'متن',
-  'Шарх',
-  'Вопросы',
-  'Аудио'
-];
+const List<String> tabNames = ['Матн', 'متن', 'Шарх', 'Вопросы', 'Аудио'];
 
 List<int> defaultTabsOrder = [0, 1, 2, 3, 4];
 
-const int defaultArabicMatnTabPosition = 1;
-const int defaultAudioTabPosition = 4;
-
 List<String> defaultTabsNamesOrder = [
-  '${resourceTabNames[0]} (текст книги на русском)',
-  '${resourceTabNames[1]} (текст книги на арабском)',
-  '${resourceTabNames[2]} (разьяснение на русском)',
-  '${resourceTabNames[3]}, рассматриваемые в главе',
-  resourceTabNames[4]
+  '${tabNames[0]} (текст книги на русском)',
+  '${tabNames[1]} (текст книги на арабском)',
+  '${tabNames[2]} (разьяснение на русском)',
+  '${tabNames[3]}, рассматриваемые в главе',
+  tabNames[4]
 ];
 
-const List<String> lecturers = [
-  'Ринат абу Мухаммад',
-  'Арсен абу Яхья',
-  'Динар абу Идрис',
-  'Ринат абу Мухаммад'
-];
-
-const List<String> lecture_sources = [
-  'Шарх шейха Салиха Али Шейха',
-  'Шарх шейха аль-Усеймина',
-  'Шарх шейха ибн База',
-  'Шарх шейха аль-Фаузана'
-];
-
-const List<String> telegramChannelsNames = [
-  '@kifayat_al_mustazid',
-  '@kitab_tauhid_uthaymeen',
-  '@kitab_tauhid_ibn_baz',
-  '@kitab_tauhid_fawzan'
-];
-
-const List<String> telegramChannelsurls = [
-  'https://t.me/kifayat_al_mustazid',
-  'https://t.me/kitab_tauhid_uthaymeen',
-  'https://t.me/kitab_tauhid_ibn_baz',
-  'https://t.me/kitab_tauhid_fawzan'
+List<Lecturer> lecturers = [
+  Lecturer('Ринат абу Мухаммад', 'Шарх шейха Салиха Али Шейха',
+      'kifayat_al_mustazid'),
+  Lecturer(
+      'Арсен абу Яхья', 'Шарх шейха аль-Усеймина', 'kitab_tauhid_uthaymeen'),
+  Lecturer('Динар абу Идрис', 'Шарх шейха ибн База', 'kitab_tauhid_ibn_baz'),
+  Lecturer(
+      'Ринат абу Мухаммад', 'Шарх шейха аль-Фаузана', 'kitab_tauhid_fawzan')
 ];
 
 // colors

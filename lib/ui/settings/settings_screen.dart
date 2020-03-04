@@ -1,13 +1,11 @@
+import 'package:abu_malik_widgets/menu_items.dart';
+import 'package:abu_malik_widgets/night_mode_button.dart';
 import 'package:flutter/material.dart';
-import 'package:url_launcher/url_launcher.dart';
 
 import '../../book_resource/decription.dart';
 import '../../util/book_shared_preferences.dart';
 import '../../util/constants.dart';
-import '../common_widgets/custom_icons.dart';
-import '../common_widgets/text.dart';
-import 'menu_items.dart';
-import 'night_mode_button.dart';
+import 'tabs_order.dart';
 
 class SettingsScreen extends StatefulWidget {
   @override
@@ -42,37 +40,38 @@ class _SettingsScreenState extends State<SettingsScreen>
     menuItems.add(Divider());
     menuItems.add(DeleteAllFiles());
     menuItems.add(Divider());
-    menuItems.add(ShareMenuItem());
+    menuItems.add(ShareMenuItem(
+      description: resourceShareApp,
+      androidLink: resourceAndroidLink,
+      iosLink: resourceIosLink,
+    ));
     menuItems.add(Divider());
-    menuItems.add(OtherAppsMenuItem());
+    menuItems.add(OtherAppsMenuItem(
+      androidAppsUrl: resourceAndroidAppsUrl,
+      iosAppsUrl: resourceIosAppsUrl,
+    ));
     menuItems.add(Divider());
-    menuItems.add(AboutAppMenuItem());
+    menuItems.add(AboutAppMenuItem(
+      text: resourceAboutAppText,
+    ));
     menuItems.add(Divider());
-    menuItems.add(FeedbackMenuItem());
+    menuItems.add(FeedbackMenuItem(
+      email: feedbackEmail,
+    ));
     menuItems.add(Divider());
-    menuItems.add(RateAppMenuItem());
+    menuItems.add(RateAppMenuItem(
+      androidAppId: resourceAndroidAppId,
+      iosAppId: resourceIosAppId,
+    ));
     menuItems.add(Divider());
 
     if (lecturers.length > 0) {
-      menuItems.add(Container(
-          color: Theme.of(context).highlightColor,
-          child: ListTile(
-            title: DefaultRussianText(resourceTelegramChannels),
-            leading: Icon(CustomIcons.paper_plane_2),
-          )));
+      menuItems.add(TelegramChannelsHeader());
       for (int i = 0; i < lecturers.length; i++) {
-        menuItems.add(ListTile(
-          contentPadding: EdgeInsets.only(
-              left: largePadding,
-              top: defaultPadding,
-              bottom: defaultPadding,
-              right: defaultPadding),
-          title: DefaultRussianText('${lecturers[i]} (${lecture_sources[i]})'),
-          subtitle: DefaultRussianText(telegramChannelsNames[i]),
-          onTap: () {
-            launch(telegramChannelsurls[i]);
-          },
-        ));
+        menuItems.add(TelegramChannelLink(
+            title: lecturers[i].lecturer,
+            subTitle: lecturers[i].source,
+            channelName: lecturers[i].telegramChannel));
         menuItems.add(Divider());
       }
     }

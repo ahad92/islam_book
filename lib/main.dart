@@ -2,11 +2,13 @@ import 'package:dynamic_theme/dynamic_theme.dart';
 import 'package:flutter/material.dart';
 
 import 'book_resource/decription.dart';
-import 'ui/book/book_screen.dart';
+import 'ui/book_screen.dart';
+import 'util/custom_icons.dart';
 
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
+  final a = CustomIcons;
   @override
   Widget build(BuildContext context) {
     return DynamicTheme(

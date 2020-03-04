@@ -6,8 +6,6 @@ import '../book_resource/structure.dart';
 import 'constants.dart';
 
 List<String> bookmarks = List<String>.filled(chapters.length, 'false');
-double russianFontSize = defaultRussianFontSize;
-double arabicFontSize = defaultArabicFontSize;
 List<int> tabsOrder = defaultTabsOrder;
 int lastChapter = 0;
 String lastAudioUrl = '';
@@ -47,42 +45,16 @@ mixin BookSharedPreferences<T extends StatefulWidget> on State<T> {
     });
   }
 
-  setRussianFontSize(double size) async {
-    russianFontSize = size;
-    SharedPreferences prefs = await SharedPreferences.getInstance();
-    setState(() {
-      prefs.setDouble(resourceRussianFontSize, russianFontSize);
-    });
-  }
-
-  setArabicFontSize(double size) async {
-    arabicFontSize = size;
-    SharedPreferences prefs = await SharedPreferences.getInstance();
-    setState(() {
-      prefs.setDouble(resourceArabicFontSize, arabicFontSize);
-    });
-  }
-
-  getFontSizes() async {
-    SharedPreferences prefs = await SharedPreferences.getInstance();
-    setState(() {
-      russianFontSize =
-          (prefs.getDouble(resourceRussianFontSize) ?? defaultRussianFontSize);
-      arabicFontSize =
-          (prefs.getDouble(resourceArabicFontSize) ?? defaultArabicFontSize);
-    });
-  }
-
   getTabsOrder() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
-    for (int i = 0; i < resourceTabNames.length; i++) {
+    for (int i = 0; i < tabNames.length; i++) {
       tabsOrder[i] = (prefs.getInt(sharedResourceTabList[i]) ?? i);
     }
   }
 
   setTabsOrder() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
-    for (int i = 0; i < resourceTabNames.length; i++) {
+    for (int i = 0; i < tabNames.length; i++) {
       prefs.setInt(sharedResourceTabList[i], tabsOrder[i]);
     }
   }
