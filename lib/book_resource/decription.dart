@@ -1,6 +1,5 @@
+import 'package:abu_malik_widgets/telegram_channel.dart';
 import 'package:flutter/material.dart';
-
-import '../util/chapter_class.dart';
 
 String bookTitle = 'Книга Таухида';
 

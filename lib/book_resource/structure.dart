@@ -1,4 +1,4 @@
-import '../util/chapter_class.dart';
+import '../util/util_classes.dart';
 import 'book.dart';
 import 'share_book.dart';
 

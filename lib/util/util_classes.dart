@@ -15,11 +15,3 @@ class TabDescription {
   TabDescription(
       {this.text, this.isArabic: false, this.isAudio: false, this.shareText});
 }
-
-class Lecturer {
-  final String lecturer;
-  final String source;
-  final String telegramChannel;
-
-  Lecturer(this.lecturer, this.source, this.telegramChannel);
-}

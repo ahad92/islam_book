@@ -127,7 +127,7 @@ List<Widget> getChapterTabBodies(
 
   for (int i = 0; i < tabNames.length; i++) {
     if (chapters[chapterIndex].tabList[i].text != null) {
-      defaultTabBodies.add(TabText(
+      defaultTabBodies.add(BookTextWithHeader(
           header: chapters[chapterIndex].tabList[i].isArabic
               ? chapters[chapterIndex].arabicHeader
               : chapters[chapterIndex].russianHeader,

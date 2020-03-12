@@ -40,7 +40,7 @@ class _AudioListState extends State<AudioList> with BookSharedPreferences {
 
   getAudioTabList() {
     List<Widget> audioTabList = [];
-    audioTabList.add(TabTextHeader(
+    audioTabList.add(BookTextHeader(
         header: chapters[widget.chapterIndex].russianHeader,
         preHeader: '$resourceChapterRussian ${widget.chapterIndex}',
         fontSize: russianFontSize));
