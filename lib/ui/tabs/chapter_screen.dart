@@ -51,7 +51,7 @@ class _ChapterScreenState extends State<ChapterScreen>
                       _goToPage(widget.chapterIndex + 1);
                     },
                     icon: Icon(Icons.arrow_forward_ios)),
-                FontSizeSettingIcon(
+                FontSizeSettingButton(
                     context: context,
                     isArabic: _tabController.index ==
                         tabsOrder.indexOf(defaultArabicMatnTabPosition),

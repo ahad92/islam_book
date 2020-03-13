@@ -50,7 +50,7 @@ class _BookScreenState extends State<BookScreen> with BookSharedPreferences {
                       color: position == lastChapter
                           ? Theme.of(context).highlightColor
                           : null,
-                      child: DividedContainer(
+                      child: CustomDivided(
                           child: ListTile(
                         title: Column(
                           children: <Widget>[

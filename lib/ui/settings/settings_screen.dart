@@ -1,5 +1,6 @@
 import 'package:abu_malik_widgets/menu_items.dart';
 import 'package:abu_malik_widgets/night_mode_button.dart';
+import 'package:abu_malik_widgets/telegram_channel.dart';
 import 'package:flutter/material.dart';
 
 import '../../book_resource/decription.dart';
