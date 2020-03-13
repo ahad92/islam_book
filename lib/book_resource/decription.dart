@@ -6,6 +6,7 @@ String bookTitle = 'Книга Таухида';
 const List<String> tabNames = ['Матн', 'متن', 'Шарх', 'Вопросы', 'Аудио'];
 
 List<int> defaultTabsOrder = [0, 1, 2, 3, 4];
+const int defaultArabicMatnTabPosition = 1;
 
 List<String> defaultTabsNamesOrder = [
   '${tabNames[0]} (текст книги на русском)',
