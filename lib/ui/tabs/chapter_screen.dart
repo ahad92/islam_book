@@ -41,16 +41,16 @@ class _ChapterScreenState extends State<ChapterScreen>
               snap: true,
               forceElevated: innerBoxIsScrolled,
               actions: <Widget>[
-                IconButton(
-                    onPressed: () {
-                      _goToPage(widget.chapterIndex - 1);
-                    },
-                    icon: Icon(Icons.arrow_back_ios)),
-                IconButton(
-                    onPressed: () {
-                      _goToPage(widget.chapterIndex + 1);
-                    },
-                    icon: Icon(Icons.arrow_forward_ios)),
+//                IconButton(
+//                    onPressed: () {
+//                      _goToPage(widget.chapterIndex - 1);
+//                    },
+//                    icon: Icon(Icons.arrow_back_ios)),
+//                IconButton(
+//                    onPressed: () {
+//                      _goToPage(widget.chapterIndex + 1);
+//                    },
+//                    icon: Icon(Icons.arrow_forward_ios)),
                 FontSizeSettingButton(
                     context: context,
                     isArabic: _tabController.index ==
