@@ -4,6 +4,7 @@ List<String> authorNames = [
   "Ринат абу Мухаммад (Шарх шейха Салиха Али Шейха)",
   "Арсен абу Яхья (Шарх шейха аль-Усеймина)",
   "Динар абу Идрис (Шарх шейха ибн База)",
+  "Сирадж абу Тальха (Шарх шейха аль-Фаузана)",
   "Ринат абу Мухаммад (Шарх шейха аль-Фаузана)",
 ];
 
@@ -145,6 +146,7 @@ List audios = [
     ],
     [],
     [],
+    [],
   ],
   [
     [
@@ -250,12 +252,50 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/01_glava_1_chast.mp3",
+        audioName: "Глава 1, лекция 1",
+        audioSize: 21,
+        audioDescription: "",
+        chapterName: chapterNames[1],
+        authorName: authorNames[3],
+      ),
+      Audio(
+        url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/01_glava_2_chast.mp3",
+        audioName: "Глава 1, лекция 2",
+        audioSize: 24,
+        audioDescription: "",
+        chapterName: chapterNames[1],
+        authorName: authorNames[3],
+      ),
+      Audio(
+        url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/01_glava_3_chast.mp3",
+        audioName: "Глава 1, лекция 3",
+        audioSize: 32,
+        audioDescription: "",
+        chapterName: chapterNames[1],
+        authorName: authorNames[3],
+      ),
+      Audio(
+        url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/01_glava_4_chast.mp3",
+        audioName: "Глава 1, лекция 4",
+        audioSize: 26,
+        audioDescription: "",
+        chapterName: chapterNames[1],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_01a_str_9.mp3",
         audioName: "Глава 1, лекция 1",
         audioSize: 20,
         audioDescription: "",
         chapterName: chapterNames[1],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
       Audio(
         url:
@@ -264,7 +304,7 @@ List audios = [
         audioSize: 19,
         audioDescription: "",
         chapterName: chapterNames[1],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -355,12 +395,32 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/02_glava_1_chast.mp3",
+        audioName: "Глава 2, лекция 1",
+        audioSize: 28,
+        audioDescription: "",
+        chapterName: chapterNames[2],
+        authorName: authorNames[3],
+      ),
+      Audio(
+        url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/02_glava_2_chast.mp3",
+        audioName: "Глава 2, лекция 2",
+        audioSize: 29,
+        audioDescription: "",
+        chapterName: chapterNames[2],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_02_str_23.mp3",
         audioName: "Глава 2, лекция 1",
         audioSize: 25,
         audioDescription: "",
         chapterName: chapterNames[2],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -442,12 +502,32 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/03_glava_1_chast.mp3",
+        audioName: "Глава 3, лекция 1",
+        audioSize: 34,
+        audioDescription: "",
+        chapterName: chapterNames[3],
+        authorName: authorNames[3],
+      ),
+      Audio(
+        url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/03_glava_2_chast.mp3",
+        audioName: "Глава 3, лекция 2",
+        audioSize: 24,
+        audioDescription: "",
+        chapterName: chapterNames[3],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_03_str_34.mp3",
         audioName: "Глава 3, лекция 1",
         audioSize: 17,
         audioDescription: "",
         chapterName: chapterNames[3],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -520,12 +600,32 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/04_glava_1_chast.mp3",
+        audioName: "Глава 4, лекция 1",
+        audioSize: 35,
+        audioDescription: "",
+        chapterName: chapterNames[4],
+        authorName: authorNames[3],
+      ),
+      Audio(
+        url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/04_glava_2_chast.mp3",
+        audioName: "Глава 4, лекция 2",
+        audioSize: 13,
+        audioDescription: "",
+        chapterName: chapterNames[4],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_04_str_42.mp3",
         audioName: "Глава 4, лекция 1",
         audioSize: 11,
         audioDescription: "",
         chapterName: chapterNames[4],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -608,12 +708,32 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/05_glava_1_chast.mp3",
+        audioName: "Глава 5, лекция 1",
+        audioSize: 40,
+        audioDescription: "",
+        chapterName: chapterNames[5],
+        authorName: authorNames[3],
+      ),
+      Audio(
+        url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/05_glava_2_chast.mp3",
+        audioName: "Глава 5, лекция 2",
+        audioSize: 29,
+        audioDescription: "",
+        chapterName: chapterNames[5],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_05_str_51.mp3",
         audioName: "Глава 5, лекция 1",
         audioSize: 19,
         audioDescription: "",
         chapterName: chapterNames[5],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -687,12 +807,32 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/06_glava_1_chast.mp3",
+        audioName: "Глава 6, лекция 1",
+        audioSize: 27,
+        audioDescription: "",
+        chapterName: chapterNames[6],
+        authorName: authorNames[3],
+      ),
+      Audio(
+        url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/06_glava_2_chast.mp3",
+        audioName: "Глава 6, лекция 2",
+        audioSize: 21,
+        audioDescription: "",
+        chapterName: chapterNames[6],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_06a_str_61.mp3",
         audioName: "Глава 6, лекция 1",
         audioSize: 14,
         audioDescription: "",
         chapterName: chapterNames[6],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
       Audio(
         url:
@@ -701,7 +841,7 @@ List audios = [
         audioSize: 13,
         audioDescription: "",
         chapterName: chapterNames[6],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -774,12 +914,32 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/07_glava_1_chast.mp3",
+        audioName: "Глава 7, лекция 1",
+        audioSize: 33,
+        audioDescription: "",
+        chapterName: chapterNames[7],
+        authorName: authorNames[3],
+      ),
+      Audio(
+        url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/07_glava_2_chast.mp3",
+        audioName: "Глава 7, лекция 2",
+        audioSize: 12,
+        audioDescription: "",
+        chapterName: chapterNames[7],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_07_str_70.mp3",
         audioName: "Глава 7, лекция 1",
         audioSize: 13,
         audioDescription: "",
         chapterName: chapterNames[7],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -860,12 +1020,32 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/08_glava_1_chast.mp3",
+        audioName: "Глава 8, лекция 1",
+        audioSize: 21,
+        audioDescription: "",
+        chapterName: chapterNames[8],
+        authorName: authorNames[3],
+      ),
+      Audio(
+        url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/08_glava_2_chast.mp3",
+        audioName: "Глава 8, лекция 2",
+        audioSize: 16,
+        audioDescription: "",
+        chapterName: chapterNames[8],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_08_str_77.mp3",
         audioName: "Глава 8, лекция 1",
         audioSize: 16,
         audioDescription: "",
         chapterName: chapterNames[8],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -947,12 +1127,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/09_glava.mp3",
+        audioName: "Глава 9, лекция 1",
+        audioSize: 25,
+        audioDescription: "",
+        chapterName: chapterNames[9],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_09_str_88.mp3",
         audioName: "Глава 9, лекция 1",
         audioSize: 10,
         audioDescription: "",
         chapterName: chapterNames[9],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -1050,12 +1241,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/10_glava.mp3",
+        audioName: "Глава 10, лекция 1",
+        audioSize: 29,
+        audioDescription: "",
+        chapterName: chapterNames[10],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_10_str_94.mp3",
         audioName: "Глава 10, лекция 1",
         audioSize: 18,
         audioDescription: "",
         chapterName: chapterNames[10],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -1113,12 +1315,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/11_glava.mp3",
+        audioName: "Глава 11, лекция 1",
+        audioSize: 23,
+        audioDescription: "",
+        chapterName: chapterNames[11],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_11_str_102.mp3",
         audioName: "Глава 11, лекция 1",
         audioSize: 8,
         audioDescription: "",
         chapterName: chapterNames[11],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -1158,12 +1371,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/12_glava.mp3",
+        audioName: "Глава 12, лекция 1",
+        audioSize: 13,
+        audioDescription: "",
+        chapterName: chapterNames[12],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_12_str_106.mp3",
         audioName: "Глава 12, лекция 1",
         audioSize: 5,
         audioDescription: "",
         chapterName: chapterNames[12],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -1220,12 +1444,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/13_glava.mp3",
+        audioName: "Глава 13, лекция 1",
+        audioSize: 14,
+        audioDescription: "",
+        chapterName: chapterNames[13],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_13_str_109.mp3",
         audioName: "Глава 13, лекция 1",
         audioSize: 8,
         audioDescription: "",
         chapterName: chapterNames[13],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -1308,12 +1543,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/14_glava.mp3",
+        audioName: "Глава 14, лекция 1",
+        audioSize: 33,
+        audioDescription: "",
+        chapterName: chapterNames[14],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_14_str_113.mp3",
         audioName: "Глава 14, лекция 1",
         audioSize: 20,
         audioDescription: "",
         chapterName: chapterNames[14],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -1387,12 +1633,32 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/15_glava_1_chast.mp3",
+        audioName: "Глава 15, лекция 1",
+        audioSize: 22,
+        audioDescription: "",
+        chapterName: chapterNames[15],
+        authorName: authorNames[3],
+      ),
+      Audio(
+        url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/15_glava_2_chast.mp3",
+        audioName: "Глава 15, лекция 2",
+        audioSize: 16,
+        audioDescription: "",
+        chapterName: chapterNames[15],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_15_str_123.mp3",
         audioName: "Глава 15, лекция 1",
         audioSize: 14,
         audioDescription: "",
         chapterName: chapterNames[15],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -1459,12 +1725,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/16_glava.mp3",
+        audioName: "Глава 16, лекция 1",
+        audioSize: 24,
+        audioDescription: "",
+        chapterName: chapterNames[16],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_16_str_134.mp3",
         audioName: "Глава 16, лекция 1",
         audioSize: 11,
         audioDescription: "",
         chapterName: chapterNames[16],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -1547,12 +1824,32 @@ List audios = [
     [
       Audio(
         url:
-            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_17_str_141.mp3",
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/17_glava_1_chast.mp3",
         audioName: "Глава 17, лекция 1",
         audioSize: 15,
         audioDescription: "",
         chapterName: chapterNames[17],
         authorName: authorNames[3],
+      ),
+      Audio(
+        url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/17_glava_2_chast.mp3",
+        audioName: "Глава 17, лекция 2",
+        audioSize: 21,
+        audioDescription: "",
+        chapterName: chapterNames[17],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
+            "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_17_str_141.mp3",
+        audioName: "Глава 17, лекция 1",
+        audioSize: 15,
+        audioDescription: "",
+        chapterName: chapterNames[17],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -1615,7 +1912,7 @@ List audios = [
         url:
             "http://files.alhadis.ru/audio/abu_yahya/aqida/kitabut_tauheed/kitabut_tauheed_059_konsultacia_1.mp3",
         audioName: "Глава 18, лекция 4",
-        audioSize: 15,
+        audioSize: 0,
         audioDescription: "",
         chapterName: chapterNames[18],
         authorName: authorNames[1],
@@ -1644,12 +1941,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/18_glava.mp3",
+        audioName: "Глава 18, лекция 1",
+        audioSize: 23,
+        audioDescription: "",
+        chapterName: chapterNames[18],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_18_str_153.mp3",
         audioName: "Глава 18, лекция 1",
         audioSize: 8,
         audioDescription: "",
         chapterName: chapterNames[18],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -1749,12 +2057,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/19_glava.mp3",
+        audioName: "Глава 19, лекция 1",
+        audioSize: 37,
+        audioDescription: "",
+        chapterName: chapterNames[19],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_19_str_158.mp3",
         audioName: "Глава 19, лекция 1",
         audioSize: 13,
         audioDescription: "",
         chapterName: chapterNames[19],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -1846,12 +2165,32 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/20_glava_1_chast.mp3",
+        audioName: "Глава 20, лекция 1",
+        audioSize: 22,
+        audioDescription: "",
+        chapterName: chapterNames[20],
+        authorName: authorNames[3],
+      ),
+      Audio(
+        url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/20_glava_2_chast.mp3",
+        audioName: "Глава 20, лекция 2",
+        audioSize: 15,
+        audioDescription: "",
+        chapterName: chapterNames[20],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_20_str_168.mp3",
         audioName: "Глава 20, лекция 1",
         audioSize: 12,
         audioDescription: "",
         chapterName: chapterNames[20],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -1900,12 +2239,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/21_glava.mp3",
+        audioName: "Глава 21, лекция 1",
+        audioSize: 18,
+        audioDescription: "",
+        chapterName: chapterNames[21],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_21_str_178.mp3",
         audioName: "Глава 21, лекция 1",
         audioSize: 6,
         audioDescription: "",
         chapterName: chapterNames[21],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -1954,12 +2304,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/22_glava.mp3",
+        audioName: "Глава 22, лекция 1",
+        audioSize: 17,
+        audioDescription: "",
+        chapterName: chapterNames[22],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_22_str_183.mp3",
         audioName: "Глава 22, лекция 1",
         audioSize: 7,
         audioDescription: "",
         chapterName: chapterNames[22],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -2069,12 +2430,32 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/23_glava_1_chast.mp3",
+        audioName: "Глава 23, лекция 1",
+        audioSize: 29,
+        audioDescription: "",
+        chapterName: chapterNames[23],
+        authorName: authorNames[3],
+      ),
+      Audio(
+        url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/23_glava_2_chast.mp3",
+        audioName: "Глава 23, лекция 2",
+        audioSize: 32,
+        audioDescription: "",
+        chapterName: chapterNames[23],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_23_str_188.mp3",
         audioName: "Глава 23, лекция 1",
         audioSize: 20,
         audioDescription: "",
         chapterName: chapterNames[23],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -2139,12 +2520,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/24_glava.mp3",
+        audioName: "Глава 24, лекция 1",
+        audioSize: 20,
+        audioDescription: "",
+        chapterName: chapterNames[24],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_24_str_199.mp3",
         audioName: "Глава 24, лекция 1",
         audioSize: 9,
         audioDescription: "",
         chapterName: chapterNames[24],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -2193,12 +2585,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/25_glava.mp3",
+        audioName: "Глава 25, лекция 1",
+        audioSize: 29,
+        audioDescription: "",
+        chapterName: chapterNames[25],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_25_str_204.mp3",
         audioName: "Глава 25, лекция 1",
         audioSize: 12,
         audioDescription: "",
         chapterName: chapterNames[25],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -2247,12 +2650,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/26_glava.mp3",
+        audioName: "Глава 26, лекция 1",
+        audioSize: 21,
+        audioDescription: "",
+        chapterName: chapterNames[26],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_26_str_213.mp3",
         audioName: "Глава 26, лекция 1",
         audioSize: 13,
         audioDescription: "",
         chapterName: chapterNames[26],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -2292,12 +2706,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/27_glava.mp3",
+        audioName: "Глава 27, лекция 1",
+        audioSize: 11,
+        audioDescription: "",
+        chapterName: chapterNames[27],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_27_str_221.mp3",
         audioName: "Глава 27, лекция 1",
         audioSize: 10,
         audioDescription: "",
         chapterName: chapterNames[27],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -2363,12 +2788,32 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/28_glava_1_chast.mp3",
+        audioName: "Глава 28, лекция 1",
+        audioSize: 28,
+        audioDescription: "",
+        chapterName: chapterNames[28],
+        authorName: authorNames[3],
+      ),
+      Audio(
+        url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/28_glava_2_chast.mp3",
+        audioName: "Глава 28, лекция 2",
+        audioSize: 22,
+        audioDescription: "",
+        chapterName: chapterNames[28],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_28_str_225.mp3",
         audioName: "Глава 28, лекция 1",
         audioSize: 24,
         audioDescription: "",
         chapterName: chapterNames[28],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -2417,12 +2862,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/29_glava.mp3",
+        audioName: "Глава 29, лекция 1",
+        audioSize: 19,
+        audioDescription: "",
+        chapterName: chapterNames[29],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_29_str_236.mp3",
         audioName: "Глава 29, лекция 1",
         audioSize: 9,
         audioDescription: "",
         chapterName: chapterNames[29],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -2489,12 +2945,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/30_glava.mp3",
+        audioName: "Глава 30, лекция 1",
+        audioSize: 31,
+        audioDescription: "",
+        chapterName: chapterNames[30],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_30_str_241.mp3",
         audioName: "Глава 30, лекция 1",
         audioSize: 15,
         audioDescription: "",
         chapterName: chapterNames[30],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -2552,12 +3019,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/31_glava.mp3",
+        audioName: "Глава 31, лекция 1",
+        audioSize: 30,
+        audioDescription: "",
+        chapterName: chapterNames[31],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_31_str_249.mp3",
         audioName: "Глава 31, лекция 1",
         audioSize: 12,
         audioDescription: "",
         chapterName: chapterNames[31],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -2606,12 +3084,32 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/32_glava_1_chast.mp3",
+        audioName: "Глава 32, лекция 1",
+        audioSize: 21,
+        audioDescription: "",
+        chapterName: chapterNames[32],
+        authorName: authorNames[3],
+      ),
+      Audio(
+        url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/32_glava_2_chast.mp3",
+        audioName: "Глава 32, лекция 2",
+        audioSize: 25,
+        audioDescription: "",
+        chapterName: chapterNames[32],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_32_str_257.mp3",
         audioName: "Глава 32, лекция 1",
         audioSize: 17,
         audioDescription: "",
         chapterName: chapterNames[32],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -2660,12 +3158,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/33_glava.mp3",
+        audioName: "Глава 33, лекция 1",
+        audioSize: 19,
+        audioDescription: "",
+        chapterName: chapterNames[33],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_33_str_268.mp3",
         audioName: "Глава 33, лекция 1",
         audioSize: 6,
         audioDescription: "",
         chapterName: chapterNames[33],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -2705,12 +3214,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/34_glava.mp3",
+        audioName: "Глава 34, лекция 1",
+        audioSize: 20,
+        audioDescription: "",
+        chapterName: chapterNames[34],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_34_str_273.mp3",
         audioName: "Глава 34, лекция 1",
         audioSize: 8,
         audioDescription: "",
         chapterName: chapterNames[34],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -2767,12 +3287,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/35_glava.mp3",
+        audioName: "Глава 35, лекция 1",
+        audioSize: 26,
+        audioDescription: "",
+        chapterName: chapterNames[35],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_35_str_277.mp3",
         audioName: "Глава 35, лекция 1",
         audioSize: 12,
         audioDescription: "",
         chapterName: chapterNames[35],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -2812,12 +3343,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/36_glava.mp3",
+        audioName: "Глава 36, лекция 1",
+        audioSize: 14,
+        audioDescription: "",
+        chapterName: chapterNames[36],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_36_str_285.mp3",
         audioName: "Глава 36, лекция 1",
         audioSize: 8,
         audioDescription: "",
         chapterName: chapterNames[36],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -2866,12 +3408,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/37_glava.mp3",
+        audioName: "Глава 37, лекция 1",
+        audioSize: 16,
+        audioDescription: "",
+        chapterName: chapterNames[37],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_37_str_290.mp3",
         audioName: "Глава 37, лекция 1",
         audioSize: 7,
         audioDescription: "",
         chapterName: chapterNames[37],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -2954,12 +3507,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/38_glava.mp3",
+        audioName: "Глава 38, лекция 1",
+        audioSize: 16,
+        audioDescription: "",
+        chapterName: chapterNames[38],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_38_str_295.mp3",
         audioName: "Глава 38, лекция 1",
         audioSize: 8,
         audioDescription: "",
         chapterName: chapterNames[38],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -3042,12 +3606,32 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/39_glava_1_chast.mp3",
+        audioName: "Глава 39, лекция 1",
+        audioSize: 20,
+        audioDescription: "",
+        chapterName: chapterNames[39],
+        authorName: authorNames[3],
+      ),
+      Audio(
+        url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/39_glava_2_chast.mp3",
+        audioName: "Глава 39, лекция 2",
+        audioSize: 24,
+        audioDescription: "",
+        chapterName: chapterNames[39],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_39_str_301.mp3",
         audioName: "Глава 39, лекция 1",
         audioSize: 19,
         audioDescription: "",
         chapterName: chapterNames[39],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -3131,12 +3715,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/40_glava.mp3",
+        audioName: "Глава 40, лекция 1",
+        audioSize: 33,
+        audioDescription: "",
+        chapterName: chapterNames[40],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_40_str_314.mp3",
         audioName: "Глава 40, лекция 1",
         audioSize: 11,
         audioDescription: "",
         chapterName: chapterNames[40],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -3176,12 +3771,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/41_glava.mp3",
+        audioName: "Глава 41, лекция 1",
+        audioSize: 9,
+        audioDescription: "",
+        chapterName: chapterNames[41],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_41_str_320.mp3",
         audioName: "Глава 41, лекция 1",
         audioSize: 6,
         audioDescription: "",
         chapterName: chapterNames[41],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -3230,12 +3836,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/42_glava.mp3",
+        audioName: "Глава 42, лекция 1",
+        audioSize: 18,
+        audioDescription: "",
+        chapterName: chapterNames[42],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_42_str_324.mp3",
         audioName: "Глава 42, лекция 1",
         audioSize: 12,
         audioDescription: "",
         chapterName: chapterNames[42],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -3275,12 +3892,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/43_glava.mp3",
+        audioName: "Глава 43, лекция 1",
+        audioSize: 6,
+        audioDescription: "",
+        chapterName: chapterNames[43],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_43_str_331.mp3",
         audioName: "Глава 43, лекция 1",
         audioSize: 3,
         audioDescription: "",
         chapterName: chapterNames[43],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -3329,12 +3957,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/44_glava.mp3",
+        audioName: "Глава 44, лекция 1",
+        audioSize: 18,
+        audioDescription: "",
+        chapterName: chapterNames[44],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_44_str_333.mp3",
         audioName: "Глава 44, лекция 1",
         audioSize: 9,
         audioDescription: "",
         chapterName: chapterNames[44],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -3383,12 +4022,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/45_glava.mp3",
+        audioName: "Глава 45, лекция 1",
+        audioSize: 13,
+        audioDescription: "",
+        chapterName: chapterNames[45],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_45_str_339.mp3",
         audioName: "Глава 45, лекция 1",
         audioSize: 7,
         audioDescription: "",
         chapterName: chapterNames[45],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -3428,12 +4078,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/46_glava.mp3",
+        audioName: "Глава 46, лекция 1",
+        audioSize: 6,
+        audioDescription: "",
+        chapterName: chapterNames[46],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_46_str_343.mp3",
         audioName: "Глава 46, лекция 1",
         audioSize: 3,
         audioDescription: "",
         chapterName: chapterNames[46],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -3473,12 +4134,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/47_glava.mp3",
+        audioName: "Глава 47, лекция 1",
+        audioSize: 11,
+        audioDescription: "",
+        chapterName: chapterNames[47],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_47_str_345.mp3",
         audioName: "Глава 47, лекция 1",
         audioSize: 3,
         audioDescription: "",
         chapterName: chapterNames[47],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -3527,12 +4199,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/48_glava.mp3",
+        audioName: "Глава 48, лекция 1",
+        audioSize: 21,
+        audioDescription: "",
+        chapterName: chapterNames[48],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_48_str_348.mp3",
         audioName: "Глава 48, лекция 1",
         audioSize: 8,
         audioDescription: "",
         chapterName: chapterNames[48],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -3581,12 +4264,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/49_glava.mp3",
+        audioName: "Глава 49, лекция 1",
+        audioSize: 23,
+        audioDescription: "",
+        chapterName: chapterNames[49],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_49_str_353.mp3",
         audioName: "Глава 49, лекция 1",
         audioSize: 10,
         audioDescription: "",
         chapterName: chapterNames[49],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -3635,12 +4329,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/50_glava.mp3",
+        audioName: "Глава 50, лекция 1",
+        audioSize: 14,
+        audioDescription: "",
+        chapterName: chapterNames[50],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_50_str_360.mp3",
         audioName: "Глава 50, лекция 1",
         audioSize: 5,
         audioDescription: "",
         chapterName: chapterNames[50],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -3680,12 +4385,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/51_glava.mp3",
+        audioName: "Глава 51, лекция 1",
+        audioSize: 6,
+        audioDescription: "",
+        chapterName: chapterNames[51],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_51_str_363.mp3",
         audioName: "Глава 51, лекция 1",
         audioSize: 4,
         audioDescription: "",
         chapterName: chapterNames[51],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -3725,12 +4441,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/52_glava.mp3",
+        audioName: "Глава 52, лекция 1",
+        audioSize: 5,
+        audioDescription: "",
+        chapterName: chapterNames[52],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_52_str_366.mp3",
         audioName: "Глава 52, лекция 1",
         audioSize: 3,
         audioDescription: "",
         chapterName: chapterNames[52],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -3770,12 +4497,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/53_glava.mp3",
+        audioName: "Глава 53, лекция 1",
+        audioSize: 12,
+        audioDescription: "",
+        chapterName: chapterNames[53],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_53_str_368.mp3",
         audioName: "Глава 53, лекция 1",
         audioSize: 3,
         audioDescription: "",
         chapterName: chapterNames[53],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -3815,12 +4553,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/54_glava.mp3",
+        audioName: "Глава 54, лекция 1",
+        audioSize: 4,
+        audioDescription: "",
+        chapterName: chapterNames[54],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_54_str_370.mp3",
         audioName: "Глава 54, лекция 1",
         audioSize: 5,
         audioDescription: "",
         chapterName: chapterNames[54],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -3860,12 +4609,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/55_glava.mp3",
+        audioName: "Глава 55, лекция 1",
+        audioSize: 11,
+        audioDescription: "",
+        chapterName: chapterNames[55],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_55_str_372.mp3",
         audioName: "Глава 55, лекция 1",
         audioSize: 3,
         audioDescription: "",
         chapterName: chapterNames[55],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -3905,12 +4665,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/56_glava.mp3",
+        audioName: "Глава 56, лекция 1",
+        audioSize: 3,
+        audioDescription: "",
+        chapterName: chapterNames[56],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_56_str_374.mp3",
         audioName: "Глава 56, лекция 1",
         audioSize: 2,
         audioDescription: "",
         chapterName: chapterNames[56],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -3959,12 +4730,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/57_glava.mp3",
+        audioName: "Глава 57, лекция 1",
+        audioSize: 24,
+        audioDescription: "",
+        chapterName: chapterNames[57],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_57_str_376.mp3",
         audioName: "Глава 57, лекция 1",
         audioSize: 9,
         audioDescription: "",
         chapterName: chapterNames[57],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -4004,12 +4786,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/58_glava.mp3",
+        audioName: "Глава 58, лекция 1",
+        audioSize: 8,
+        audioDescription: "",
+        chapterName: chapterNames[58],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_58_str_382.mp3",
         audioName: "Глава 58, лекция 1",
         audioSize: 3,
         audioDescription: "",
         chapterName: chapterNames[58],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -4058,12 +4851,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/59_glava.mp3",
+        audioName: "Глава 59, лекция 1",
+        audioSize: 13,
+        audioDescription: "",
+        chapterName: chapterNames[59],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_59_str_384.mp3",
         audioName: "Глава 59, лекция 1",
         audioSize: 9,
         audioDescription: "",
         chapterName: chapterNames[59],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -4139,12 +4943,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/60_glava.mp3",
+        audioName: "Глава 60, лекция 1",
+        audioSize: 17,
+        audioDescription: "",
+        chapterName: chapterNames[60],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_60_str_391.mp3",
         audioName: "Глава 60, лекция 1",
         audioSize: 7,
         audioDescription: "",
         chapterName: chapterNames[60],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -4193,12 +5008,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/61_glava.mp3",
+        audioName: "Глава 61, лекция 1",
+        audioSize: 16,
+        audioDescription: "",
+        chapterName: chapterNames[61],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_61_str_397.mp3",
         audioName: "Глава 61, лекция 1",
         audioSize: 7,
         audioDescription: "",
         chapterName: chapterNames[61],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -4247,12 +5073,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/62_glava.mp3",
+        audioName: "Глава 62, лекция 1",
+        audioSize: 24,
+        audioDescription: "",
+        chapterName: chapterNames[62],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_62_str_404.mp3",
         audioName: "Глава 62, лекция 1",
         audioSize: 9,
         audioDescription: "",
         chapterName: chapterNames[62],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -4301,12 +5138,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/63_glava.mp3",
+        audioName: "Глава 63, лекция 1",
+        audioSize: 23,
+        audioDescription: "",
+        chapterName: chapterNames[63],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_63_str_412.mp3",
         audioName: "Глава 63, лекция 1",
         audioSize: 9,
         audioDescription: "",
         chapterName: chapterNames[63],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -4346,12 +5194,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/64_glava.mp3",
+        audioName: "Глава 64, лекция 1",
+        audioSize: 6,
+        audioDescription: "",
+        chapterName: chapterNames[64],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_64_str_419.mp3",
         audioName: "Глава 64, лекция 1",
         audioSize: 3,
         audioDescription: "",
         chapterName: chapterNames[64],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -4391,12 +5250,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/65_glava.mp3",
+        audioName: "Глава 65, лекция 1",
+        audioSize: 7,
+        audioDescription: "",
+        chapterName: chapterNames[65],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_65_str_421.mp3",
         audioName: "Глава 65, лекция 1",
         audioSize: 3,
         audioDescription: "",
         chapterName: chapterNames[65],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -4436,12 +5306,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/66_glava.mp3",
+        audioName: "Глава 66, лекция 1",
+        audioSize: 15,
+        audioDescription: "",
+        chapterName: chapterNames[66],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "http://static.toislam.ws/files/audio/01_aqida/017_kitabu_tauhid/4_kratko_tauhid_fauzan/glava_66_str_424.mp3",
         audioName: "Глава 66, лекция 1",
         audioSize: 5,
         audioDescription: "",
         chapterName: chapterNames[66],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],
@@ -4544,12 +5425,23 @@ List audios = [
     [
       Audio(
         url:
+            "http://files.sunna.live/01_aqida/14_kniga_tauhida_siradj/67_glava.mp3",
+        audioName: "Глава 67, лекция 1",
+        audioSize: 32,
+        audioDescription: "",
+        chapterName: chapterNames[67],
+        authorName: authorNames[3],
+      ),
+    ],
+    [
+      Audio(
+        url:
             "https://archive.org/download/kitab_at_tauhid_rinat_fauzan_glava_67_str_428/kitab_at_tauhid_rinat_fauzan_glava_67_str_428.mp3",
         audioName: "Глава 67, лекция 1",
         audioSize: 10,
         audioDescription: "",
         chapterName: chapterNames[67],
-        authorName: authorNames[3],
+        authorName: authorNames[4],
       ),
     ],
   ],

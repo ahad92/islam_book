@@ -23,6 +23,8 @@ List<Lecturer> lecturers = [
       'Арсен абу Яхья', 'Шарх шейха аль-Усеймина', 'kitab_tauhid_uthaymeen'),
   Lecturer('Динар абу Идрис', 'Шарх шейха ибн База', 'kitab_tauhid_ibn_baz'),
   Lecturer(
+      'Сирадж абу Тальха', 'Шарх шейха аль-Фаузана', 'mulakhas_kitab_tauhid'),
+  Lecturer(
       'Ринат абу Мухаммад', 'Шарх шейха аль-Фаузана', 'kitab_tauhid_fawzan')
 ];
 
