@@ -26,6 +26,7 @@ class _AudioListState extends State<AudioList> with BookSharedPreferences {
   void initState() {
     super.initState();
     getLastPlayedAudio();
+    getPlayAllAudios();
   }
 
   @override
@@ -44,24 +45,39 @@ class _AudioListState extends State<AudioList> with BookSharedPreferences {
         header: chapters[widget.chapterIndex].russianHeader,
         preHeader: '$resourceChapterRussian ${widget.chapterIndex}',
         fontSize: russianFontSize));
+    if (playAllAudios) {
+      audioTabList.add(Divider());
+      audioTabList.add(LecturerItem(
+          title: downloadAllChapterAudios,
+          fontSize: russianFontSize,
+          audios: getAllChapterAudios(widget.chapterIndex),
+          showLoadDeleteButton: playAllAudios));
+    }
     for (int lecturerIndex = 0;
         lecturerIndex < lecturers.length;
         lecturerIndex++) {
       if (audios[widget.chapterIndex][lecturerIndex].length > 0) {
         audioTabList.add(Divider());
-        audioTabList.add(LecturerItem(
-            title: lecturers[lecturerIndex].lecturer,
-            subTitle: lecturers[lecturerIndex].source,
-            fontSize: russianFontSize,
-            audios: audios[widget.chapterIndex][lecturerIndex]));
+        audioTabList.add(
+          LecturerItem(
+              title: lecturers[lecturerIndex].lecturer,
+              subTitle: lecturers[lecturerIndex].source,
+              fontSize: russianFontSize,
+              audios: audios[widget.chapterIndex][lecturerIndex],
+              showLoadDeleteButton: !playAllAudios),
+        );
       }
       for (int audioIndex = 0;
           audioIndex < audios[widget.chapterIndex][lecturerIndex].length;
           audioIndex++) {
+        List newAudioList = playAllAudios
+            ? getAllChapterAudios(widget.chapterIndex)
+            : audios[widget.chapterIndex][lecturerIndex];
         audioTabList.add(AudioItem(
           player: widget.player,
-          audios: audios[widget.chapterIndex][lecturerIndex],
-          index: audioIndex,
+          audios: newAudioList,
+          index: getAudioindex(newAudioList,
+              audios[widget.chapterIndex][lecturerIndex][audioIndex]),
           fontSize: russianFontSize,
           isSelected:
               (audios[widget.chapterIndex][lecturerIndex][audioIndex].url ==
@@ -71,5 +87,24 @@ class _AudioListState extends State<AudioList> with BookSharedPreferences {
       }
     }
     return audioTabList;
+  }
+
+  List<Audio> getAllChapterAudios(chapterIndex) {
+    List<Audio> allChapterAudios = [];
+    for (int lecturerIndex = 0;
+        lecturerIndex < lecturers.length;
+        lecturerIndex++) {
+      allChapterAudios.addAll(audios[widget.chapterIndex][lecturerIndex]);
+    }
+    return allChapterAudios;
+  }
+
+  int getAudioindex(List audioList, Audio audio) {
+    for (int i = 0; i < audioList.length; i++) {
+      if (audio.url == audioList[i].url) {
+        return i;
+      }
+    }
+    return 0;
   }
 }

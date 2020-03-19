@@ -1,6 +1,8 @@
 import 'package:abu_malik_widgets/menu_items.dart';
 import 'package:abu_malik_widgets/night_mode_button.dart';
 import 'package:abu_malik_widgets/telegram_channel.dart';
+import 'package:abu_malik_widgets/text.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../../book_resource/decription.dart';
@@ -18,6 +20,7 @@ class _SettingsScreenState extends State<SettingsScreen>
   @override
   void initState() {
     super.initState();
+    getPlayAllAudios();
   }
 
   @override
@@ -38,6 +41,21 @@ class _SettingsScreenState extends State<SettingsScreen>
 
     menuItems.add(Divider());
     menuItems.add(TabsOrderMenuItem());
+    menuItems.add(Divider());
+    menuItems.add(ListTile(
+      title: DefaultRussianText(resourcePlayAndLoadAllAudiosMenuItem),
+      leading: Icon(Icons.audiotrack),
+      trailing: CupertinoSwitch(
+        value: playAllAudios,
+        onChanged: (bool value) {
+          setPlayAllAudios(value);
+        },
+      ),
+      onTap: () {
+        setPlayAllAudios(!playAllAudios);
+        getPlayAllAudios();
+      },
+    ));
     menuItems.add(Divider());
     menuItems.add(DeleteAllFiles());
     menuItems.add(Divider());

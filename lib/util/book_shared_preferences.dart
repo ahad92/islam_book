@@ -9,6 +9,7 @@ List<String> bookmarks = List<String>.filled(chapters.length, 'false');
 List<int> tabsOrder = defaultTabsOrder;
 int lastChapter = 0;
 String lastAudioUrl = '';
+bool playAllAudios = false;
 
 mixin BookSharedPreferences<T extends StatefulWidget> on State<T> {
   setBookmark(int chapterIndex) async {
@@ -74,6 +75,21 @@ mixin BookSharedPreferences<T extends StatefulWidget> on State<T> {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     setState(() {
       lastAudioUrl = prefs.getString(lastPlayedAudioUrl) ?? '';
+    });
+  }
+
+  setPlayAllAudios(val) async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    setState(() {
+      playAllAudios = val;
+      prefs.setBool(resourcePlayAllAudios, val);
+    });
+  }
+
+  getPlayAllAudios() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    setState(() {
+      playAllAudios = prefs.getBool(resourcePlayAllAudios) ?? false;
     });
   }
 }

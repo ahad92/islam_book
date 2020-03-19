@@ -1,6 +1,6 @@
+import '../util/util_classes.dart';
 import 'book.dart';
 import 'share_book.dart';
-import '../util/util_classes.dart';
 
 List<Chapter> chapters = [
   Chapter(

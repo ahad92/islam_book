@@ -7,9 +7,13 @@ const double thirdlyChapterHeaderFontSize = 14.0;
 
 // settings_screen
 const String resourceSettings = 'Настройки';
+const String resourcePlayAndLoadAllAudiosMenuItem =
+    'Скачивать и воспроизводить все аудио из главы';
 
 // audio_tab
 const String lastPlayedAudioUrl = 'lastPlayedAudioUrl';
+const String resourcePlayAllAudios = 'resourcePlayAllAudios';
+const String downloadAllChapterAudios = 'Скачать все айдиофайлы';
 
 //tabs_order_screen
 const String resourceChooseTabOrder = 'Изменить порядок вкладок в главе';
