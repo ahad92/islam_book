@@ -103,9 +103,7 @@ class _ChapterScreenState extends State<ChapterScreen>
     getLastChapter();
     _scrollViewController = ScrollController();
     _tabController = TabController(vsync: this, length: tabNames.length);
-    bottomPlayer = Player(
-        imageUrl:
-            "https://ia601505.us.archive.org/26/items/kitab_at_tauhid_202002/kitab_at_tauhid.png");
+    bottomPlayer = Player(imageUrl: audioIconUrl);
   }
 
   _goToPage(index) {

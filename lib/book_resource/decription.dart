@@ -35,6 +35,9 @@ final Color canvasColorLight = Colors.white;
 final Color canvasColorDark = Colors.grey[850];
 final Color secondaryTextColor = Colors.blueGrey[600];
 
+const String audioIconUrl =
+    'https://ia601505.us.archive.org/26/items/kitab_at_tauhid_202002/kitab_at_tauhid.png';
+
 const String resourceAboutAppText = """
 السلام عليكم ورحمة الله وبركاته
 Данное приложение - это энциклопедия по великой книге Китаб ат-Таухид (Книга Единобожия) шейха ат-Тамими
