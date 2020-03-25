@@ -20,7 +20,6 @@ class ChapterScreen extends StatefulWidget {
 
 class _ChapterScreenState extends State<ChapterScreen>
     with SingleTickerProviderStateMixin, BookSharedPreferences {
-  ScrollController _scrollViewController;
   TabController _tabController;
   Player bottomPlayer;
 
@@ -32,7 +31,6 @@ class _ChapterScreenState extends State<ChapterScreen>
   Widget build(BuildContext context) {
     return Scaffold(
       body: NestedScrollView(
-        controller: _scrollViewController,
         headerSliverBuilder: (BuildContext context, bool innerBoxIsScrolled) {
           return <Widget>[
             SliverAppBar(
@@ -89,7 +87,6 @@ class _ChapterScreenState extends State<ChapterScreen>
 
   @override
   void dispose() {
-    _scrollViewController.dispose();
     _tabController.dispose();
     super.dispose();
   }
@@ -101,7 +98,6 @@ class _ChapterScreenState extends State<ChapterScreen>
     getTabsOrder();
     getBookmarks();
     getLastChapter();
-    _scrollViewController = ScrollController();
     _tabController = TabController(vsync: this, length: tabNames.length);
     bottomPlayer = Player(imageUrl: audioIconUrl);
   }
