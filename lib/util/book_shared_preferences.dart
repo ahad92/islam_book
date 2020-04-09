@@ -65,17 +65,15 @@ mixin BookSharedPreferences<T extends StatefulWidget> on State<T> {
     if (url == '') {
       url = lastAudioUrl;
     }
-    setState(() {
-      lastAudioUrl = url;
-      prefs.setString(lastPlayedAudioUrl, url);
-    });
+    lastAudioUrl = url;
+    prefs.setString(lastPlayedAudioUrl, url);
+    setState(() {});
   }
 
   getLastPlayedAudio() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
-    setState(() {
-      lastAudioUrl = prefs.getString(lastPlayedAudioUrl) ?? '';
-    });
+    lastAudioUrl = prefs.getString(lastPlayedAudioUrl) ?? '';
+    setState(() {});
   }
 
   setPlayAllAudios(val) async {
